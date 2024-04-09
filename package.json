@@ -11,6 +11,9 @@
   ],
   "author": "Fabrizio Montesi <famontesi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "install": "jpm install"
+  },
   "jolie": {
     "dependencies": {
       "@jolie/leonardo": "0.4.3"
@@ -19,5 +22,8 @@
       "dependencies": {},
       "indirectDependencies": {}
     }
+  },
+  "devDependencies": {
+    "@jolie/jpm": "^2.1.3"
   }
 }
