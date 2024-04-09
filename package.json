@@ -1,0 +1,23 @@
+{
+  "name": "acp-website",
+  "version": "1.0.0",
+  "description": "ACP Section Website",
+  "repo": "https://github.com/fmontesi/acp-website",
+  "keywords": [
+    "website",
+    "jolie",
+    "research",
+    "section"
+  ],
+  "author": "Fabrizio Montesi <famontesi@gmail.com>",
+  "license": "MIT",
+  "jolie": {
+    "dependencies": {
+      "@jolie/leonardo": "0.4.3"
+    },
+    "maven": {
+      "dependencies": {},
+      "indirectDependencies": {}
+    }
+  }
+}
