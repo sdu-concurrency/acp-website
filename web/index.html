@@ -3,5 +3,12 @@
 <h1 class="underline">
 Hello, you are being served by Jolie {{jolieVersion}}!
 </h1>
+<ul>
+{{#news}}
+	{{#entries}}
+		<li>{{datetime}}: {{text}}</li>
+	{{/entries}}
+{{/news}}
+</ul>
 {{/content}}
 {{/page.html}}

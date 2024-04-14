@@ -4,6 +4,7 @@ from string-utils import StringUtils
 from mustache import Mustache
 from reflection import Reflection
 from runtime import Runtime
+from file import File
 from @jolie.leonardo import WebFiles
 
 /// Operations offered through the web interface
@@ -13,9 +14,17 @@ RequestResponse:
 	get( DefaultOperationHttpRequest )( undefined )
 }
 
+type NewsEntry {
+	text: string
+	datetime: string
+}
+
 /// Type of the data needed by index.html
 type IndexData {
-	jolieVersion:string //< The version of the Jolie interpreter running this service
+	jolieVersion: string //< The version of the Jolie interpreter running this service
+	news {
+		entries*: NewsEntry
+	}
 }
 
 /// Operations that generate the data needed by the Mustache templates
@@ -34,6 +43,7 @@ service Main {
 	embed Mustache as mustache
 	embed Runtime as runtime
 	embed Reflection as reflection
+	embed File as file
 
 	inputPort WebInput {
 		location: "socket://localhost:8080"
@@ -113,6 +123,11 @@ service Main {
 		} ]
 
 		[ index()( response ) {
+			readFile@file( { filename = "data/news.json", format = "json" } )( response.news )
+			for( entry in response.news.entries ) {
+				split@stringUtils( entry.datetime { regex = "T" } )( s )
+             	entry.datetime = s.result[0]
+			}
 			getVersion@runtime()( response.jolieVersion )
 		} ]
 	}
