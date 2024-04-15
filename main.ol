@@ -25,6 +25,7 @@ type IndexData {
 	news {
 		entries*: NewsEntry
 	}
+	people*: undefined
 }
 
 /// Operations that generate the data needed by the Mustache templates
@@ -128,6 +129,7 @@ service Main {
 				split@stringUtils( entry.datetime { regex = "T" } )( s )
              	entry.datetime = s.result[0]
 			}
+			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
 		} ]
 	}

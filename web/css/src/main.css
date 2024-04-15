@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-slate-900 text-neutral-50 font-sans;
+	}
+
+	.banner-header {
+		font-size: min(5.5vw, 4.5rem);
+		@apply font-bold;
+	}
+
+	.container {
+		@apply mx-auto p-2;
+	}
+
+	.people-list {
+		@apply flex flex-wrap;
+	}
+
+	.people-list figure {
+		@apply w-24 px-1;
+	}
+
+	.people-list img {
+		@apply h-24 w-24 grayscale;
+		object-fit: cover;
+	}
+
+	.people-list figcaption {
+		@apply bg-slate-600 p-2 text-center text-xs;
+	}
+
+	h1 {
+		@apply text-4xl;
+	}
+
+	h2 {
+		@apply text-3xl;
+	}
+
+	h3 {
+		@apply text-2xl;
+	}
+
+	h1, h2, h3 {
+		@apply text-sky-500;
+	}
+}

@@ -1,0 +1,315 @@
+{
+	"faculty": [
+		{
+			"id": "sgreiner",
+			"name": "Sandra Greiner",
+			"role": "Assistant Professor"
+		},
+		{
+			"id": "rkaarsgaard",
+			"name": "Robin Kaarsgaard",
+			"role": "Assistant Professor (Tenure Track)",
+			"phone": "+45 65503568",
+			"office": {
+				"label": "Ø14-602b-1",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a20a"
+			},
+			"dblp": "163/9898",
+			"google_scholar": "1QjGyoMAAAAJ",
+			"orcid": "0000-0002-7672-799X",
+			"github": "rkaarsgaard",
+			"twitter": "manchegobaby",
+			"linkedin": "rkaarsgaard",
+			"email": "kaarsgaard@imada.sdu.dk",
+			"photo": "/images/people/rkaarsgaard-p.jpg",
+			"website": "https://functorial.org/",
+			"research_topics": [
+				"Quantum Computing",
+				"Programming Languages",
+				"Applied Category Theory",
+				"Semantics",
+				"Logic"
+			]
+		},
+		{
+			"name": "Jacopo Mauro",
+			"role": "Professor",
+			"id": "jm",
+			"email": "mauro@imada.sdu.dk",
+			"phone": "+45 65 50 25 72",
+			"office": {
+				"label": "Ø13-604a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a90a"
+			},
+			"dblp": "53/1605",
+			"google_scholar": "brh_I2kAAAAJ",
+			"orcid": "0000-0002-5285-2868",
+			"github": "https://github.com/jacopoMauro",
+			"website": "https://jacopomauro.com/",
+			"twitter": "jacopo_mauro",
+			"linkedin": "jacopo-mauro",
+			"photo": "/images/people/jmauro-p.jpg",
+			"research_topics": [
+				"optimization",
+				"formal methods",
+				"cloud computing",
+				"service-oriented computing",
+				"concurrent languages",
+				"AI planning",
+				"machine learning"
+			]
+		},
+		{
+			"id": "pmayer",
+			"name": "Peter Mayer",
+			"role": "Assistant Professor (Tenure Track)",
+			"phone": "+45 65503531",
+			"office": {
+				"label": "Ø14-602a-1",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a209"
+			},
+			"google_scholar": "eNveze4AAAAJ",
+			"orcid": "0000-0002-6267-4874",
+			"github": "petermayer",
+			"email": "mayer@imada.sdu.dk",
+			"photo": "/images/people/pmayer-p.jpg",
+			"research_topics": [
+				"Usable Authentication",
+				"Password Managers",
+				"Security Awareness",
+				"Email Security",
+				"Notifications"
+			]
+		},
+		{
+			"name": "Fabrizio Montesi",
+			"role": "Head of the ACP Section, Professor",
+			"id": "fm",
+			"email": "fmontesi@imada.sdu.dk",
+			"phone": "+45 65 50 71 71",
+			"office": {
+				"label": "Ø16-603a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b6423b7d0540c9a96d"
+			},
+			"website": "https://www.fabriziomontesi.com/",
+			"orcid": "0000-0003-4666-901X",
+			"google_scholar": "zRA6uA4AAAAJ",
+			"dblp": "65/3603",
+			"github": "fmontesi",
+			"twitter": "famontesi",
+			"linkedin": "fmontesi",
+			"research_topics": [
+				"Choreographic Programming",
+				"Concurrency",
+				"Jolie",
+				"Microservices",
+				"Programming Languages",
+				"Session Types"
+			],
+			"photo": "/images/people/fmontesi-p.jpg"
+		},
+		{
+			"name": "Ruben Niederhagen",
+			"role": "Associate Professor",
+			"id": "rn",
+			"phone": "+45 65508617",
+			"dblp": "62/7604",
+			"google_scholar": "uG44TOwAAAAJ",
+			"orcid": "",
+			"github": "",
+			"twitter": "",
+			"linkedin": "ruben-niederhagen",
+			"website": "http://www.polycephaly.org/",
+			"email": "niederhagen@imada.sdu.dk",
+			"photo": "/images/people/rniederhagen-p.jpg",
+			"research_topics": [
+				"Post-Quantum Cryptography",
+				"Cryptographic Engineering",
+				"Embedded Security"
+			]
+		},
+		{
+			"name": "Marco Peressotti",
+			"role": "Associate Professor",
+			"id": "mp",
+			"phone": "+45 65509026",
+			"office": {
+				"label": "Ø16-601a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969"
+			},
+			"dblp": "136/6159",
+			"google_scholar": "O9ZAc-MAAAAJ",
+			"orcid": "0000-0002-0243-0480",
+			"github": "mperessotti",
+			"twitter": "marcoperessotti",
+			"linkedin": "marco-peressotti",
+			"email": "peressotti@imada.sdu.dk",
+			"website": "https://marcoperessotti.com",
+			"photo": "/images/people/mperessotti-p.jpg",
+			"research_topics": [
+				"Concurrency",
+				"Programming Languages",
+				"Formal Methods",
+				"Coalgebras",
+				"Quantitative Semantics",
+				"Session Types"
+			]
+		},
+		{
+			"name": "Marco Prandini",
+			"role": "Adjunct Professor",
+			"id": "mprandini",
+			"photo": "/images/people/mprandini-p.jpg",
+			"website": "https://www.unibo.it/sitoweb/marco.prandini/en",
+			"email": "marco.prandini@unibo.it",
+			"affiliation": "University of Bologna, Italy",
+			"research_topics": [
+				"security",
+				"e-voting",
+				"software-defined networking"
+			]
+		}
+	],
+	"postdocs": [
+		{
+			"name": "Eva Graversen",
+			"role": "Post-doctoral Researcher",
+			"id": "eg",
+			"phone": "+45 65501696",
+			"office": {
+				"label": "Ø9-601b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+			},
+			"dblp": "199/2114",
+			"github": "evagraver",
+			"photo": "/images/people/egraversen-p.jpg",
+			"email": "efgraversen@imada.sdu.dk",
+			"research_topics": [
+				"Choreographic Programming",
+				"Concurrency",
+				"Reversible Computing"
+			]
+		},
+		{
+			"name": "Dan Plyukhin",
+			"role": "Post-doctoral Researcher",
+			"id": "dp",
+			"photo": "/images/people/dplyukhin-p.jpg",
+			"phone": "+45 65 50 72 56",
+			"dblp": "232/0111",
+			"google_scholar": "MPmNRGIAAAAJ",
+			"github": "dplyukhin",
+			"twitter": "dplyukhin",
+			"email": "dplyukhin@imada.sdu.dk",
+			"website": "https://dplyukhin.github.io",
+			"research_topics": [
+				"Choreographic Programming",
+				"Actor Model",
+				"Cloud Computing",
+				"Programming Languages"
+			]
+		}
+	],
+	"phdstudents": [
+		{
+			"name": "Judith Kankam-Boateng",
+			"role": "PhD Student",
+			"id": "jkb",
+			"photo": "/images/people/jkankam-boateng-p.jpg",
+			"email": "jukan@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"Cybersecurity"
+			]
+		},
+		{
+			"name": "Sofia Kostopoulou",
+			"role": "PhD Student",
+			"id": "sk",
+			"photo": "/images/people/skos-p.jpg",
+			"email": "skos@sdu.dk",
+			"linkedin": "sophia-kostopoulou-239a6b40",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"jolie",
+				"microservices",
+				"artificial intelligence",
+				"data analytics"
+			]
+		},
+		{
+			"name": "Lovro Lugović",
+			"role": "PhD Student",
+			"id": "ll",
+			"github": "lovrosdu",
+			"photo": "/images/people/llugovic-p.jpg",
+			"email": "lugovic@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"programming languages",
+				"choreographic programming"
+			]
+		},
+		{
+			"name": "Valentino Picotti",
+			"role": "PhD Student",
+			"id": "vp",
+			"github": "xpicox",
+			"photo": "/images/people/vpicotti-p.jpg",
+			"email": "picotti@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"microservices",
+				"choreographic programming",
+				"programming languages"
+			]
+		},
+		{
+			"name": "Jonas Vistrup",
+			"role": "PhD Student",
+			"id": "vistrup",
+			"photo": "/images/people/vistrup-p.jpg",
+			"email": "vistrup@imada.sdu.dk",
+			"linkedin": "jonas-vistrup-810677154",
+			"office": {
+				"label": "Ø9-601b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+			},
+			"research_topics": [
+				"artificial intelligence",
+				"logic programming"
+			]
+		}
+	],
+	"taps": [
+		{
+			"name": "Narongrit Unwerawattana",
+			"role": "Scientific Software Developer",
+			"id": "nu",
+			"github": "kicito",
+			"photo": "/images/people/nunwerawattana-p.jpg",
+			"email": "nau@sdu.dk",
+			"office": {
+				"label": "Ø9-601b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+			},
+			"research_topics": [
+				"Jolie",
+				"microservices"
+			]
+		}
+	],
+	"alumni": []
+}
