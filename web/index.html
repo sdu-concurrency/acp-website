@@ -12,6 +12,7 @@
 </section>
 
 <section id="news" class="container">
+<h2>News</h2>
 <ul>
 {{#news}}
 	{{#entries}}
@@ -22,48 +23,48 @@
 </section>
 
 <section id="people" class="container">
-<h1>People</h1>
+<h2>People</h2>
 {{#people}}
-<h2>Faculty</h2>
+<h3>Faculty</h3>
 <ul class="people-list">
 	{{#faculty}}
 	<li><a href="{{website}}">
 		<figure>
-		<img src="{{photo}}"/>
-		<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
+			<img src="{{photo}}"/>
+			<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
 		</figure>
 	</a></li>
 	{{/faculty}}
 </ul>
-<h2>Postdocs</h2>
+<h3>Postdocs</h3>
 <ul class="people-list">
 	{{#postdocs}}
 	<li><a href="{{website}}">
 		<figure>
-		<img src="{{photo}}"/>
-		<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
+			<img src="{{photo}}"/>
+			<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
 		</figure>
 	</a></li>
 	{{/postdocs}}
 </ul>
-<h2>PhD Students</h2>
+<h3>PhD Students</h3>
 <ul class="people-list">
 	{{#phdstudents}}
 	<li><a href="{{website}}">
 		<figure>
-		<img src="{{photo}}"/>
-		<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
+			<img src="{{photo}}"/>
+			<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
 		</figure>
 	</a></li>
 	{{/phdstudents}}
 </ul>
-<h2>Technical Personnel</h2>
+<h3>Technical Personnel</h3>
 <ul class="people-list">
 	{{#taps}}
 	<li><a href="{{website}}">
 		<figure>
-		<img src="{{photo}}"/>
-		<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
+			<img src="{{photo}}"/>
+			<figcaption><p>{{name}}</p><p>{{role}}</p></figcaption>
 		</figure>
 	</a></li>
 	{{/taps}}

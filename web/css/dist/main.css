@@ -471,14 +471,13 @@ body {
 }
 
 .people-list figure {
-  width: 6rem;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  display: flex;
+  padding: 0.25rem;
 }
 
 .people-list img {
-  height: 6rem;
-  width: 6rem;
+  height: 7rem;
+  width: 7rem;
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   -o-object-fit: cover;
@@ -486,10 +485,10 @@ body {
 }
 
 .people-list figcaption {
+  min-width: 16rem;
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
   padding: 0.5rem;
-  text-align: center;
   font-size: 0.75rem;
   line-height: 1rem;
 }
@@ -666,19 +665,6 @@ h1, h2, h3 {
 
 .p-8 {
   padding: 2rem;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .text-sky-500 {

@@ -21,16 +21,16 @@
 	}
 
 	.people-list figure {
-		@apply w-24 px-1;
+		@apply p-1 flex;
 	}
 
 	.people-list img {
-		@apply h-24 w-24 grayscale;
+		@apply h-28 w-28 grayscale;
 		object-fit: cover;
 	}
 
 	.people-list figcaption {
-		@apply bg-slate-600 p-2 text-center text-xs;
+		@apply bg-slate-600 p-2 min-w-64 text-xs;
 	}
 
 	h1 {
