@@ -7,10 +7,34 @@
 		@apply bg-slate-900 text-neutral-50 font-sans;
 	}
 
+	a {
+		@apply text-sky-400;
+	}
+
+	.acp-crest {
+		@apply drop-shadow-2xl text-sky-400;
+	}
+
 	.banner-header {
-		font-size: min(5.5vw, 4.5rem);
+		font-size: max(4vw, 1.5rem);
 		@apply font-bold;
 	}
+
+	.nav-list {
+		@apply inline-flex gap-3;
+	}
+
+	.nav-list li {
+		@apply font-bold py-2 px-4 rounded bg-slate-600;
+	}
+
+	.nav-list a {
+		@apply text-neutral-50;
+	}
+
+	/* .banner-header p {
+		@apply display-block;
+	} */
 
 	.container {
 		@apply mx-auto p-2;
