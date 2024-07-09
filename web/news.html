@@ -1,6 +1,12 @@
 {{< page-container.html}}
 {{$title}}News{{/title}}
 {{$content}}
-
+<ul>
+{{#news}}
+	{{#items}}
+		<li>{{datetime}}: {{{text}}}</li>
+	{{/items}}
+{{/news}}
+</ul>
 {{/content}}
 {{/page-container.html}}

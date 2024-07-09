@@ -33,6 +33,13 @@ type IndexData {
 	people*: undefined
 }
 
+/// Type of the data for news.html
+type NewsData {
+	news {
+		items*: NewsEntry
+	}
+}
+
 /// Type of the data needed by /research/index.html
 type ResearchIndexData {
 	grants {
@@ -47,7 +54,10 @@ RequestResponse:
 	index( void )( IndexData ),
 
 	/// Gets the data needed by the /research/index.html page
-	researchIndex( void )( ResearchIndexData )
+	researchIndex( void )( ResearchIndexData ),
+
+	/// Gets the data needed by the news.html page
+	news( void )( NewsData )
 }
 
 service Main {
@@ -100,6 +110,7 @@ service Main {
 		// Page index.html gets data from operation index
 		global.dataBindings.("/index.html") = "index"
 		global.dataBindings.("/research/index.html") = "researchIndex"
+		global.dataBindings.("/news.html") = "news"
 	}
 
 	main {
@@ -157,6 +168,14 @@ service Main {
 
 		[ researchIndex()( response ) {
 			readFile@file( { filename = "data/grants.json", format = "json" } )( response.grants )
+		} ]
+
+		[ news()( response ) {
+			readFile@file( { filename = "data/news.json", format = "json" } )( response.news )
+			for( item in response.news.items ) {
+				split@stringUtils( item.datetime { regex = "T" } )( s )
+             	item.datetime = s.result[0]
+			}
 		} ]
 	}
 }
