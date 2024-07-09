@@ -23,16 +23,26 @@ type NewsEntry {
 type IndexData {
 	jolieVersion: string //< The version of the Jolie interpreter running this service
 	news {
-		entries*: NewsEntry
+		items*: NewsEntry
 	}
 	people*: undefined
+}
+
+/// Type of the data needed by /research/index.html
+type ResearchIndexData {
+	grants {
+		items*: undefined
+	}
 }
 
 /// Operations that generate the data needed by the Mustache templates
 interface MustacheOperations {
 RequestResponse:
 	/// Gets the data needed by the index.html page
-	index( void )( IndexData )
+	index( void )( IndexData ),
+
+	/// Gets the data needed by the /research/index.html page
+	researchIndex( void )( ResearchIndexData )
 }
 
 service Main {
@@ -83,6 +93,7 @@ service Main {
 	define dataBindings {
 		// Page index.html gets data from operation index
 		global.dataBindings.("/index.html") = "index"
+		global.dataBindings.("/research/index.html") = "researchIndex"
 	}
 
 	main {
@@ -125,12 +136,16 @@ service Main {
 
 		[ index()( response ) {
 			readFile@file( { filename = "data/news.json", format = "json" } )( response.news )
-			for( entry in response.news.entries ) {
-				split@stringUtils( entry.datetime { regex = "T" } )( s )
-             	entry.datetime = s.result[0]
+			for( item in response.news.items ) {
+				split@stringUtils( item.datetime { regex = "T" } )( s )
+             	item.datetime = s.result[0]
 			}
 			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
+		} ]
+
+		[ researchIndex()( response ) {
+			readFile@file( { filename = "data/grants.json", format = "json" } )( response.grants )
 		} ]
 	}
 }

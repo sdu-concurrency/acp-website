@@ -1,0 +1,23 @@
+<nav class="z-50 flex flex-wrap text-center sticky top-0 p-4 bg-slate-900 border-b border-slate-700 h-fit">
+	<button class="md:hidden m-2.5 navbar-burger items-center text-blue-600" onclick="toggleNav()">
+		<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+			<!-- <title>Mobile menu</title> -->
+			<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+		</svg>
+	</button>
+	<ul id="navBox" class="hidden inline-flex md:inline-flex m-auto nav-list flex-wrap gap-3 place-content-center">
+		<li><a href="#news"><button type="button">News</button></a></li>
+		<li><a href="#people"><button type="button">People</button></a></li>
+		<!-- <li><a href="#research"><button type="button">Research</button></a></li> -->
+		<li><a href="/research/"><button type="button">Research & Projects</button></a></li>
+		<li><a href="/education/"><button type="button">Education</button></a></li>
+		<li><a href="/contact.html"><button type="button">Contact us</button></a></li>
+		<!-- <li><a href="#tools"><button type="button">Tools</button></a></li> -->
+	</ul>
+</nav>
+
+<script type="text/javascript">
+function toggleNav() {
+	document.getElementById( "navBox" ).classList.toggle( "hidden" );
+}
+</script>

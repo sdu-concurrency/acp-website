@@ -3,12 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		scroll-padding-top: 4.5rem;
+	}
+
 	body {
-		@apply bg-slate-900 text-neutral-50 font-sans;
+		@apply bg-slate-900 text-neutral-100 font-sans;
 	}
 
 	a {
-		@apply text-sky-400;
+		@apply text-sky-400 hover:underline;
 	}
 
 	.acp-crest {
@@ -17,31 +21,23 @@
 
 	.banner-header {
 		font-size: max(4vw, 1.5rem);
-		@apply font-bold;
+		@apply font-bold ;
 	}
 
-	.nav-list {
-		@apply inline-flex gap-3;
-	}
-
-	.nav-list li {
-		@apply font-bold py-2 px-4 rounded bg-slate-600;
+	.nav-list button {
+		@apply font-bold py-0.5 px-3 rounded bg-slate-600 m-1;
 	}
 
 	.nav-list a {
-		@apply text-neutral-50;
+		@apply text-neutral-200;
 	}
-
-	/* .banner-header p {
-		@apply display-block;
-	} */
-
-	.container {
-		@apply mx-auto p-2;
+	
+	.section-container {
+		@apply container mx-auto my-2;
 	}
 
 	.people-list {
-		@apply flex flex-wrap;
+		@apply flex flex-wrap place-content-between;
 	}
 
 	.people-list figure {
@@ -49,12 +45,20 @@
 	}
 
 	.people-list img {
-		@apply h-28 w-28 grayscale;
+		@apply h-20 w-20 grayscale rounded-l-md;
 		object-fit: cover;
 	}
 
 	.people-list figcaption {
-		@apply bg-slate-600 p-2 min-w-64 text-xs;
+		@apply bg-slate-700 p-2 w-52 text-xs rounded-r-md;
+	}
+
+	.people-header {
+		@apply text-center w-full mt-2 mb-2 border-b border-slate-700;
+	}
+
+	h1, h2, h3, h4 {
+		@apply text-neutral-200;
 	}
 
 	h1 {
@@ -62,14 +66,71 @@
 	}
 
 	h2 {
-		@apply text-3xl;
+		@apply text-center text-3xl pb-1 mt-4 mb-2 font-semibold border-b-2 border-sky-500;
+		/* border-indigo-600 */
 	}
 
 	h3 {
-		@apply text-2xl;
+		@apply text-2xl mt-2;
 	}
 
-	h1, h2, h3 {
-		@apply text-sky-500;
+	h4 {
+		@apply text-xl mt-2;
+	}
+}
+
+@layer components {
+	.mouse {
+		width: 25px;
+		height: 45px;
+		border: 3px solid;
+		border-radius: 60px;
+		position: relative;
+		&::before {
+			content: '';
+			width: 6px;
+			height: 6px;
+			position: absolute;
+			top: 5px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: rgb(14 165 233 / var(--tw-border-opacity));
+			border-radius: 50%;
+			opacity: 1;
+			animation: wheel 2s infinite;
+			-webkit-animation: wheel 2s infinite;
+		}
+		@apply border-sky-500;
+	}
+
+	@keyframes wheel {
+		to {
+			opacity: 0;
+			top: 30px;
+		}
+	}
+
+	@-webkit-keyframes wheel {
+		to {
+			opacity: 0;
+			top: 30px;
+		}
+	}
+
+	.comma-separated-list {
+		display: inline;
+		list-style: none;
+	}
+
+	.comma-separated-list li {
+		display: inline;
+	}
+
+	.comma-separated-list li:after {
+		content: ", ";
+	}
+
+	.comma-separated-list li:last-child:after {
+		content: "";
 	}
 }

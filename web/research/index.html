@@ -1,0 +1,11 @@
+{{< page-container.html}}
+{{$title}}Research & Projects{{/title}}
+{{$content}}
+<h2>Projects</h2>
+{{#grants}}
+	{{#items}}
+		{{> grant-card.html}}
+	{{/items}}
+{{/grants}}
+{{/content}}
+{{/page-container.html}}
