@@ -4,7 +4,8 @@
 			"id": "sgreiner",
 			"name": "Sandra Greiner",
 			"role": "Assistant Professor",
-			"photo": "/images/people/sgreiner-p.jpg"
+			"photo": "/images/people/sgreiner-p.jpg",
+			"email": "greiner@imada.sdu.dk"
 		},
 		{
 			"id": "rkaarsgaard",
@@ -99,6 +100,7 @@
 			"github": "fmontesi",
 			"twitter": "famontesi",
 			"linkedin": "fmontesi",
+			"mastodon": "https://mastodon.social/@fmontesi",
 			"research_topics": [
 				"Choreographic Programming",
 				"Concurrency",
@@ -192,6 +194,22 @@
 			]
 		},
 		{
+			"name": "Lovro Lugović",
+			"role": "Guest Researcher",
+			"id": "ll",
+			"github": "lovrosdu",
+			"photo": "/images/people/llugovic-p.jpg",
+			"email": "lugovic@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"programming languages",
+				"choreographic programming"
+			]
+		},
+		{
 			"name": "Dan Plyukhin",
 			"role": "Post-doctoral Researcher",
 			"id": "dp",
@@ -242,22 +260,6 @@
 				"microservices",
 				"artificial intelligence",
 				"data analytics"
-			]
-		},
-		{
-			"name": "Lovro Lugović",
-			"role": "PhD Student",
-			"id": "ll",
-			"github": "lovrosdu",
-			"photo": "/images/people/llugovic-p.jpg",
-			"email": "lugovic@imada.sdu.dk",
-			"office": {
-				"label": "Ø9-602a-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
-			},
-			"research_topics": [
-				"programming languages",
-				"choreographic programming"
 			]
 		},
 		{

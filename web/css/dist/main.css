@@ -456,6 +456,7 @@ body {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
+  font-size: 1.2rem;
 }
 
 a {
@@ -546,7 +547,7 @@ a:hover {
   width: 5rem;
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
-  --tw-grayscale: grayscale(100%);
+  --tw-grayscale: grayscale(90%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   -o-object-fit: cover;
      object-fit: cover;
@@ -607,6 +608,10 @@ h4 {
   margin-top: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+h5 {
+  font-weight: 600;
 }
 
 *, ::before, ::after {
@@ -854,6 +859,10 @@ h4 {
   margin-bottom: 2rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -947,6 +956,10 @@ h4 {
   border-bottom-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
@@ -1001,6 +1014,11 @@ h4 {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pt-2 {

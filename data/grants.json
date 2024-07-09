@@ -83,6 +83,7 @@
     {
       "title": "X-IDF: Explainable Internet Data Flows",
       "id": "X-IDF",
+      "image": "xidf.png",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -106,6 +107,7 @@
     {
       "title": "DeCoRe: Tools and Methods for the Design and Coordination of Reactive Hybrid Systems",
       "id": "DeCoRe",
+      "image": "direc.png",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -160,6 +162,7 @@
     {
       "title": "Choreographies for connected IT systems",
       "id": "Choco",
+      "image": "choco.png",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -179,6 +182,7 @@
     {
       "title": "Generic Microservices",
       "id": "Gem",
+      "image": "gem.png",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -213,6 +217,7 @@
     {
       "title": "Open Data Framework",
       "id": "ODF",
+      "image": "sdu.jpg",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -237,6 +242,7 @@
     {
       "title": "Online Algorithms and Cheminformatics Meet Concurrency",
       "_id": "DFF-7014-00041",
+      "image": "dff.jpg",
       "participants": [
         {
           "name": "Joan Boyar",
@@ -281,6 +287,7 @@
     {
       "title": "Pseudoexon Risk Estimation Database and In silico Clinical Testing",
       "id": "PREDICT",
+      "image": "sdu.jpg",
       "participants": [
         {
           "name": "Brage Storstein Andresen",
@@ -315,6 +322,7 @@
     {
       "title": "Choreographies for Reliable and efficient Communication software",
       "id": "CRC",
+      "image": "dff.jpg",
       "participants": [
         {
           "name": "Fabrizio Montesi",
@@ -342,6 +350,7 @@
       },
       "type": "Croatian Science Foundation",
       "amount": "594,300 HRK",
+      "image": "hrzz.png",
       "participants": [
         {
           "name": "Tihana Galinac Grbac",

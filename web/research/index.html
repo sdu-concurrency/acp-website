@@ -1,11 +1,68 @@
 {{< page-container.html}}
 {{$title}}Research & Projects{{/title}}
 {{$content}}
+
+<!-- <h2></h2> -->
+
+<p class="mt-2">ACP includes research groups that are particularly active in the following areas.</p>
+
+<div class="grid grid-cols-3 gap-4 border-b border-t border-slate-700 py-2 mt-1">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/cp.svg"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Choreographic Programming</h5>
+		<p><a href="https://en.wikipedia.org/wiki/Choreographic_programming">Choreographic programming</a> is an award-winning programming paradigm offering a new level of abstraction: programmers can simply state the data communications that they wish a system to execute, and correct programs that implement these communications are automatically produced by a compiler tool.</p>
+	</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 border-b border-slate-700 py-2">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/h-mix.png"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Concurrency and Logic</h5>
+		<p>The study of logical methods for reasoning about complex behaviour in concurrent and distributed systems.</p>
+	</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 border-b border-slate-700 py-2">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/microservices.jpg"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Microservices, Cloud Computing, and DevSecOps</h5>
+		<p>Microservices are independently executable components that interact by means of well-defined APIs (Application Programming Interfaces).</p>
+		<p>We study how microservices can be designed, programmed, and deployed effectively and securely.</p>
+	</div>
+</div>
+
+
+<div class="grid grid-cols-3 gap-4 border-b border-slate-700 py-2">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/quantum.jpg"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Quantum Computing</h5>
+		<p>We study how the programming of quantum computers can be made accessible and scale up to the demands of modern software development, by creating new programming abstractions, languages, and frameworks.</p>
+	</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 border-b border-slate-700 py-2">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/spl.jpg"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Software Product Lines</h5>
+		<p>Software engineering methods, tools and techniques for creating a collection of similar software systems from a shared set of software assets using a common means of production</p>
+	</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 border-b border-slate-700 py-2">
+	<div class="my-auto col-span-3 sm:col-span-1"><img class="rounded-md" src="/images/topics/us.jpg"/></div>
+	<div class="col-span-3 sm:col-span-2">
+		<h5>Usable Security</h5>
+		<p>Ensuring that the security implications of interacting with computer systems are accessible and understandable to human users.</p>
+	</div>
+</div>
+
 <h2>Projects</h2>
+
 {{#grants}}
 	{{#items}}
 		{{> grant-card.html}}
 	{{/items}}
 {{/grants}}
+
 {{/content}}
 {{/page-container.html}}

@@ -4,9 +4,26 @@
 		<figcaption>
 			<p class="font-semibold text-sm">{{name}}</p>
 			<p class="mb-2">{{role}}</p>
+			<p>
 			{{#website}}
-				<p><a href="{{website}}">Website</a></p>
+			<a href="{{website}}"><i class="fa-solid fa-earth-europe"></i></a>
 			{{/website}}
+			{{#email}}
+			<a href="{{email}}"><i class="fa-regular fa-envelope"></i></a>
+			{{/email}}
+			{{#github}}
+			<a href="https://github.com/{{github}}"><i class="fa-brands fa-github"></i></a>
+			{{/github}}
+			{{#linkedin}}
+			<a href="https://linkedin.com/in/{{linkedin}}"><i class="fa-brands fa-linkedin"></i></a>
+			{{/linkedin}}
+			{{#mastodon}}
+			<a href="{{mastodon}}"><i class="fa-brands fa-mastodon"></i></a>
+			{{/mastodon}}
+			{{#twitter}}
+			<a href="https://x.com/{{twitter}}"><i class="fa-brands fa-twitter"></i></a>
+			{{/twitter}}
+			</p>
 		</figcaption>
 	</figure>
 </li>

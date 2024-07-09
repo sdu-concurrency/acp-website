@@ -6,6 +6,11 @@ from reflection import Reflection
 from runtime import Runtime
 from file import File
 from @jolie.leonardo import WebFiles
+from @jolie.commonmark import CommonMark
+
+constants {
+	NEWS_PAGE_SIZE = 10
+}
 
 /// Operations offered through the web interface
 interface WebInterface {
@@ -55,6 +60,7 @@ service Main {
 	embed Runtime as runtime
 	embed Reflection as reflection
 	embed File as file
+	embed CommonMark as commonMark
 
 	inputPort WebInput {
 		location: "socket://localhost:8080"
@@ -111,10 +117,14 @@ service Main {
 					wwwDir = global.wwwDir
 				} )( getResult )
 				httpParams -> getResult.httpParams
-				
+
 				substring@stringUtils( getResult.path { begin = length@stringUtils( global.wwwDir ) } )( webPath )
-				// By default, Mustache is activated only for html pages
+				// By default, Mustache and Markdown are activated only for html pages
 				if( getResult.httpParams.format == "html" ) {
+					if( startsWith@stringUtils( getResult.content { prefix = "<!--CommonMark-->" } ) ) {
+						render@commonMark( getResult.content )( getResult.content )
+					}
+
 					if( is_defined( global.dataBindings.(webPath) ) ) {
 						invoke@reflection( {
 							operation = global.dataBindings.(webPath)
@@ -135,10 +145,11 @@ service Main {
 		} ]
 
 		[ index()( response ) {
-			readFile@file( { filename = "data/news.json", format = "json" } )( response.news )
-			for( item in response.news.items ) {
-				split@stringUtils( item.datetime { regex = "T" } )( s )
-             	item.datetime = s.result[0]
+			readFile@file( { filename = "data/news.json", format = "json" } )( news )
+			for( i = 0, i < NEWS_PAGE_SIZE && i < #news.items, i++ ) {
+				response.news.items[i] << news.items[i]
+				split@stringUtils( response.news.items[i].datetime { regex = "T" } )( s )
+             	response.news.items[i].datetime = s.result[0]
 			}
 			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
