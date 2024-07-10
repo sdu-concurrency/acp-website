@@ -571,6 +571,10 @@ h5 {
   font-weight: 600;
 }
 
+p {
+  text-align: justify;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
