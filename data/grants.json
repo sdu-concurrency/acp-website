@@ -320,26 +320,6 @@
       "amount": "1,571,000 DKK"
     },
     {
-      "title": "Choreographies for Reliable and efficient Communication software",
-      "id": "CRC",
-      "image": "dff.jpg",
-      "participants": [
-        {
-          "name": "Fabrizio Montesi",
-          "role": "PI",
-          "affiliation": "University of Southern Denmark"
-        }
-      ],
-      "website": "http://www.chor-lang.org",
-      "number": "DFF-4005-00304",
-      "period": {
-        "start": "01-08-2014",
-        "end": "31-07-2017"
-      },
-      "type": "Independent Research Fund Denmark - Technology and Production Sciences",
-      "amount": "2,431,030 DKK"
-    },
-    {
       "title": "Evolving software systems: analysis and innovative approaches for smart management",
       "id": "EVOSOFT",
       "website": "http://www.hrzz.hr/default.aspx?id=1205&pid=7945&rok=2014-09",
@@ -391,6 +371,26 @@
           "role": "Investigator"
         }
       ]
+    },
+    {
+      "title": "Choreographies for Reliable and efficient Communication software",
+      "id": "CRC",
+      "image": "dff.jpg",
+      "participants": [
+        {
+          "name": "Fabrizio Montesi",
+          "role": "PI",
+          "affiliation": "University of Southern Denmark"
+        }
+      ],
+      "website": "http://www.chor-lang.org",
+      "number": "DFF-4005-00304",
+      "period": {
+        "start": "01-08-2014",
+        "end": "31-07-2017"
+      },
+      "type": "Independent Research Fund Denmark - Technology and Production Sciences",
+      "amount": "2,431,030 DKK"
     }
   ]
 }
