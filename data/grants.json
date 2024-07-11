@@ -21,6 +21,46 @@
       "website": "https://www.fabriziomontesi.com/projects/chords/"
     },
     {
+      "title": "Enhancing Digital Security Behaviour with Chatbots",
+      "id": "DIGSmart",
+      "website": "https://www.sdu.dk/en/om-sdu/institutter-centre/institut-erhverv-baeredygtighed/forskning/forskningsprojekter/digsmart",
+      "image": "digsmart.png",
+      "participants": [
+        {
+          "name": "Stefanie Sohn",
+          "role": "PI",
+          "affiliation": "University of Southern Denmark"
+        },
+        {
+          "name": "Peter Mayer",
+          "role": "Participant",
+          "affiliation": "University of Southern Denmark"
+        },
+        {
+          "name": "Dominik Siemon",
+          "role": "Participant",
+          "affiliation": "LUT University"
+        },
+        {
+          "name": "Oliver Schnittka",
+          "role": "Participant",
+          "affiliation": "University of Southern Denmark"
+        },
+        {
+          "name": "Narongrit Unwerawattana",
+          "role": "Developer",
+          "affiliation": "University of Southern Denmark"
+        }
+      ],
+      "_number": "",
+      "period": {
+        "start": "2024",
+        "end": "2027"
+      },
+      "type": "TrygFonden",
+      "amount": "~2.3 million DKK (~308k EUR)"
+    },
+    {
       "title": "Cyber Security and Business Continuity",
       "id": "Cyber-SMV",
       "website": "https://cyber-smv.dk/",
