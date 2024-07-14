@@ -527,8 +527,7 @@ a:hover {
 .section-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 
 h1, h2, h3, h4 {
