@@ -145,6 +145,30 @@
       "amount": "~3 million DKK (~400k EUR)"
     },
     {
+      "title": "Rubber DUQ: Flexible Dynamic Universal Quantum programming",
+      "id": "RubberDUQ",
+      "image": "epsrc.png",
+      "participants": [
+        {
+          "name": "Chris Heunen",
+          "role": "PI",
+          "affiliation": "University of Edinburgh"
+        },
+        {
+          "name": "Robin Kaarsgaard",
+          "role": "Co-Investigator",
+          "affiliation": "University of Southern Denmark"
+        }
+      ],
+      "_number": "",
+      "period": {
+        "start": "2024",
+        "end": "2026"
+      },
+	"type": "UKRI Engineering and Physical Sciences Research Council (Standard research)",
+      "amount": "~9 million DKK (~1 million GBP)"
+    },
+    {
       "title": "DeCoRe: Tools and Methods for the Design and Coordination of Reactive Hybrid Systems",
       "id": "DeCoRe",
       "image": "direc.png",
