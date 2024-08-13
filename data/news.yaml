@@ -4,9 +4,11 @@ items:
   - datetime: 2024-08-13
     text: |-
       The JFP paper <a href="https://doi.org/10.1017/s0956796823000114">Alice or Bob?: Process polymorphism in choreographies</a> by Eva Graversen, Andrew Hirsch, and Fabrizio Montesi will be presented at ICFP 2024!
+  - datetime: 2024-07-11
+    text: |-
+      The paper 'Ozone: Fully Out-of-Order Choreographies' (<a href="https://arxiv.org/abs/2401.17403">pre-print</a>) has been accepted at ECOOP 2024!
   - text: The new ACP website is online!
     datetime: 2024-07-09T13:28:07+02:00
   - datetime: 2024-01-16
     text: |-
       The paper <a href="https://dl.acm.org/doi/10.1145/3632398">Choral: Object-oriented Choreographic Programming</a> by Saverio Giallorenzo, Fabrizio Montesi, and Marco Peressotti has been published in TOPLAS!
-    
