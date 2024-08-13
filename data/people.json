@@ -1,6 +1,14 @@
 {
 	"faculty": [
 		{
+			"id": "sbashkar",
+			"name": "Siddharth Bhaskar",
+			"role": "Assistant Professor",
+			"photo": "/images/people/sbhaskar-p.jpg",
+			"dblp": "170/0077",
+			"email": "bhaskar@imada.sdu.dk"
+		},
+		{
 			"id": "sgreiner",
 			"name": "Sandra Greiner",
 			"role": "Assistant Professor",
@@ -10,7 +18,7 @@
 			"github": "sandragreiner",
 			"twitter": "sandragreiner",
 			"email": "greiner@imada.sdu.dk",
-			"website": "https://sandragreiner.github.io/"			
+			"website": "https://sandragreiner.github.io/"
 		},
 		{
 			"id": "rkaarsgaard",

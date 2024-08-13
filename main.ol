@@ -156,7 +156,7 @@ service Main {
 		} ]
 
 		[ index()( response ) {
-			readFile@file( { filename = "data/news.json", format = "json" } )( news )
+			readFile@file( { filename = "data/news.yaml", format = "yaml" } )( news )
 			for( i = 0, i < NEWS_PAGE_SIZE && i < #news.items, i++ ) {
 				response.news.items[i] << news.items[i]
 				split@stringUtils( response.news.items[i].datetime { regex = "T" } )( s )
@@ -171,7 +171,7 @@ service Main {
 		} ]
 
 		[ news()( response ) {
-			readFile@file( { filename = "data/news.json", format = "json" } )( response.news )
+			readFile@file( { filename = "data/news.yaml", format = "yaml" } )( response.news )
 			for( item in response.news.items ) {
 				split@stringUtils( item.datetime { regex = "T" } )( s )
              	item.datetime = s.result[0]
