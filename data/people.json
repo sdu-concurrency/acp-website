@@ -308,6 +308,25 @@
 				"artificial intelligence",
 				"logic programming"
 			]
+		},
+		{
+			"name": "Viktor Strate Kløvedal",
+			"role": "PhD Student",
+			"id": "viktorstrate",
+			"photo": "/images/people/viktorstrate-p.jpg",
+			"email": "viktorstrate@imada.sdu.dk",
+			"linkedin": "viktorstrate",
+			"website": "https://qpqp.dk/",
+			"github": "viktorstrate",
+			"mastodon": "https://mastodon.social/@viktorstrate",
+			"office": {
+				"label": "Ø9-602b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
+			},
+			"research_topics": [
+				"choreographic programming",
+				"programming languages"
+			]
 		}
 	],
 	"taps": [
