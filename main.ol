@@ -161,6 +161,7 @@ service Main {
 				response.news.items[i] << news.items[i]
 				split@stringUtils( response.news.items[i].datetime { regex = "T" } )( s )
              	response.news.items[i].datetime = s.result[0]
+				response.news.items[i].text = render@commonMark( response.news.items[i].text )
 			}
 			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
@@ -175,6 +176,7 @@ service Main {
 			for( item in response.news.items ) {
 				split@stringUtils( item.datetime { regex = "T" } )( s )
              	item.datetime = s.result[0]
+				render@commonMark( item.text )( item.text )
 			}
 		} ]
 	}
