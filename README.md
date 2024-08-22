@@ -2,6 +2,14 @@
 
 This is the repo of the ACP Section website!
 
+# Build and run with Docker
+
+```sh
+docker build --pull -f docker/Dockerfile -t acp-website .
+docker run -it --rm -p 8080:8080 acp-website
+```
+
+
 # Build
 
 ```sh
