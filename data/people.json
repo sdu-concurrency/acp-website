@@ -259,6 +259,16 @@
 			]
 		},
 		{
+			"name": "Viktor Strate Kløvedal",
+			"role": "PhD Student",
+			"id": "vsk",
+			"photo": "/images/people/vkloevedal-p.png",
+			"email": "viktorstrate@imada.sdu.dk",
+			"github": "viktorstrate",
+			"mastodon": "https://mastodon.social/@viktorstrate",
+			"twitter": "viktorstrate"
+		},
+		{
 			"name": "Sofia Kostopoulou",
 			"role": "PhD Student",
 			"id": "sk",
