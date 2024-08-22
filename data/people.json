@@ -323,20 +323,11 @@
 			]
 		},
 		{
-			"name": "Jonas Vistrup",
+			"id": "mt",
+			"name": "Matteo Trentin",
 			"role": "PhD Student",
-			"id": "vistrup",
-			"photo": "/images/people/vistrup-p.jpg",
-			"email": "vistrup@imada.sdu.dk",
-			"linkedin": "jonas-vistrup-810677154",
-			"office": {
-				"label": "Ø9-601b-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
-			},
-			"research_topics": [
-				"artificial intelligence",
-				"logic programming"
-			]
+			"photo": "/images/people/mtrentin-p.jpg",
+			"email": "trentin@imada.sdu.dk"
 		}
 	],
 	"taps": [
@@ -357,5 +348,24 @@
 			]
 		}
 	],
-	"alumni": []
+	"alumni": [],
+	"discharged": [
+		{
+			"name": "Jonas Vistrup",
+			"role": "(PhD Student)",
+			"id": "vistrup",
+			"photo": "/images/people/vistrup-p.jpg",
+			"email": "vistrup@imada.sdu.dk",
+			"linkedin": "jonas-vistrup-810677154",
+			"office": {
+				"label": "Ø9-601b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+			},
+			"research_topics": [
+				"artificial intelligence",
+				"logic programming"
+			],
+			"with_cake": true
+		}
+	]
 }
