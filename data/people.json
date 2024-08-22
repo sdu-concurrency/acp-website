@@ -241,6 +241,15 @@
 				"Cloud Computing",
 				"Programming Languages"
 			]
+		},
+		{
+			"name": "Xueying Qin",
+			"role": "Post-doctoral Researcher",
+			"id": "xq",
+			"photo": "/images/people/xqin-p.jpg",
+			"google_scholar": "21KF3zQAAAAJ",
+			"email": "xyqin@imada.sdu.dk",
+			"website": "https://xyunknown.github.io/"
 		}
 	],
 	"phdstudents": [
