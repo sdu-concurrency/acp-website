@@ -30,7 +30,7 @@
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a20a"
 			},
 			"dblp": "163/9898",
-			"google_scholar": "1QjGyoMAAAAJ",
+			"gscholar": "1QjGyoMAAAAJ",
 			"orcid": "0000-0002-7672-799X",
 			"github": "rkaarsgaard",
 			"twitter": "manchegobaby",
@@ -57,7 +57,7 @@
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a90a"
 			},
 			"dblp": "53/1605",
-			"google_scholar": "brh_I2kAAAAJ",
+			"gscholar": "brh_I2kAAAAJ",
 			"orcid": "0000-0002-5285-2868",
 			"github": "https://github.com/jacopoMauro",
 			"website": "https://jacopomauro.com/",
@@ -83,7 +83,7 @@
 				"label": "Ø14-602a-1",
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a209"
 			},
-			"google_scholar": "eNveze4AAAAJ",
+			"gscholar": "eNveze4AAAAJ",
 			"orcid": "0000-0002-6267-4874",
 			"dblp": "36/111-1",
 			"github": "petermayer",
@@ -109,7 +109,7 @@
 			},
 			"website": "https://www.fabriziomontesi.com/",
 			"orcid": "0000-0003-4666-901X",
-			"google_scholar": "zRA6uA4AAAAJ",
+			"gscholar": "zRA6uA4AAAAJ",
 			"dblp": "65/3603",
 			"github": "fmontesi",
 			"twitter": "famontesi",
@@ -131,7 +131,7 @@
 			"id": "rn",
 			"phone": "+45 65508617",
 			"dblp": "62/7604",
-			"google_scholar": "uG44TOwAAAAJ",
+			"gscholar": "uG44TOwAAAAJ",
 			"orcid": "",
 			"github": "",
 			"twitter": "",
@@ -155,7 +155,7 @@
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969"
 			},
 			"dblp": "136/6159",
-			"google_scholar": "O9ZAc-MAAAAJ",
+			"gscholar": "O9ZAc-MAAAAJ",
 			"orcid": "0000-0002-0243-0480",
 			"github": "mperessotti",
 			"twitter": "marcoperessotti",
@@ -190,7 +190,7 @@
 	"postdocs": [
 		{
 			"name": "Eva Graversen",
-			"role": "Post-doctoral Researcher",
+			"role": "Postdoctoral Researcher",
 			"id": "eg",
 			"phone": "+45 65501696",
 			"office": {
@@ -225,12 +225,12 @@
 		},
 		{
 			"name": "Dan Plyukhin",
-			"role": "Post-doctoral Researcher",
+			"role": "Postdoctoral Researcher",
 			"id": "dp",
 			"photo": "/images/people/dplyukhin-p.jpg",
 			"phone": "+45 65 50 72 56",
 			"dblp": "232/0111",
-			"google_scholar": "MPmNRGIAAAAJ",
+			"gscholar": "MPmNRGIAAAAJ",
 			"github": "dplyukhin",
 			"twitter": "dplyukhin",
 			"email": "dplyukhin@imada.sdu.dk",
@@ -244,10 +244,10 @@
 		},
 		{
 			"name": "Xueying Qin",
-			"role": "Post-doctoral Researcher",
+			"role": "Postdoctoral Researcher",
 			"id": "xq",
 			"photo": "/images/people/xqin-p.jpg",
-			"google_scholar": "21KF3zQAAAAJ",
+			"gscholar": "21KF3zQAAAAJ",
 			"email": "xyqin@imada.sdu.dk",
 			"twitter": "x_null_y",
 			"website": "https://xyunknown.github.io/"
@@ -351,16 +351,64 @@
 	"alumni": [],
 	"discharged": [
 		{
+			"name" : "Matteo Acclavio",
+			"role" : "Postdoctoral Researcher",
+			"dblp" : "182/1948",
+			"gscholar" : "R5Oy8AIAAAAJ",
+			"orcid" : "0000-0002-0425-2825",
+			"email": "macclavio@gmail.com",
+			"photo" : "/images/people/macclavio-p.jpg"
+		},
+		{
+			"name" : "Luís Cruz-Filipe",
+			"role" : "Associate Professor",
+			"id" : "lcf",
+			"dblp" : "21/4578",
+			"orcid" : "0000-0002-7866-7484",
+			"photo" : "/images/people/lcruz-filipe-p.jpg"
+		},
+		{
+			"name" : "Saverio Giallorenzo",
+			"role" : "Postdoctoral Researcher",
+			"id" : "sg",
+			"dblp" : "146/2078",
+			"gscholar" : "4CLysk8AAAAJ",
+			"orcid" : "0000-0002-3658-6395",
+			"github" : "thesave",
+			"twitter"  : "realThesave",
+			"linkedin" : "saverio-giallorenzo-4947b920",
+			"website" : "http://saveriogiallorenzo.com",
+			"photo" : "/images/people/sgiallorenzo-p.jpg",
+			"_email" : "saverio@imada.sdu.dk",
+			"research_topics" : [ 
+			  "adaptation", 
+			  "choreographic programming", 
+			  "microservices", 
+			  "security", 
+			  "smart cities", 
+			  "internet of things" 
+			]
+		},
+		{
+			"name" : "Larisa Safina",
+			"role" : "PhD Student",
+			"id" : "ls",
+			"dblp" : "172/1245",
+			"gscholar" : "XifW61cAAAAJ",
+			"orcid" : "0000-0002-4490-7451",
+			"github" : "lsafina",
+			"linkedin" : "lsafina",
+			"photo" : "/images/people/lsafina-p.jpg",
+			"_email" : "safina@imada.sdu.dk",
+			"research_topics" : [ "microservices", "choreographic programming" ]
+		},		  
+		{
 			"name": "Jonas Vistrup",
-			"role": "(PhD Student)",
+			"role": "PhD Student",
 			"id": "vistrup",
 			"photo": "/images/people/vistrup-p.jpg",
 			"email": "vistrup@imada.sdu.dk",
 			"linkedin": "jonas-vistrup-810677154",
-			"office": {
-				"label": "Ø9-601b-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
-			},
 			"research_topics": [
 				"artificial intelligence",
 				"logic programming"
