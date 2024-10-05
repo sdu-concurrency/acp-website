@@ -165,11 +165,10 @@
 			"photo": "/images/people/mperessotti-p.jpg",
 			"research_topics": [
 				"Concurrency",
-				"Programming Languages",
+				"Distributed Systems",
 				"Formal Methods",
-				"Coalgebras",
-				"Quantitative Semantics",
-				"Session Types"
+				"Microservices",
+				"Programming Languages"
 			]
 		},
 		{
@@ -254,6 +253,17 @@
 		}
 	],
 	"phdstudents": [
+		{
+			"name": "Giorgia Sampó",
+			"role": "PhD Student",
+			"id": "gs",
+			"photo": "/images/people/gsampo-p.jpg",
+			"email": "gisa@sam.sdu.dk",
+			"research_topics": [
+				"Organisation Theory",
+				"Distributed Systems"
+			]
+		},
 		{
 			"name": "Judith Kankam-Boateng",
 			"role": "PhD Student",
