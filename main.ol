@@ -22,6 +22,7 @@ RequestResponse:
 type NewsEntry {
 	text: string
 	datetime: string
+	file?: string
 }
 
 /// Type of the data needed by index.html
@@ -123,11 +124,24 @@ service Main {
 						redirect = get.MovedPermanently
 						statusCode = 301
 				)
+				// If the request is for a news page, add '.md' to the resource path
+				if( match@stringUtils( request.operation { regex = ".*news/([^/\\.]+)" } ) ) {
+					request.operation += ".md"
+				}
+
 				get@webFiles( {
 					target = request.operation
 					wwwDir = global.wwwDir
 				} )( getResult )
 				httpParams -> getResult.httpParams
+
+				// If it's a markdown file, render it
+				if( endsWith@stringUtils( getResult.path { suffix = ".md" } ) ) {
+					getResult.httpParams.format = "html"
+					getResult.httpParams.contentType = "text/html"
+					// getResult.content = string( getResult.content )
+					getResult.content = render@commonMark( string( getResult.content ) )
+				}
 
 				substring@stringUtils( getResult.path { begin = length@stringUtils( global.wwwDir ) } )( webPath )
 				// By default, Mustache and Markdown are activated only for html pages

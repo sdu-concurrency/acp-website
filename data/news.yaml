@@ -1,4 +1,8 @@
 items:
+  - datetime: 2024-10-10
+    file: 2024-10-10-new-assistant-professors
+    text: |-
+      Sandra Greiner and Siddharth Bhaskar join ACP as new assistant professors, enriching the section with their expertise in software evolution and fundamental theory at the boundary of algorithms and programming languages.
   - datetime: 2024-10-07
     text: |-
       The paper 'Choreography-Defined Network - A Case Study in DoS Mitigation' by Saverio Giallorenzo, Jacopo Mauro, Andrea Melis, Fabrizio Montesi, Marco Peressotti, and Marco Prandini has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
