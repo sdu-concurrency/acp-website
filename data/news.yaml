@@ -1,4 +1,10 @@
 items:
+  - datetime: 2024-10-07
+    text: |-
+      The paper 'Choreography-Defined Network - A Case Study in DoS Mitigation' by Saverio Giallorenzo, Jacopo Mauro, Andrea Melis, Fabrizio Montesi, Marco Peressotti, and Marco Prandini has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
+  - datetime: 2024-10-07
+    text: |-
+      The paper 'A Toolchain for Checking Domain- and Model-driven Properties of Jolie Microservices' by Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, Sabine Sachweh, and Philip Wizenty has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
   - datetime: 2024-08-13T13:23:00+02:00
     text: |-
       The paper [How to Bake a Quantum Pi](https://dl.acm.org/doi/abs/10.1145/3674625) by Jacques Carette, Chris Heunen, Robin Kaarsgaard, and Amr Sabry will appear at ICFP 2024!

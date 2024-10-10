@@ -254,17 +254,6 @@
 	],
 	"phdstudents": [
 		{
-			"name": "Giorgia Sampó",
-			"role": "PhD Student",
-			"id": "gs",
-			"photo": "/images/people/gsampo-p.jpg",
-			"email": "gisa@sam.sdu.dk",
-			"research_topics": [
-				"Organisation Theory",
-				"Distributed Systems"
-			]
-		},
-		{
 			"name": "Judith Kankam-Boateng",
 			"role": "PhD Student",
 			"id": "jkb",
@@ -330,6 +319,17 @@
 				"microservices",
 				"choreographic programming",
 				"programming languages"
+			]
+		},
+		{
+			"name": "Giorgia Sampó",
+			"role": "PhD Student",
+			"id": "gs",
+			"photo": "/images/people/gsampo-p.jpg",
+			"email": "gisa@sam.sdu.dk",
+			"research_topics": [
+				"Organisation Theory",
+				"Distributed Systems"
 			]
 		},
 		{
