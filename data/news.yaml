@@ -9,6 +9,12 @@ items:
   - datetime: 2024-10-07
     text: |-
       The paper 'A Toolchain for Checking Domain- and Model-driven Properties of Jolie Microservices' by Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, Sabine Sachweh, and Philip Wizenty has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
+  - datetime: 2024-09-05
+    text: |- 
+      The paper [Given an Inch and Take a Mile: Effects of Adding Reliable Knowledge to Heuristic Feature Tracing](https://dl.acm.org/doi/10.1145/3646548.3672593) by Sandra Greiner, Alexander Schultheiss, Paul M. Bittner, Thomas Thüm, and Timo Kehrer was awarded __Best Paper__ at [SPLC 2024](https://2024.splc.net/).
+  - datetime: 2024-08-22
+    text: |-
+      The paper _Automated Generation of Code Contracts -- Generative AI to the Rescue?_ by Sandra Greiner, Noah Bühlmann, Manuel Ohrndorf, Christos Tsigkanos, Oscar Nierstrasz, and Timo Kehrer got accepted at [GPCE 2024](https://2024.splashcon.org/home/gpce-2024).
   - datetime: 2024-08-13T13:23:00+02:00
     text: |-
       The paper [How to Bake a Quantum Pi](https://dl.acm.org/doi/abs/10.1145/3674625) by Jacques Carette, Chris Heunen, Robin Kaarsgaard, and Amr Sabry will appear at ICFP 2024!
