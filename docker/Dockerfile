@@ -4,7 +4,7 @@ COPY data /work/data
 COPY templates /work/templates
 COPY web /work/web
 WORKDIR /work
-RUN sudo jpm install
+RUN sudo npm install && sudo npm run build
 
 FROM jolielang/jolie:edge
 COPY --from=build /work /app
