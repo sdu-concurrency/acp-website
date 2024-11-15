@@ -1,6 +1,20 @@
 {
 	"faculty": [
 		{
+			"id": "cbach",
+			"name": "Casper Midtgaard Bach",
+			"role": "Assistant Professor",
+			"photo": "/images/people/cbach-p.jpg",
+			"dblp": "143/2646",
+			"phone": "+45 65507259",
+			"orcid": "0000-0003-0622-7639",
+			"gscholar": "cK5ddQ4AAAAJ",
+			"linkedin": "casperbp",
+			"github": "casperbp",
+			"website": "https://casperbp.net/",
+			"email": "casperbach@imada.sdu.dk"
+		},
+		{
 			"id": "sbashkar",
 			"name": "Siddharth Bhaskar",
 			"role": "Assistant Professor",
