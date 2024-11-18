@@ -172,10 +172,11 @@
 			"gscholar": "O9ZAc-MAAAAJ",
 			"orcid": "0000-0002-0243-0480",
 			"github": "mperessotti",
-			"twitter": "marcoperessotti",
 			"linkedin": "marco-peressotti",
 			"email": "peressotti@imada.sdu.dk",
 			"website": "https://marcoperessotti.com",
+			"mastodon": "https://mastodon.social/@mperessotti",
+			"bluesky": "https://bsky.app/profile/mperessotti.bsky.social",
 			"photo": "/images/people/mperessotti-p.jpg",
 			"research_topics": [
 				"Concurrency",
