@@ -4,11 +4,22 @@ This is the repo of the ACP Section website!
 
 # Build and run with Docker
 
+On ARM64:
+
 ```sh
 docker build --pull -f docker/Dockerfile -t acp-website .
 docker run -it --rm -p 8080:8080 acp-website
 ```
 
+On Apple Chipsets:
+
+```sh
+docker buildx create --use
+docker buildx build --platform linux/amd64 -f docker/Dockerfile -t acp-website --load .
+docker run -it --rm -p 8080:8080 acp-website
+```
+
+If you make changes to the site, you'll need to re-run the "build" and "run" commands to see your changes.
 
 # Build
 
