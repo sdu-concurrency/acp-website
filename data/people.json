@@ -172,10 +172,11 @@
 			"gscholar": "O9ZAc-MAAAAJ",
 			"orcid": "0000-0002-0243-0480",
 			"github": "mperessotti",
-			"twitter": "marcoperessotti",
 			"linkedin": "marco-peressotti",
 			"email": "peressotti@imada.sdu.dk",
 			"website": "https://marcoperessotti.com",
+			"mastodon": "https://mastodon.social/@mperessotti",
+			"bluesky": "https://bsky.app/profile/mperessotti.bsky.social",
 			"photo": "/images/people/mperessotti-p.jpg",
 			"research_topics": [
 				"Concurrency",
@@ -264,7 +265,18 @@
 			"email": "xyqin@imada.sdu.dk",
 			"twitter": "x_null_y",
 			"website": "https://xyunknown.github.io/"
-		}
+		},
+		{
+			"name": "Giulia Manara",
+			"role": "Postdoctoral Researcher",
+			"id": "gm",
+			"photo": "https://portal.findresearcher.sdu.dk/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
+			"email": "manara@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
+			}
+		},
 	],
 	"phdstudents": [
 		{
@@ -299,6 +311,17 @@
 				"choreographic programming",
 				"programming languages"
 			]
+		},
+		{
+			"name": "Marco Santamaria",
+			"role": "PhD Student",
+			"id": "ms",
+			"photo": "https://portal.findresearcher.sdu.dk/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
+			"email": "santamaria@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
+			}
 		},
 		{
 			"name": "Sofia Kostopoulou",

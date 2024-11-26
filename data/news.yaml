@@ -1,7 +1,16 @@
 items:
+  - datetime: 2024-11-25
+    text: |-
+      Valentino Picotti successfully defended his PhD Thesis on [_"Language Support for Microservices Development"_](https://doi.org/10.21996/ryyc-7h13). 
+  - datetime: 2024-11-18
+    text: |-
+      The paper 'A Conceptual Framework for API Refactoring in Enterprise Application Architectures' by Fabrizio Montesi, Marco Peressotti, and Valentino Picotti has been accepted at [ESOCC 2025](https://conf.researchr.org/home/esocc-2025)!
   - datetime: 2024-11-15
     text: |-
       Siddharth Bhaskar will teach a course _Model theory for phonology_ at [ESSLLI 2025](https://2025.esslli.eu/).
+  - datetime: 2024-11-01
+    text: |-
+      Casper Midtgaard Bach joins ACP as new assistant professor, enriching the section with his expertise in programming languages and formal methods.
   - datetime: 2024-10-10
     file: 2024-10-10-new-assistant-professors
     text: |-

@@ -6,31 +6,34 @@
 			<p class="mb-2">{{role}}</p>
 			<p>
 			{{#website}}
-			<a href="{{website}}" title="Website"><i class="fa-solid fa-earth-europe"></i></a>
+			<a href="{{.}}" title="Website"><i class="fa-solid fa-earth-europe"></i></a>
 			{{/website}}
 			{{#email}}
-			<a href="mailto:{{email}}" title="Email"><i class="fa-regular fa-envelope"></i></a>
+			<a href="mailto:{{.}}" title="Email"><i class="fa-regular fa-envelope"></i></a>
 			{{/email}}
 			{{#orcid}}
-			<a href="https://orcid.org/{{orcid}}" title="ORCID"><i class="ai ai-orcid"></i></a>
+			<a href="https://orcid.org/{{.}}" title="ORCID"><i class="ai ai-orcid"></i></a>
 			{{/orcid}}
 			{{#dblp}}
-			<a href="https://dblp.org/pid/{{dblp}}.html" title="DBLP"><i class="ai ai-dblp"></i></a>
+			<a href="https://dblp.org/pid/{{.}}.html" title="DBLP"><i class="ai ai-dblp"></i></a>
 			{{/dblp}}
 			{{#gscholar}}
-			<a href="https://scholar.google.com/citations?user={{gscholar}}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+			<a href="https://scholar.google.com/citations?user={{.}}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
 			{{/gscholar}}
 			{{#github}}
-			<a href="https://github.com/{{github}}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+			<a href="https://github.com/{{.}}" title="GitHub"><i class="fa-brands fa-github"></i></a>
 			{{/github}}
 			{{#linkedin}}
-			<a href="https://linkedin.com/in/{{linkedin}}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 			{{/linkedin}}
+			{{#bluesky}}
+			<a href="{{.}}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			{{/bluesky}}
 			{{#mastodon}}
-			<a href="{{mastodon}}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+			<a href="{{.}}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
 			{{/mastodon}}
 			{{#twitter}}
-			<a href="https://x.com/{{twitter}}" title="X/Twitter"><i class="fa-brands fa-twitter"></i></a>
+			<a href="https://x.com/{{.}}" title="X/Twitter"><i class="fa-brands fa-twitter"></i></a>
 			{{/twitter}}
 			</p>
 		</figcaption>
