@@ -1,4 +1,10 @@
 items:
+  - datetime: 2024-12-13
+    text: |-
+      Sandra serves as **Research Track Chair** at the 29th ACM International Systems and Software Product Line Conference [SPLC 2025](https://2025.splc.net/).
+  - datetime: 2024-11-30
+    text: |-
+      Sandra co-organizes the [Transformation Tool Contest 2025](https://conf.researchr.org/home/staf-2025/ttc-2025) and the [9th SECPPS Workshop](https://rickrabiser.github.io/secpps-ws/se25/)
   - datetime: 2024-11-25
     text: |-
       Valentino Picotti successfully defended his PhD Thesis on [_"Language Support for Microservices Development"_](https://doi.org/10.21996/ryyc-7h13). 
