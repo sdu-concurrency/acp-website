@@ -215,25 +215,6 @@
 	],
 	"postdocs": [
 		{
-			"name": "Eva Graversen",
-			"role": "Postdoctoral Researcher",
-			"id": "eg",
-			"phone": "+45 65501696",
-			"office": {
-				"label": "Ø9-601b-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
-			},
-			"dblp": "199/2114",
-			"github": "evagraver",
-			"photo": "/images/people/egraversen-p.jpg",
-			"email": "efgraversen@imada.sdu.dk",
-			"research_topics": [
-				"Choreographic Programming",
-				"Concurrency",
-				"Reversible Computing"
-			]
-		},
-		{
 			"name": "Lovro Lugović",
 			"role": "Guest Researcher",
 			"id": "ll",
@@ -428,6 +409,15 @@
 			"dblp" : "21/4578",
 			"orcid" : "0000-0002-7866-7484",
 			"photo" : "/images/people/lcruz-filipe-p.jpg"
+		},
+		{
+			"name": "Eva Graversen",
+			"role": "Postdoctoral Researcher",
+			"id": "eg",
+			"phone": "+45 65501696"m
+			"dblp": "199/2114",
+			"github": "evagraver",
+			"photo": "/images/people/egraversen-p.jpg"
 		},
 		{
 			"name" : "Saverio Giallorenzo",
