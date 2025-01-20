@@ -199,6 +199,18 @@
 				"e-voting",
 				"software-defined networking"
 			]
+		},
+		{
+			"id": "stsampas",
+			"name": "Stelios Tsampas",
+			"role": "Assistant Professor",
+			"photo": "/images/people/stsampas-p.jpg",
+			"dblp": "245/2735-1",
+			"orcid": "0000-0001-8981-2328",
+			"gscholar": "P_acVKwAAAAJ",
+			"linkedin": "stelios-tsampas-96065b61",
+			"github": "stelios-tau",
+			"website": "https://www.steliostsampas.com/"
 		}
 	],
 	"postdocs": [
