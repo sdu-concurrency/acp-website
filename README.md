@@ -9,6 +9,7 @@ On ARM64:
 ```sh
 docker build --pull -f docker/Dockerfile -t acp-website .
 docker run -it --rm -p 8080:8080 acp-website
+
 ```
 
 On Apple Chipsets:
