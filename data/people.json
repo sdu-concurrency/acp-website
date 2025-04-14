@@ -273,6 +273,23 @@
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
 			}
 		},
+		{
+			"name": "Valentino Picotti",
+			"role": "Guest Researcher",
+			"id": "vp",
+			"github": "xpicox",
+			"photo": "/images/people/vpicotti-p.jpg",
+			"email": "picotti@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"microservices",
+				"choreographic programming",
+				"programming languages"
+			]
+		}
 	],
 	"phdstudents": [
 		{
@@ -335,23 +352,6 @@
 				"microservices",
 				"artificial intelligence",
 				"data analytics"
-			]
-		},
-		{
-			"name": "Valentino Picotti",
-			"role": "PhD Student",
-			"id": "vp",
-			"github": "xpicox",
-			"photo": "/images/people/vpicotti-p.jpg",
-			"email": "picotti@imada.sdu.dk",
-			"office": {
-				"label": "Ø9-602a-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
-			},
-			"research_topics": [
-				"microservices",
-				"choreographic programming",
-				"programming languages"
 			]
 		},
 		{
