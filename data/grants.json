@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "title": "FunQ: Quantum Programming Beyond the Circuit Model",
+      "id": "FunQ",
+      "image": "dff.jpg",
+      "participants": [
+        {
+          "name": "Robin Kaarsgaard",
+          "role": "PI",
+          "affiliation": "University of Southern Denmark"
+        }
+      ],
+      "period": {
+        "start": "01-09-2025",
+        "end": "31-08-2029"
+      },
+      "type": "Independent Research Fund Denmark - Natural Sciences",
+      "amount": "6,181,920 DKK"
+    },
+    {
       "title": "Choreographies for Distributed Systems: Reasoning, Expressivity, and Development (CHORDS)",
       "id": "CHORDS",
       "image": "chords.png",
