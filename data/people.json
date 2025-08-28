@@ -215,22 +215,6 @@
 	],
 	"postdocs": [
 		{
-			"name": "Lovro Lugović",
-			"role": "Guest Researcher",
-			"id": "ll",
-			"github": "lovrosdu",
-			"photo": "/images/people/llugovic-p.jpg",
-			"email": "lugovic@imada.sdu.dk",
-			"office": {
-				"label": "Ø9-602a-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
-			},
-			"research_topics": [
-				"programming languages",
-				"choreographic programming"
-			]
-		},
-		{
 			"name": "Dan Plyukhin",
 			"role": "Postdoctoral Researcher",
 			"id": "dp",
@@ -272,23 +256,6 @@
 				"label": "Ø9-602b-2",
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
 			}
-		},
-		{
-			"name": "Valentino Picotti",
-			"role": "Guest Researcher",
-			"id": "vp",
-			"github": "xpicox",
-			"photo": "/images/people/vpicotti-p.jpg",
-			"email": "picotti@imada.sdu.dk",
-			"office": {
-				"label": "Ø9-602a-2",
-				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
-			},
-			"research_topics": [
-				"microservices",
-				"choreographic programming",
-				"programming languages"
-			]
 		}
 	],
 	"phdstudents": [
@@ -366,6 +333,17 @@
 			]
 		},
 		{
+			"name": "Stefano Volpe",
+			"role": "PhD Student",
+			"id": "sv",
+			"photo": "/images/people/svolpe-p.jpg",
+			"email": "stefano@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			}
+		},
+		{
 			"id": "mt",
 			"name": "Matteo Trentin",
 			"role": "PhD Student",
@@ -391,24 +369,74 @@
 			]
 		}
 	],
-	"alumni": [],
-	"discharged": [
+	"alumni": [
 		{
-			"name" : "Matteo Acclavio",
-			"role" : "Postdoctoral Researcher",
-			"dblp" : "182/1948",
-			"gscholar" : "R5Oy8AIAAAAJ",
-			"orcid" : "0000-0002-0425-2825",
-			"email": "macclavio@gmail.com",
-			"photo" : "/images/people/macclavio-p.jpg"
+			"name": "Larisa Safina",
+			"role": "PhD Student",
+			"id": "ls",
+			"dblp": "172/1245",
+			"gscholar": "XifW61cAAAAJ",
+			"orcid": "0000-0002-4490-7451",
+			"github": "lsafina",
+			"linkedin": "lsafina",
+			"photo": "/images/people/lsafina-p.jpg",
+			"_email": "safina@imada.sdu.dk",
+			"research_topics": [
+				"microservices",
+				"choreographic programming"
+			]
 		},
 		{
-			"name" : "Luís Cruz-Filipe",
-			"role" : "Associate Professor",
-			"id" : "lcf",
-			"dblp" : "21/4578",
-			"orcid" : "0000-0002-7866-7484",
-			"photo" : "/images/people/lcruz-filipe-p.jpg"
+			"name": "Lovro Lugović",
+			"role": "Guest Researcher",
+			"id": "ll",
+			"github": "lovrosdu",
+			"photo": "/images/people/llugovic-p.jpg",
+			"email": "lugovic@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"programming languages",
+				"choreographic programming"
+			]
+		},
+		{
+			"name": "Valentino Picotti",
+			"role": "Postdoctoral Researcher",
+			"id": "vp",
+			"github": "xpicox",
+			"photo": "/images/people/vpicotti-p.jpg",
+			"email": "picotti@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-602a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+			},
+			"research_topics": [
+				"microservices",
+				"choreographic programming",
+				"programming languages"
+			]
+		}
+	],
+	"discharged": [
+		{
+			"name": "Matteo Acclavio",
+			"role": "Postdoctoral Researcher",
+			"dblp": "182/1948",
+			"gscholar": "R5Oy8AIAAAAJ",
+			"orcid": "0000-0002-0425-2825",
+			"email": "macclavio@gmail.com",
+			"photo": "/images/people/macclavio-p.jpg"
+		},
+		{
+			"name": "Luís Cruz-Filipe",
+			"role": "Associate Professor",
+			"id": "lcf",
+			"dblp": "21/4578",
+			"orcid": "0000-0002-7866-7484",
+			"photo": "/images/people/lcruz-filipe-p.jpg"
 		},
 		{
 			"name": "Eva Graversen",
@@ -419,40 +447,27 @@
 			"photo": "/images/people/egraversen-p.jpg"
 		},
 		{
-			"name" : "Saverio Giallorenzo",
-			"role" : "Postdoctoral Researcher",
-			"id" : "sg",
-			"dblp" : "146/2078",
-			"gscholar" : "4CLysk8AAAAJ",
-			"orcid" : "0000-0002-3658-6395",
-			"github" : "thesave",
-			"twitter"  : "realThesave",
-			"linkedin" : "saverio-giallorenzo-4947b920",
-			"website" : "http://saveriogiallorenzo.com",
-			"photo" : "/images/people/sgiallorenzo-p.jpg",
-			"_email" : "saverio@imada.sdu.dk",
-			"research_topics" : [ 
-			  "adaptation", 
-			  "choreographic programming", 
-			  "microservices", 
-			  "security", 
-			  "smart cities", 
-			  "internet of things" 
+			"name": "Saverio Giallorenzo",
+			"role": "Postdoctoral Researcher",
+			"id": "sg",
+			"dblp": "146/2078",
+			"gscholar": "4CLysk8AAAAJ",
+			"orcid": "0000-0002-3658-6395",
+			"github": "thesave",
+			"twitter": "realThesave",
+			"linkedin": "saverio-giallorenzo-4947b920",
+			"website": "http://saveriogiallorenzo.com",
+			"photo": "/images/people/sgiallorenzo-p.jpg",
+			"_email": "saverio@imada.sdu.dk",
+			"research_topics": [
+				"adaptation",
+				"choreographic programming",
+				"microservices",
+				"security",
+				"smart cities",
+				"internet of things"
 			]
 		},
-		{
-			"name" : "Larisa Safina",
-			"role" : "PhD Student",
-			"id" : "ls",
-			"dblp" : "172/1245",
-			"gscholar" : "XifW61cAAAAJ",
-			"orcid" : "0000-0002-4490-7451",
-			"github" : "lsafina",
-			"linkedin" : "lsafina",
-			"photo" : "/images/people/lsafina-p.jpg",
-			"_email" : "safina@imada.sdu.dk",
-			"research_topics" : [ "microservices", "choreographic programming" ]
-		},		  
 		{
 			"name": "Jonas Vistrup",
 			"role": "PhD Student",
