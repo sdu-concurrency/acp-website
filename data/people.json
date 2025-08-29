@@ -369,7 +369,7 @@
 			]
 		}
 	],
-	"alumni": [
+	"discharged": [
 		{
 			"name": "Larisa Safina",
 			"role": "PhD Student",
@@ -418,9 +418,7 @@
 				"choreographic programming",
 				"programming languages"
 			]
-		}
-	],
-	"discharged": [
+		},
 		{
 			"name": "Matteo Acclavio",
 			"role": "Postdoctoral Researcher",
