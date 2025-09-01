@@ -1,7 +1,10 @@
 items:
   - datetime: 2025-08-28
     text: |-
-      Stefano Volpe joins ACP as new PhD Student working on foundations of programming languages under the supervision of Stelios Tsampas and marco Peressotti.
+      Stefano Volpe joins ACP as new PhD Student working on foundations of programming languages under the supervision of Stelios Tsampas and Marco Peressotti.
+  - datetime: 2025-08-19
+    text: |-
+      Alessio Pellegrino joins ACP as new PhD Student working on using AI to improve the solving of hard combinatorial problems building better algorithm portfolios under the supervision of Jacopo Mauro.
   - datetime: 2025-06-21
     text: |-
       Sandra received a Best Reviewer Award for her PC service at the [EASE 2025](https://conf.researchr.org/home/ease-2025) conference.

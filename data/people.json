@@ -333,6 +333,17 @@
 			]
 		},
 		{
+			"name": "Alessio Pellegrino",
+			"role": "PhD Student",
+			"id": "ap",
+			"photo": "https://portal.findresearcher.sdu.dk/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
+			"email": "alessio@imada.sdu.dk",
+			"office": {
+				"label": "Ø9-601b-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+			}
+		},
+		{
 			"name": "Stefano Volpe",
 			"role": "PhD Student",
 			"id": "sv",
