@@ -25,7 +25,7 @@
 		{
 			"id": "sgreiner",
 			"name": "Sandra Greiner",
-			"role": "Assistant Professor",
+			"role": "Associate Professor",
 			"photo": "/images/people/sgreiner-p.jpg",
 			"dblp": "183/9453",
 			"orcid": "0000-0001-8950-0092",
@@ -37,7 +37,7 @@
 		{
 			"id": "rkaarsgaard",
 			"name": "Robin Kaarsgaard",
-			"role": "Assistant Professor",
+			"role": "Associate Professor",
 			"phone": "+45 65503568",
 			"office": {
 				"label": "Ø14-602b-1",
@@ -91,7 +91,7 @@
 		{
 			"id": "pmayer",
 			"name": "Peter Mayer",
-			"role": "Assistant Professor",
+			"role": "Associate Professor",
 			"phone": "+45 65503531",
 			"office": {
 				"label": "Ø14-602a-1",
