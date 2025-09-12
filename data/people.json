@@ -336,6 +336,9 @@
 			"name": "Alessio Pellegrino",
 			"role": "PhD Student",
 			"id": "ap",
+			"gscholar": "QyOhJCwAAAAJ",
+			"github": "SeppiaBrilla",
+			"orcid": "0009-0005-3173-2532",
 			"photo": "https://portal.findresearcher.sdu.dk/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
 			"email": "alessio@imada.sdu.dk",
 			"office": {
@@ -349,6 +352,12 @@
 			"id": "sv",
 			"photo": "/images/people/svolpe-p.jpg",
 			"email": "stefano@imada.sdu.dk",
+			"phone": "+31 06 3968 77 26",
+			"orcid": "0009-0003-5277-1958",
+			"website": "https://foxy.codeberg.page",
+			"sharkey": "https://blahaj.zone/@foxy",
+			"matrix": "@foxy:teapot.ovh",
+			"forge": "https://codeberg.org/foxy",
 			"office": {
 				"label": "Ø9-602a-2",
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
