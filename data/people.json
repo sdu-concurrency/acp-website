@@ -15,6 +15,22 @@
 			"email": "casperbach@imada.sdu.dk"
 		},
 		{
+			"id": "dtaibi",
+			"name": "Davide Taibi",
+			"role": "Professor",
+			"photo": "/images/people/dtaibi-p.jpg",
+			"dblp": "68/732-1",
+			"email": "taibi@imada.sdu.dk"
+		},
+		{
+			"id": "vlenarduzzi",
+			"name": "Valentina Lenarduzzi",
+			"role": "Vice Head of the ACP Section, Professor",
+			"photo": "/images/people/vlenarduzzi-p.jpg",
+			"dblp": "118/9914",
+			"email": "taibi@imada.sdu.dk"
+		},
+		{
 			"id": "sbashkar",
 			"name": "Siddharth Bhaskar",
 			"role": "Assistant Professor",

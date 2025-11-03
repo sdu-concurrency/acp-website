@@ -1,4 +1,10 @@
 items:
+  - datetime: 2025-11-01
+    text: |-
+       [Valentina Lenarduzzi](http://www.valentinalenarduzzi.it/) joins ACP as new professor, enriching the section with his expertise in empirical software engineering, software quality, and software maintenance and evolution.
+  - datetime: 2025-11-01
+    text: |-
+       [Davide Taibi](http://www.taibi.it/) joins ACP as new professor, enriching the section with his expertise in cloud and edge software architecture.
   - datetime: 2025-08-28
     text: |-
       Stefano Volpe joins ACP as new PhD Student working on foundations of programming languages under the supervision of Stelios Tsampas and Marco Peressotti.
