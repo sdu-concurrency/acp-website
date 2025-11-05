@@ -1,6 +1,6 @@
 lib/
 packages/
 node_modules/
-web/css/src/main.css
+web/css/dist/
 .DS_Store
 ._*
