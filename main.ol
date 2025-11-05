@@ -28,17 +28,7 @@ type NewsEntry {
 /// Type of the data needed by index.html
 type IndexData {
 	jolieVersion: string //< The version of the Jolie interpreter running this service
-	news {
-		items*: NewsEntry
-	}
 	people*: undefined
-}
-
-/// Type of the data for news.html
-type NewsData {
-	news {
-		items*: NewsEntry
-	}
 }
 
 /// Type of the data needed by /research/index.html
@@ -56,9 +46,6 @@ RequestResponse:
 
 	/// Gets the data needed by the /research/index.html page
 	researchIndex( void )( ResearchIndexData ),
-
-	/// Gets the data needed by the news.html page
-	news( void )( NewsData )
 }
 
 service Main {
@@ -111,7 +98,6 @@ service Main {
 		// Page index.html gets data from operation index
 		global.dataBindings.("/index.html") = "index"
 		global.dataBindings.("/research/index.html") = "researchIndex"
-		global.dataBindings.("/news.html") = "news"
 	}
 
 	main {
@@ -124,11 +110,6 @@ service Main {
 						redirect = get.MovedPermanently
 						statusCode = 301
 				)
-				// If the request is for a news page, add '.md' to the resource path
-				if( match@stringUtils( request.operation { regex = ".*news/([^/\\.]+)" } ) ) {
-					request.operation += ".md"
-				}
-
 				get@webFiles( {
 					target = request.operation
 					wwwDir = global.wwwDir
@@ -170,13 +151,6 @@ service Main {
 		} ]
 
 		[ index()( response ) {
-			readFile@file( { filename = "data/news.yaml", format = "yaml" } )( news )
-			for( i = 0, i < NEWS_PAGE_SIZE && i < #news.items, i++ ) {
-				response.news.items[i] << news.items[i]
-				split@stringUtils( response.news.items[i].datetime { regex = "T" } )( s )
-             	response.news.items[i].datetime = s.result[0]
-				response.news.items[i].text = render@commonMark( response.news.items[i].text )
-			}
 			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
 		} ]
@@ -185,13 +159,5 @@ service Main {
 			readFile@file( { filename = "data/grants.json", format = "json" } )( response.grants )
 		} ]
 
-		[ news()( response ) {
-			readFile@file( { filename = "data/news.yaml", format = "yaml" } )( response.news )
-			for( item in response.news.items ) {
-				split@stringUtils( item.datetime { regex = "T" } )( s )
-             	item.datetime = s.result[0]
-				render@commonMark( item.text )( item.text )
-			}
-		} ]
 	}
 }
