@@ -1,0 +1,36 @@
+{{< page-container.html}}
+{{$title}}News{{/title}}
+{{$content}}
+<p>Recent news on this webpage are queried from the
+<a href="https://mastodon.acm.org/@acp" rel="alternate external"
+    target="_blank">ACP Fediverse account</a>. News prior to September 2025 are
+  queried from this website's local archive.</p>
+<a class="mastodon-feed"
+	 href="https://mastodon.acm.org/@acp"
+   data-toot-account-id=115453474006895702
+	 data-exclude-replies=true
+   >Loading...</a>
+<script type="module" src="https://esm.sh/emfed@1"></script>
+<ul>
+{{#news}}
+	{{#items}}
+		<li class="toot">
+      <span class="permalink">
+        <time datetime="{{datetime}}">{{datetime}}</time>
+      </span>
+      <a class="user" href="https://mastodon.acm.org/@acp">
+        <img class="avatar" width="46" height="46"
+          src="https://mastodon.acm.org/system/accounts/avatars/115/453/474/006/895/702/original/051358ab6206fd97.png">
+        <span class="display-name">ACP Section</span>
+        <span class="username">@acp</span>
+      </a>
+      <div class="body">
+        {{{text}}}
+        {{#file}}<a href="/news/{{.}}">Read the full news...</a>{{/file}}
+      </div>
+    </li>
+	{{/items}}
+{{/news}}
+</ul>
+{{/content}}
+{{/page-container.html}}

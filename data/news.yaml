@@ -1,0 +1,74 @@
+# DEPRECATED! Please ask the manager of the Fediverse account at
+# https://mastodon.acm.org/@acp to publish your news instead. These will be
+# automatically synched with the ACP website. Using the deprecated system below
+# will append your newsitem after all posts fetched from the Fediverse.
+items:
+  - datetime: 2025-08-28
+    text: |-
+      Stefano Volpe joins ACP as new PhD Student working on foundations of programming languages under the supervision of Stelios Tsampas and Marco Peressotti.
+  - datetime: 2025-08-19
+    text: |-
+      Alessio Pellegrino joins ACP as new PhD Student working on using AI to improve the solving of hard combinatorial problems building better algorithm portfolios under the supervision of Jacopo Mauro.
+  - datetime: 2025-06-21
+    text: |-
+      Sandra received a Best Reviewer Award for her PC service at the [EASE 2025](https://conf.researchr.org/home/ease-2025) conference.
+  - datetime: 2025-06-02
+    text: |-
+      Robin will give an invited talk in the [special session on quantum computing](https://sites.google.com/view/cie2025-computabilityineurope/special-sessions) at [Computability in Europe 2025](https://sites.google.com/view/cie2025-computabilityineurope/home).
+  - datetime: 2025-06-02
+    text: |-
+      Robin will give an invited talk in the [special session on quantum computing](https://sites.google.com/view/cie2025-computabilityineurope/special-sessions) at [Computability in Europe 2025](https://sites.google.com/view/cie2025-computabilityineurope/home).
+  - datetime: 2024-12-19
+    text: |-
+      Narongrit shares his experience at Thammasart University Lampang campus in a [session](https://www.linkedin.com/posts/narongrit-unwe_i-recently-had-the-incredible-opportunity-activity-7276637435487289344-X4T3?utm_source=combined_share_message&utm_medium=member_desktop_web) hosted by [Worawan (Marurngsith) Diaz Carballo](https://www.linkedin.com/in/wdiazcarballo/) during his visit at Lampang.
+  - datetime: 2024-12-19
+    text: |-
+      The paper 'Formulas as Processes, Deadlock-Freedom as Choreographies' by Matteo Acclavio, Giulia Manara, and Fabrizio Montesi has been accepted at ESOP 2025!
+  - datetime: 2024-12-13
+    text: |-
+      Sandra serves as **Research Track Chair** at the 29th ACM International Systems and Software Product Line Conference [SPLC 2025](https://2025.splc.net/).
+  - datetime: 2024-11-30
+    text: |-
+      Sandra co-organizes the [Transformation Tool Contest 2025](https://conf.researchr.org/home/staf-2025/ttc-2025) and the [9th SECPPS Workshop](https://rickrabiser.github.io/secpps-ws/se25/)
+  - datetime: 2024-11-25
+    text: |-
+      Valentino Picotti successfully defended his PhD Thesis on [_"Language Support for Microservices Development"_](https://doi.org/10.21996/ryyc-7h13). 
+  - datetime: 2024-11-18
+    text: |-
+      The paper 'A Conceptual Framework for API Refactoring in Enterprise Application Architectures' by Fabrizio Montesi, Marco Peressotti, and Valentino Picotti has been accepted at [ESOCC 2025](https://conf.researchr.org/home/esocc-2025)!
+  - datetime: 2024-11-15
+    text: |-
+      Siddharth Bhaskar will teach a course _Model theory for phonology_ at [ESSLLI 2025](https://2025.esslli.eu/).
+  - datetime: 2024-11-01
+    text: |-
+      Casper Midtgaard Bach joins ACP as new assistant professor, enriching the section with his expertise in programming languages and formal methods.
+  - datetime: 2024-10-10
+    file: 2024-10-10-new-assistant-professors
+    text: |-
+      Sandra Greiner and Siddharth Bhaskar join ACP as new assistant professors, enriching the section with their expertise in software evolution and fundamental theory at the boundary of algorithms and programming languages.
+  - datetime: 2024-10-07
+    text: |-
+      The paper 'Choreography-Defined Network - A Case Study in DoS Mitigation' by Saverio Giallorenzo, Jacopo Mauro, Andrea Melis, Fabrizio Montesi, Marco Peressotti, and Marco Prandini has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
+  - datetime: 2024-10-07
+    text: |-
+      The paper 'A Toolchain for Checking Domain- and Model-driven Properties of Jolie Microservices' by Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, Sabine Sachweh, and Philip Wizenty has been accepted at [ICSOC 2024](https://icsoc2024.redcad.tn/)!
+  - datetime: 2024-09-05
+    text: |- 
+      The paper [Given an Inch and Take a Mile: Effects of Adding Reliable Knowledge to Heuristic Feature Tracing](https://dl.acm.org/doi/10.1145/3646548.3672593) by Sandra Greiner, Alexander Schultheiss, Paul M. Bittner, Thomas Thüm, and Timo Kehrer was awarded __Best Paper__ at [SPLC 2024](https://2024.splc.net/).
+  - datetime: 2024-08-22
+    text: |-
+      The paper _Automated Generation of Code Contracts -- Generative AI to the Rescue?_ by Sandra Greiner, Noah Bühlmann, Manuel Ohrndorf, Christos Tsigkanos, Oscar Nierstrasz, and Timo Kehrer got accepted at [GPCE 2024](https://2024.splashcon.org/home/gpce-2024).
+  - datetime: 2024-08-13T13:23:00+02:00
+    text: |-
+      The paper [How to Bake a Quantum Pi](https://dl.acm.org/doi/abs/10.1145/3674625) by Jacques Carette, Chris Heunen, Robin Kaarsgaard, and Amr Sabry will appear at ICFP 2024!
+  - datetime: 2024-08-13
+    text: |-
+      The JFP paper [Alice or Bob?: Process polymorphism in choreographies](https://doi.org/10.1017/s0956796823000114) by Eva Graversen, Andrew Hirsch, and Fabrizio Montesi will be presented at ICFP 2024!
+  - datetime: 2024-07-11
+    text: |-
+      The paper 'Ozone: Fully Out-of-Order Choreographies' ([pre-print](https://arxiv.org/abs/2401.17403)) has been accepted at ECOOP 2024!
+  - text: The new ACP website is online!
+    datetime: 2024-07-09T13:28:07+02:00
+  - datetime: 2024-01-16
+    text: |-
+      The paper [Choral: Object-oriented Choreographic Programming](https://dl.acm.org/doi/10.1145/3632398) by Saverio Giallorenzo, Fabrizio Montesi, and Marco Peressotti has been published in TOPLAS!
