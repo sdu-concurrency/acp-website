@@ -79,6 +79,60 @@
       "amount": "~2.3 million DKK (~308k EUR)"
     },
     {
+      "title": "ATLaS - Abstract Techniques for Programming Languages and Secure Compilation",
+      "id": "ATLaS",
+      "website": "https://www.steliostsampas.com/projects/atlas/",
+      "image": "dfg.png",
+      "participants": [
+        {
+          "name": "Stelios Tsampas",
+          "role": "co-PI",
+          "affiliation": "University of Southern Denmark"
+        },
+        {
+          "name": "Sergey Goncharov",
+          "role": "co-PI",
+          "affiliation": "University of Birmingham"
+        },
+        {
+          "name": "Henning Urbat",
+          "role": "Participant",
+          "affiliation": "FAU Erlangen-Nürnberg"
+        },
+        {
+          "name": "Pouya Partow",
+          "role": "PhD student",
+          "affiliation": "University of Birmingham"
+        },
+        {
+          "name": "Stefano Volpe",
+          "role": "PhD student",
+          "affiliation": "University of Southern Denmark"
+        },
+        {
+          "name": "Lutz Schröder",
+          "role": "Participant",
+          "affiliation": "FAU Erlangen-Nürnberg"
+        },
+        {
+          "name": "Stefan Milius",
+          "role": "Participant",
+          "affiliation": "FAU Erlangen-Nürnberg"
+        },
+        {
+          "name": "Marco Peressotti",
+          "role": "Participant",
+          "affiliation": "University of Southern Denmark"
+        }
+      ],
+      "period": {
+        "start": "01-01-2024",
+        "end": "31-12-2026"
+      },
+      "type": "Deutsche Forschungsgemeinschaft",
+      "amount": "674,636 €"
+    },
+    {
       "title": "Cyber Security and Business Continuity",
       "id": "Cyber-SMV",
       "website": "https://cyber-smv.dk/",
