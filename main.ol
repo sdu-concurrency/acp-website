@@ -8,10 +8,6 @@ from file import File
 from @jolie.leonardo import WebFiles
 from @jolie.commonmark import CommonMark
 
-constants {
-	NEWS_PAGE_SIZE = 10
-}
-
 /// Operations offered through the web interface
 interface WebInterface {
 RequestResponse:
