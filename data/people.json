@@ -1,6 +1,19 @@
 {
 	"faculty": [
 		{
+			"name": "Matteo Acclavio",
+			"role": "Assistant Professor",
+			"dblp": "182/1948",
+			"gscholar": "R5Oy8AIAAAAJ",
+			"orcid": "0000-0002-0425-2825",
+			"email": "macclavio@gmail.com",
+			"photo": "/images/people/macclavio-p.jpg",
+			"office": {
+				"label": "Ø16-601a-2",
+				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969"
+			}
+		},
+		{
 			"id": "cbach",
 			"name": "Casper Midtgaard Bach",
 			"role": "Assistant Professor",
@@ -13,14 +26,6 @@
 			"github": "casperbp",
 			"website": "https://casperbp.net/",
 			"email": "casperbach@imada.sdu.dk"
-		},
-		{
-			"id": "dtaibi",
-			"name": "Davide Taibi",
-			"role": "Professor",
-			"photo": "/images/people/dtaibi-p.jpg",
-			"dblp": "68/732-1",
-			"email": "taibi@imada.sdu.dk"
 		},
 		{
 			"id": "vlenarduzzi",
@@ -193,14 +198,7 @@
 			"website": "https://marcoperessotti.com",
 			"mastodon": "https://mastodon.social/@mperessotti",
 			"bluesky": "https://bsky.app/profile/mperessotti.bsky.social",
-			"photo": "/images/people/mperessotti-p.jpg",
-			"research_topics": [
-				"Concurrency",
-				"Distributed Systems",
-				"Formal Methods",
-				"Microservices",
-				"Programming Languages"
-			]
+			"photo": "/images/people/mperessotti-p.jpg"
 		},
 		{
 			"name": "Marco Prandini",
@@ -215,6 +213,14 @@
 				"e-voting",
 				"software-defined networking"
 			]
+		},
+		{
+			"id": "dtaibi",
+			"name": "Davide Taibi",
+			"role": "Professor",
+			"photo": "/images/people/dtaibi-p.jpg",
+			"dblp": "68/732-1",
+			"email": "taibi@imada.sdu.dk"
 		},
 		{
 			"id": "stsampas",
@@ -272,6 +278,13 @@
 				"label": "Ø9-602b-2",
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b"
 			}
+		},
+		{
+			"id": "mt",
+			"name": "Matteo Trentin",
+			"role": "Research Assistant",
+			"photo": "/images/people/mtrentin-p.jpg",
+			"email": "trentin@imada.sdu.dk"
 		}
 	],
 	"phdstudents": [
@@ -378,13 +391,6 @@
 				"label": "Ø9-602a-2",
 				"link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
 			}
-		},
-		{
-			"id": "mt",
-			"name": "Matteo Trentin",
-			"role": "PhD Student",
-			"photo": "/images/people/mtrentin-p.jpg",
-			"email": "trentin@imada.sdu.dk"
 		}
 	],
 	"taps": [
@@ -454,15 +460,6 @@
 				"choreographic programming",
 				"programming languages"
 			]
-		},
-		{
-			"name": "Matteo Acclavio",
-			"role": "Postdoctoral Researcher",
-			"dblp": "182/1948",
-			"gscholar": "R5Oy8AIAAAAJ",
-			"orcid": "0000-0002-0425-2825",
-			"email": "macclavio@gmail.com",
-			"photo": "/images/people/macclavio-p.jpg"
 		},
 		{
 			"name": "Luís Cruz-Filipe",
