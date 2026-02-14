@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACP Seminar</title>
+    <link>https://plsl.acp.sdu.dk/seminar</link>
+    <description>Talks of the ACP Seminar</description>
+    <generator>Leonardo: the Jolie Web Server</generator>
+    <language>en-GB</language>
+    <copyright>© ACP</copyright>
+    <atom:link href="https://acp.sdu.dk/seminar/index.xml" rel="self" type="application/rss+xml" />
+  {{#seminar}}
+  {{#items}}
+    <item>
+      <title>ACP Seminar Talk{{#title}}: "{{.}}"{{/title}}</title>
+      <link>https://plsl.acp.sdu.dk/seminar</link>
+      <pubDate>{{pubDate}}</pubDate>
+      <author>{{speaker}}</author>
+      <guid isPermaLink="false">{{guid}}</guid>
+      <description><![CDATA[
+        Time: {{humanReadableDatetime}}<br/>
+        Location: {{#map}}<a href="{{.}}">{{/map}}{{location}}{{#map}}</a>{{/map}}<br/>
+        Video meeting: {{#videomeeting}}<a href="{{.}}">click here</a>{{/videomeeting}}<br/>
+        <p>{{abstract}}</p>]]></description>
+    </item>
+  {{/items}}
+  {{/seminar}}
+  </channel>
+</rss>

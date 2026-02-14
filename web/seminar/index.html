@@ -1,6 +1,10 @@
 {{< page-container.html}}
 {{$title}}Seminar{{/title}}
 {{$content}}
+<p class="mt-4 text-right">
+	<a href="./index.xml" title="RSS"><i class="fa-solid fa-rss"></i></a>
+	<a href="./index.ics" title="ICAL"><i class="fa-solid fa-calendar"></i></a>
+  </p>
 <ul>
   {{#seminar}}
   {{#items}}
@@ -9,7 +13,12 @@
     | {{#map}}<a href="{{.}}">{{/map}}{{location}}{{#map}}</a>{{/map}}
     {{#videomeeting}} | <a href="{{.}}">video meeting</a>{{/videomeeting}}
   </i></p>
-  <p>{{abstract}}</p>
+  {{#abstract}}
+  <details>
+    <summary>Abstract</summary>
+    <p>{{.}}</p>
+  </details>
+  {{/abstract}}
   {{/items}}
   {{/seminar}}
 </ul>
