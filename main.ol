@@ -5,6 +5,7 @@ from mustache import Mustache
 from reflection import Reflection
 from runtime import Runtime
 from file import File
+from time import Time
 from @jolie.leonardo import WebFiles
 from @jolie.commonmark import CommonMark
 
@@ -41,6 +42,26 @@ type ResearchIndexData {
 	}
 }
 
+/// A single ACP seminar talk
+type SeminarTalk {
+  title?: string
+  from: string
+  to: string
+  humanReadableDatetime?: string
+  location: string
+  map?: string
+  videomeeting?: string
+  speaker: string
+  abstract?: string
+}
+
+/// Scheduled ACP seminar talks
+type SeminarData {
+  seminar {
+    items*: SeminarTalk
+  }
+}
+
 /// Operations that generate the data needed by the Mustache templates
 interface MustacheOperations {
 RequestResponse:
@@ -51,7 +72,14 @@ RequestResponse:
 	researchIndex( void )( ResearchIndexData ),
 
 	/// Gets the data needed by the news.html page
-	news( void )( NewsData )
+	news( void )( NewsData ),
+
+	/// Gets the data needed by the seminar pages
+	seminar( void )( SeminarData ),
+
+	/// Gets the data needed by the seminar pages, but with the datetimes in a
+  /// human readable format
+	seminarHumanReadable( void )( SeminarData )
 }
 
 service Main {
@@ -64,6 +92,7 @@ service Main {
 	embed Runtime as runtime
 	embed Reflection as reflection
 	embed File as file
+  embed Time as time
 	embed CommonMark as commonMark
 
 	inputPort WebInput {
@@ -105,6 +134,7 @@ service Main {
 		global.dataBindings.("/index.html") = "index"
 		global.dataBindings.("/research/index.html") = "researchIndex"
 		global.dataBindings.("/news.html") = "news"
+		global.dataBindings.("/seminar.html") = "seminarHumanReadable"
 	}
 
 	main {
@@ -178,6 +208,26 @@ service Main {
              	item.datetime = s.result[0]
 				render@commonMark( item.text )( item.text )
 			}
+		} ]
+
+		[ seminar()( response ) {
+			readFile@file( { filename = "data/seminar.json", format = "json" } )( response.seminar )
+		} ]
+
+		[ seminarHumanReadable()( response ) {
+			seminar@self()( response )
+			for( item in response.seminar.items ) {
+        // getDateTimeValues@time does not seem to work?
+        fmt@stringUtils( "{y}/{m}/{d}, {hf}:{mf}-{ht}:{mt}" {
+          y = substring@stringUtils( item.from { begin = 0, end = 4 } ),
+          m = substring@stringUtils( item.from { begin = 4, end = 6 } ),
+          d = substring@stringUtils( item.from { begin = 6, end = 8 } ),
+          hf = substring@stringUtils( item.from { begin = 9, end = 11 } ),
+          mf = substring@stringUtils( item.from { begin = 11, end = 13 } ),
+          ht = substring@stringUtils( item.to { begin = 9, end = 11 } ),
+          mt = substring@stringUtils( item.to { begin = 11, end = 13 } ),
+          } )( item.humanReadableDatetime )
+      }
 		} ]
 	}
 }

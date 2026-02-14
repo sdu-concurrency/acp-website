@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "title": "Software Architects Are Dead—Long Live the AI-Augmented Architect!",
+      "from": "20260119T141500",
+      "to": "20260119T150000",
+      "location": "IMADA meeting room 4",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Davide Taibi (SDU Veijle)",
+      "abstract": "What if the future of software architecture doesn’t need architects as we know them? As GenAI infiltrates every stage of the software development lifecycle, the traditional role of the architect—meticulously designing systems from requirements to deployment—is being unbundled, redefined, and partially outsourced to machines. And yet, the industry is far from ready.\nThis keynote presents a bold vision of the AI-Augmented Architect: a hybrid thinker who doesn’t write blueprints alone but designs with AI, using it not as a tool—but as a creative partner, a challenger, a simulator of trade-offs. Drawing from two cutting-edge empirical studies, including a multivocal review of GenAI in software architecture and a forward-looking survey of industry leaders, we’ll confront hard truths: AI is already doing architectural documentation, detecting antipatterns, and even suggesting design alternatives. But it’s also hallucinating, biasing decisions, and eroding accountability.\nIf we don’t rethink our roles, methods, and mindset, software architects risk becoming passive validators of AI output rather than strategic designers of complex systems. The good news? There is still time to adapt—but only if we embrace a future where architecture is not less human, but more profoundly human because of our collaboration with machines."
+    },
+    {
+      "title": "New quality-of-life features for the Choral compiler",
+      "from": "20260209T150000",
+      "to": "20260209T154500",
+      "location": "IMADA meeting room 4",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Malthe Petersen (Dan Plyukhin's M.Sc. student)"
+    },
+    {
+      "title": "Synthesizing Feature Models from Rust Configurations with an FCA-based analysis",
+      "from": "20260216T131500",
+      "to": "20260216T140000",
+      "location": "IMADA meeting room 3",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad58",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Bjarke Paluszewski (Sandra Greiner's M.Sc. student)",
+      "abstract": "Rust is a modern language that guarantees memory-safety while supporting low-level concepts similar to C and C++. Particularly, it has a built-in feature-expression language and allows for configuring the usage of Rust crates (libraries) used in other Rust projects. Yet the variability in the Rust ecosystem remains largely undiscovered leaving developers confronted with several issues such as including too many unnecessary features, feature versioning, and possible feature interactions. In our talk, we demonstrate how to analyze the variability inherent in single Rust crates. We show how a feature model can be synthesized by different Rust configurations (selection of features of a used Rust library in another Rust project) using an FCA based method. We analyze the resulting feature models to understand the size of the configuration space and the usage of features among Rust libraries."
+    },
+    {
+      "from": "20260223T141500",
+      "to": "20260223T150000",
+      "location": "IMADA meeting room 4",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Robin Kaarsgaard Sales"
+    },
+    {
+      "from": "20260302T141500",
+      "to": "20260302T150000",
+      "location": "IMADA meeting room 4",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Dan Plyukhin"
+    }
+  ]
+}
