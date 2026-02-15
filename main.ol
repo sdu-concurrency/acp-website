@@ -134,6 +134,7 @@ service Main {
 		global.dataBindings.("/news.html") = "news"
 		global.dataBindings.("/seminar/index.html") = "seminar"
 		global.dataBindings.("/seminar/index.xml") = "seminar"
+		global.dataBindings.("/seminar/index.ics") = "seminar"
 	}
 
 	main {
