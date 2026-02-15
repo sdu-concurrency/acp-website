@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-https://acp.sdu.dk/seminar.html
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ACP
+X-WR-CALDESC:ACP Seminar
+X-WR-TIMEZONE:Europe/Copenhagen
+METHOD:PUBLISH
+{{#seminar}}
+{{#items}}
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Speaker: {{speaker}}\nTime: {{humanReadableDatetime}}\n{{#map}}Directions: {{.}}\n{{/map}}{{#videomeeting}}Video meeting: {{.}}\n{{/videomeeting}}\n{{abstract}}
+DTSTART:{{from}}
+DTEND:{{to}}
+LOCATION:{{location}}
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ACP Seminar Talk{{#title}}: "{{.}}"{{/title}}
+TRANSP:OPAQUE
+URL:https://acp.sdu.dk/seminar.html
+UID:{{guid}}
+END:VEVENT
+{{/items}}
+{{/seminar}}
+END:VCALENDAR

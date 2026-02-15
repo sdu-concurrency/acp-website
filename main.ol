@@ -5,6 +5,7 @@ from mustache import Mustache
 from reflection import Reflection
 from runtime import Runtime
 from file import File
+from values import Values
 from @jolie.leonardo import WebFiles
 from @jolie.commonmark import CommonMark
 
@@ -41,6 +42,28 @@ type ResearchIndexData {
 	}
 }
 
+/// A single ACP seminar talk
+type SeminarTalk {
+  title?: string
+  from: string
+  to: string
+  location: string
+  map?: string
+  videomeeting?: string
+  speaker: string
+  abstract?: string
+  pubDate: string
+  humanReadableDatetime: string
+  guid: int
+}
+
+/// Scheduled ACP seminar talks
+type SeminarData {
+  seminar {
+    items*: SeminarTalk
+  }
+}
+
 /// Operations that generate the data needed by the Mustache templates
 interface MustacheOperations {
 RequestResponse:
@@ -51,7 +74,10 @@ RequestResponse:
 	researchIndex( void )( ResearchIndexData ),
 
 	/// Gets the data needed by the news.html page
-	news( void )( NewsData )
+	news( void )( NewsData ),
+
+	/// Gets the data needed by the seminar pages
+	seminar( void )( SeminarData ),
 }
 
 service Main {
@@ -64,6 +90,7 @@ service Main {
 	embed Runtime as runtime
 	embed Reflection as reflection
 	embed File as file
+  embed Values as values
 	embed CommonMark as commonMark
 
 	inputPort WebInput {
@@ -105,6 +132,9 @@ service Main {
 		global.dataBindings.("/index.html") = "index"
 		global.dataBindings.("/research/index.html") = "researchIndex"
 		global.dataBindings.("/news.html") = "news"
+		global.dataBindings.("/seminar/index.html") = "seminar"
+		global.dataBindings.("/seminar/index.xml") = "seminar"
+		global.dataBindings.("/seminar/index.ics") = "seminar"
 	}
 
 	main {
@@ -178,6 +208,23 @@ service Main {
              	item.datetime = s.result[0]
 				render@commonMark( item.text )( item.text )
 			}
+		} ]
+
+		[ seminar()( response ) {
+			readFile@file( { filename = "data/seminar.json", format = "json" } )( response.seminar )
+			for ( i in response.seminar.items) {
+        i.guid = hashCode@values( i )
+        // getDateTimeValues does not seem to work?
+        i.humanReadableDatetime = fmt@stringUtils( "{y}/{m}/{d}, {hf}:{mf}-{ht}:{mt}" {
+        y = substring@stringUtils( i.from { begin = 0, end = 4 } ),
+        m = substring@stringUtils( i.from { begin = 4, end = 6 } ),
+        d = substring@stringUtils( i.from { begin = 6, end = 8 } ),
+        hf = substring@stringUtils( i.from { begin = 9, end = 11 } ),
+        mf = substring@stringUtils( i.from { begin = 11, end = 13 } ),
+        ht = substring@stringUtils( i.to { begin = 9, end = 11 } ),
+        mt = substring@stringUtils( i.to { begin = 11, end = 13 } ),
+        } )
+      }
 		} ]
 	}
 }

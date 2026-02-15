@@ -1,0 +1,26 @@
+{{< page-container.html}}
+{{$title}}Seminar{{/title}}
+{{$content}}
+<p class="mt-4 text-right">
+	<a href="./index.xml" title="RSS"><i class="fa-solid fa-rss"></i></a>
+	<a href="webcal://acp.sdu.dk/seminar/index.ics" title="ICAL"><i class="fa-solid fa-calendar"></i></a>
+  </p>
+<ul>
+  {{#seminar}}
+  {{#items}}
+  <h2>{{humanReadableDatetime}} {{#title}}— {{.}}{{/title}}</h2>
+  <p><i>{{speaker}}
+    | {{#map}}<a href="{{.}}">{{/map}}{{location}}{{#map}}</a>{{/map}}
+    {{#videomeeting}} | <a href="{{.}}">video meeting</a>{{/videomeeting}}
+  </i></p>
+  {{#abstract}}
+  <details>
+    <summary>Abstract</summary>
+    <p>{{.}}</p>
+  </details>
+  {{/abstract}}
+  {{/items}}
+  {{/seminar}}
+</ul>
+{{/content}}
+{{/page-container.html}}
