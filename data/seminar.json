@@ -33,12 +33,14 @@
       "pubDate": "Tue, 28 Oct 2025 00:00:00 +0000"
     },
     {
+      "title": "Free Quantum Computing",
       "from": "20260223T141500",
       "to": "20260223T150000",
       "location": "IMADA meeting room 4",
       "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
       "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
       "speaker": "Robin Kaarsgaard Sales",
+      "abstract": "Quantum computing improves substantially on known classical algorithms for various important problems, but the nature of the relationship between quantum and classical computing is not yet fully understood. This relationship can be clarified by free models, that add to classical computing just enough physical principles to represent quantum computing and no more. In this talk, I will describe an axiomatisation of quantum computing that replaces the standard continuous postulates with a small number of discrete equations, as well as a free model that replaces the standard linear-algebraic model with a category-theoretical one. The axioms and model are based on reversible classical computing, isolate quantum advantage in the ability to take certain well-behaved square roots, and link to various quantum computing hardware platforms. This approach allows combinatorial optimisation, including brute force computer search, to optimise quantum computations. The free model may be interpreted as a programming language for quantum computers, that has the same expressivity and computational universality as the standard model, but additionally allows automated verification and reasoning.",
       "pubDate": "Wed, 29 Oct 2025 00:00:00 +0000"
     },
     {
