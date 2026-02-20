@@ -50,7 +50,19 @@
       "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
       "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
       "speaker": "Dan Plyukhin",
-      "pubDate": "Thu, 30 Oct 2025 00:00:00 +0000"
+      "abstract": "The world relies on distributed systems, but distributed systems can be unreliable. Crashes, hangs, and data corruption happen in even the most battle-tested systems, all because some programmer didn't think "event B" would ever happen before "event A". Most distributed systems have too many event orderings to consider them all, making some bugs appear impossible to prevent---and as systems become more distributed and more of our code is written by mercurial LLMs, these bugs are becoming more of a problem. In this talk, I'll show how programming language research is giving us the tools to build faster, safer, and simpler distributed systems. We'll explore some of the elegant mathematics behind these tools and wrap up with a few fun ideas on the horizon.",
+      "pubDate": "Fri, 20 Feb 2025 00:00:00 +0000"
+    },
+    {
+      "from": "20260309T141500",
+      "to": "20260309T150000",
+      "location": "IMADA meeting room 4",
+      "map": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3",
+      "videomeeting": "https://syddanskuni.zoom.us/j/62541149009",
+      "speaker": "Stefano Volpe",
+      "title": "Towards a Higher-Order Bialgebraic Denotational Semantics",
+      "abstract": "The bialgebraic abstract GSOS framework by Turi and Plotkin provides an elegant categorical approach to modelling the operational and denotational semantics of programming and process languages in such a way that the denotational semantics is always compositional, that is, behavioural equivalence is a congruence with respect to the language operations. This saves the language designer from intricate, ad-hoc compositionality proofs. The bialgebraic perspective on operational semantics in the style of abstract GSOS has recently been extended to higher-order languages, preserving the compositionality result.  However, a categorical understanding of bialgebraic denotational semantics according to Turi and Plotkin’s original vision has so far been missing in the higher-order setting. In the present paper, we develop a theory of adequate denotational semantics in higher-order abstract GSOS. The denotational models are parametric in an appropriately chosen semantic domain in the form of a locally final coalgebra for a behaviour bifunctor, whose construction is fully decoupled from the syntax of the language. Our approach captures existing accounts of denotational semantics such as semantic domains built via general step-indexing, previously introduced on a per- language basis, and is shown to be applicable to a wide range of different higher-order languages, e.g. simply typed and untyped languages, or languages with computational effects such as probabilistic or non-deterministic branching.",
+      "pubDate": "Fri, 20 Feb 2025 00:00:00 +0000"
     }
   ]
 }
