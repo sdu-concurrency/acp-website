@@ -1,0 +1,410 @@
+faculty:
+  - name: Matteo Acclavio
+    role: Assistant Professor
+    dblp: 182/1948
+    gscholar: R5Oy8AIAAAAJ
+    orcid: 0000-0002-0425-2825
+    email: macclavio@gmail.com
+    photo: /images/people/macclavio-p.jpg
+    office:
+      label: Ø16-601a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969
+  - id: cbach
+    name: Casper Midtgaard Bach
+    role: Assistant Professor
+    photo: /images/people/cbach-p.jpg
+    dblp: 143/2646
+    phone: +45 65507259
+    orcid: 0000-0003-0622-7639
+    gscholar: cK5ddQ4AAAAJ
+    linkedin: casperbp
+    github: casperbp
+    website: https://casperbp.net/
+    email: casperbach@imada.sdu.dk
+  - id: vlenarduzzi
+    name: Valentina Lenarduzzi
+    role: Vice Head of the ACP Section, Professor
+    photo: /images/people/vlenarduzzi-p.jpg
+    dblp: 118/9914
+    email: taibi@imada.sdu.dk
+  - id: sbashkar
+    name: Siddharth Bhaskar
+    role: Assistant Professor
+    photo: /images/people/sbhaskar-p.jpg
+    dblp: 170/0077
+    email: bhaskar@imada.sdu.dk
+  - id: sgreiner
+    name: Sandra Greiner
+    role: Associate Professor
+    photo: /images/people/sgreiner-p.jpg
+    dblp: 183/9453
+    orcid: 0000-0001-8950-0092
+    bluesky: https://bsky.app/profile/sandragreiner.bsky.social
+    github: sandragreiner
+    email: greiner@imada.sdu.dk
+    website: https://sandragreiner.github.io/
+  - id: rkaarsgaard
+    name: Robin Kaarsgaard
+    role: Associate Professor
+    phone: +45 65503568
+    office:
+      label: Ø14-602b-1
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a20a
+    dblp: 163/9898
+    gscholar: 1QjGyoMAAAAJ
+    orcid: 0000-0002-7672-799X
+    github: rkaarsgaard
+    twitter: manchegobaby
+    linkedin: rkaarsgaard
+    email: kaarsgaard@imada.sdu.dk
+    photo: /images/people/rkaarsgaard-p.jpg
+    website: https://rkaarsgaard.github.io/
+    research_topics:
+      - Quantum Computing
+      - Programming Languages
+      - Applied Category Theory
+      - Semantics
+      - Logic
+  - name: Jacopo Mauro
+    role: Professor
+    id: jm
+    email: mauro@imada.sdu.dk
+    phone: +45 65 50 25 72
+    office:
+      label: Ø13-604a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a90a
+    dblp: 53/1605
+    gscholar: brh_I2kAAAAJ
+    orcid: 0000-0002-5285-2868
+    github: https://github.com/jacopoMauro
+    website: https://jacopomauro.com/
+    twitter: jacopo_mauro
+    linkedin: jacopo-mauro
+    photo: /images/people/jmauro-p.jpg
+    research_topics:
+      - optimization
+      - formal methods
+      - cloud computing
+      - service-oriented computing
+      - concurrent languages
+      - AI planning
+      - machine learning
+  - id: pmayer
+    name: Peter Mayer
+    role: Associate Professor
+    phone: +45 65503531
+    office:
+      label: Ø14-602a-1
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a209
+    gscholar: eNveze4AAAAJ
+    orcid: 0000-0002-6267-4874
+    dblp: 36/111-1
+    github: petermayer
+    email: mayer@imada.sdu.dk
+    photo: /images/people/pmayer-p.jpg
+    research_topics:
+      - Usable Authentication
+      - Password Managers
+      - Security Awareness
+      - Email Security
+      - Notifications
+  - name: Fabrizio Montesi
+    role: Head of the ACP Section, Professor
+    id: fm
+    email: fmontesi@imada.sdu.dk
+    phone: +45 65 50 71 71
+    office:
+      label: Ø16-603a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b6423b7d0540c9a96d
+    website: https://www.fabriziomontesi.com/
+    orcid: 0000-0003-4666-901X
+    gscholar: zRA6uA4AAAAJ
+    dblp: 65/3603
+    github: fmontesi
+    twitter: famontesi
+    linkedin: fmontesi
+    mastodon: https://mastodon.social/@fmontesi
+    research_topics:
+      - Choreographic Programming
+      - Concurrency
+      - Jolie
+      - Microservices
+      - Programming Languages
+      - Session Types
+    photo: /images/people/fmontesi-p.jpg
+  - name: Ruben Niederhagen
+    role: Associate Professor
+    id: rn
+    phone: +45 65508617
+    dblp: 62/7604
+    gscholar: uG44TOwAAAAJ
+    orcid: ""
+    github: ""
+    twitter: ""
+    linkedin: ruben-niederhagen
+    website: http://www.polycephaly.org/
+    email: niederhagen@imada.sdu.dk
+    photo: /images/people/rniederhagen-p.jpg
+    research_topics:
+      - Post-Quantum Cryptography
+      - Cryptographic Engineering
+      - Embedded Security
+  - name: Marco Peressotti
+    role: Associate Professor
+    id: mp
+    phone: +45 65509026
+    office:
+      label: Ø16-601a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969
+    dblp: 136/6159
+    gscholar: O9ZAc-MAAAAJ
+    orcid: 0000-0002-0243-0480
+    github: mperessotti
+    linkedin: marco-peressotti
+    email: peressotti@imada.sdu.dk
+    website: https://marcoperessotti.com
+    mastodon: https://mastodon.social/@mperessotti
+    bluesky: https://bsky.app/profile/mperessotti.bsky.social
+    photo: /images/people/mperessotti-p.jpg
+  - name: Marco Prandini
+    role: Adjunct Professor
+    id: mprandini
+    photo: /images/people/mprandini-p.jpg
+    website: https://www.unibo.it/sitoweb/marco.prandini/en
+    email: marco.prandini@unibo.it
+    affiliation: University of Bologna, Italy
+    research_topics:
+      - security
+      - e-voting
+      - software-defined networking
+  - id: dtaibi
+    name: Davide Taibi
+    role: Professor
+    photo: /images/people/dtaibi-p.jpg
+    dblp: 68/732-1
+    email: taibi@imada.sdu.dk
+  - id: stsampas
+    name: Stelios Tsampas
+    role: Assistant Professor
+    photo: /images/people/stsampas-p.jpg
+    dblp: 245/2735-1
+    orcid: 0000-0001-8981-2328
+    gscholar: P_acVKwAAAAJ
+    linkedin: stelios-tsampas-96065b61
+    github: stelios-tau
+    website: https://www.steliostsampas.com/
+postdocs:
+  - name: Dan Plyukhin
+    role: Postdoctoral Researcher
+    id: dp
+    photo: /images/people/dplyukhin-p.jpg
+    phone: +45 65 50 72 56
+    dblp: 232/0111
+    gscholar: MPmNRGIAAAAJ
+    github: dplyukhin
+    bluesky: https://bsky.app/profile/dplyukhin.bsky.social
+    orcid: 0009-0004-8712-7895
+    linkedin: dplyukhin
+    twitter: dplyukhin
+    email: dplyukhin@imada.sdu.dk
+    website: https://dplyukhin.github.io
+    research_topics:
+      - Choreographic Programming
+      - Actor Model
+      - Cloud Computing
+      - Programming Languages
+  - name: Xueying Qin
+    role: Postdoctoral Researcher
+    id: xq
+    photo: /images/people/xqin-p.jpg
+    gscholar: 21KF3zQAAAAJ
+    email: xyqin@imada.sdu.dk
+    twitter: x_null_y
+    website: https://xyunknown.github.io/
+  - name: Giulia Manara
+    role: Postdoctoral Researcher
+    id: gm
+    photo: /images/people/gmanara-p.jpg
+    email: manara@imada.sdu.dk
+    office:
+      label: Ø9-602b-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+  - id: mt
+    name: Matteo Trentin
+    role: Research Assistant
+    photo: /images/people/mtrentin-p.jpg
+    email: trentin@imada.sdu.dk
+phdstudents:
+  - name: Judith Kankam-Boateng
+    role: PhD Student
+    id: jkb
+    photo: /images/people/jkankam-boateng-p.jpg
+    email: jukan@imada.sdu.dk
+    office:
+      label: Ø9-602a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    research_topics:
+      - Cybersecurity
+  - name: Viktor Strate Kløvedal
+    role: PhD Student
+    id: viktorstrate
+    photo: /images/people/viktorstrate-p.jpg
+    email: viktorstrate@imada.sdu.dk
+    linkedin: viktorstrate
+    website: https://qpqp.dk/
+    github: viktorstrate
+    mastodon: https://mastodon.social/@viktorstrate
+    office:
+      label: Ø9-602b-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+    research_topics:
+      - choreographic programming
+      - programming languages
+  - name: Marco Santamaria
+    role: PhD Student
+    id: ms
+    photo: /images/people/msantamaria.jpg
+    email: santamaria@imada.sdu.dk
+    office:
+      label: Ø9-602b-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+  - name: Sofia Kostopoulou
+    role: PhD Student
+    id: sk
+    photo: /images/people/skos-p.jpg
+    email: skos@sdu.dk
+    linkedin: sophia-kostopoulou-239a6b40
+    office:
+      label: Ø9-602a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    research_topics:
+      - jolie
+      - microservices
+      - artificial intelligence
+      - data analytics
+  - name: Giorgia Sampó
+    role: PhD Student
+    id: gs
+    photo: /images/people/gsampo-p.jpg
+    email: gisa@sam.sdu.dk
+    research_topics:
+      - Organisation Theory
+      - Distributed Systems
+  - name: Alessio Pellegrino
+    role: PhD Student
+    id: ap
+    gscholar: QyOhJCwAAAAJ
+    github: SeppiaBrilla
+    orcid: 0009-0005-3173-2532
+    photo: /images/people/apellegrino-p.jpg
+    email: alessio@imada.sdu.dk
+    office:
+      label: Ø9-601b-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59
+  - name: Stefano Volpe
+    role: PhD Student
+    id: sv
+    photo: /images/people/svolpe-p.jpg
+    email: stefano@imada.sdu.dk
+    phone: +31 06 3968 77 26
+    orcid: 0009-0003-5277-1958
+    website: https://foxy.codeberg.page
+    fediverse: https://blahaj.zone/@foxy
+    matrix: '@foxy:teapot.ovh'
+    forge: https://codeberg.org/foxy
+    office:
+      label: Ø9-602a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+taps:
+  - name: Narongrit Unwerawattana
+    role: Scientific Software Developer
+    id: nu
+    github: kicito
+    photo: /images/people/nunwerawattana-p.jpg
+    email: nau@sdu.dk
+    office:
+      label: Ø9-601b-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59
+    research_topics:
+      - Jolie
+      - microservices
+discharged:
+  - name: Larisa Safina
+    role: PhD Student
+    id: ls
+    dblp: 172/1245
+    gscholar: XifW61cAAAAJ
+    orcid: 0000-0002-4490-7451
+    github: lsafina
+    linkedin: lsafina
+    photo: /images/people/lsafina-p.jpg
+    _email: safina@imada.sdu.dk
+    research_topics:
+      - microservices
+      - choreographic programming
+  - name: Lovro Lugović
+    role: Guest Researcher
+    id: ll
+    github: lovrosdu
+    photo: /images/people/llugovic-p.jpg
+    email: lugovic@imada.sdu.dk
+    office:
+      label: Ø9-602a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    research_topics:
+      - programming languages
+      - choreographic programming
+  - name: Valentino Picotti
+    role: Postdoctoral Researcher
+    id: vp
+    github: xpicox
+    photo: /images/people/vpicotti-p.jpg
+    email: picotti@imada.sdu.dk
+    office:
+      label: Ø9-602a-2
+      link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    research_topics:
+      - microservices
+      - choreographic programming
+      - programming languages
+  - name: Luís Cruz-Filipe
+    role: Associate Professor
+    id: lcf
+    dblp: 21/4578
+    orcid: 0000-0002-7866-7484
+    photo: /images/people/lcruz-filipe-p.jpg
+  - name: Eva Graversen
+    role: Postdoctoral Researcher
+    id: eg
+    dblp: 199/2114
+    github: evagraver
+    photo: /images/people/egraversen-p.jpg
+  - name: Saverio Giallorenzo
+    role: Postdoctoral Researcher
+    id: sg
+    dblp: 146/2078
+    gscholar: 4CLysk8AAAAJ
+    orcid: 0000-0002-3658-6395
+    github: thesave
+    twitter: realThesave
+    linkedin: saverio-giallorenzo-4947b920
+    website: http://saveriogiallorenzo.com
+    photo: /images/people/sgiallorenzo-p.jpg
+    _email: saverio@imada.sdu.dk
+    research_topics:
+      - adaptation
+      - choreographic programming
+      - microservices
+      - security
+      - smart cities
+      - internet of things
+  - name: Jonas Vistrup
+    role: PhD Student
+    id: vistrup
+    photo: /images/people/vistrup-p.jpg
+    email: vistrup@imada.sdu.dk
+    linkedin: jonas-vistrup-810677154
+    research_topics:
+      - artificial intelligence
+      - logic programming
+    with_cake: true

@@ -193,12 +193,12 @@ service Main {
 		} ]
 
 		[ index()( response ) {
-			readFile@file( { filename = "data/people.json", format = "json" } )( response.people )
+			readFile@file( { filename = "data/people.yaml", format = "yaml" } )( response.people )
 			getVersion@runtime()( response.jolieVersion )
 		} ]
 
 		[ researchIndex()( response ) {
-			readFile@file( { filename = "data/grants.json", format = "json" } )( response.grants )
+			readFile@file( { filename = "data/grants.yaml", format = "yaml" } )( response.grants )
 		} ]
 
 		[ news()( response ) {
@@ -211,7 +211,7 @@ service Main {
 		} ]
 
 		[ seminar()( response ) {
-			readFile@file( { filename = "data/seminar.json", format = "json" } )( response.seminar )
+			readFile@file( { filename = "data/seminar.yaml", format = "yaml" } )( response.seminar )
 			for ( i in response.seminar.items) {
         i.guid = hashCode@values( i )
         // getDateTimeValues does not seem to work?

@@ -1,0 +1,345 @@
+items:
+  - title: 'FunQ: Quantum Programming Beyond the Circuit Model'
+    id: FunQ
+    image: dff.jpg
+    participants:
+      - name: Robin Kaarsgaard
+        role: PI
+        affiliation: University of Southern Denmark
+    period:
+      start: 01-09-2025
+      end: 31-08-2029
+    type: Independent Research Fund Denmark - Natural Sciences
+    amount: 6,181,920 DKK
+  - title: 'Choreographies for Distributed Systems: Reasoning, Expressivity, and Development (CHORDS)'
+    id: CHORDS
+    image: chords.png
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+    _number: ""
+    period:
+      start: "2024"
+      end: "2029"
+    type: European Research Council (ERC) Consolidator Grant
+    amount: ~2 million EUR (~15 million DKK)
+    website: https://www.fabriziomontesi.com/projects/chords/
+  - title: Enhancing Digital Security Behaviour with Chatbots
+    id: DIGSmart
+    website: https://www.sdu.dk/en/om-sdu/institutter-centre/institut-erhverv-baeredygtighed/forskning/forskningsprojekter/digsmart
+    image: digsmart.png
+    participants:
+      - name: Stefanie Sohn
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Peter Mayer
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Dominik Siemon
+        role: Participant
+        affiliation: LUT University
+      - name: Oliver Schnittka
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Narongrit Unwerawattana
+        role: Developer
+        affiliation: University of Southern Denmark
+    _number: ""
+    period:
+      start: "2024"
+      end: "2027"
+    type: TrygFonden
+    amount: ~2.3 million DKK (~308k EUR)
+  - title: ATLaS - Abstract Techniques for Programming Languages and Secure Compilation
+    id: ATLaS
+    website: https://www.steliostsampas.com/projects/atlas/
+    image: dfg.png
+    participants:
+      - name: Stelios Tsampas
+        role: co-PI
+        affiliation: University of Southern Denmark
+      - name: Sergey Goncharov
+        role: co-PI
+        affiliation: University of Birmingham
+      - name: Henning Urbat
+        role: Participant
+        affiliation: FAU Erlangen-Nürnberg
+      - name: Pouya Partow
+        role: PhD student
+        affiliation: University of Birmingham
+      - name: Stefano Volpe
+        role: PhD student
+        affiliation: University of Southern Denmark
+      - name: Lutz Schröder
+        role: Participant
+        affiliation: FAU Erlangen-Nürnberg
+      - name: Stefan Milius
+        role: Participant
+        affiliation: FAU Erlangen-Nürnberg
+      - name: Marco Peressotti
+        role: Participant
+        affiliation: University of Southern Denmark
+    period:
+      start: 01-01-2024
+      end: 31-12-2026
+    type: Deutsche Forschungsgemeinschaft
+    amount: 674,636 €
+  - title: Cyber Security and Business Continuity
+    id: Cyber-SMV
+    website: https://cyber-smv.dk/
+    image: cyber-smv.jpg
+    participants:
+      - name: Jan Stentoft
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Marco Peressotti
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Peter Mayer
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Fabrizio Montesi
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Narongrit Unwerawattana
+        role: Developer
+        affiliation: University of Southern Denmark
+      - name: Amelie Theussen
+        role: Participant
+        affiliation: Royal Danish Defence College
+      - name: Ole Stegmann Mikkelsen
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Vincent Keating
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Olivier Schmitt
+        role: Participant
+        affiliation: University of Southern Denmark
+    _number: ""
+    period:
+      start: "2023"
+      end: "2026"
+    type: Industriens Fond (ACTION:CALL)
+    amount: ~8.5 million DKK (~1140k EUR)
+  - title: 'X-IDF: Explainable Internet Data Flows'
+    id: X-IDF
+    image: xidf.png
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Claes de Vreese
+        role: PI
+        affiliation: University of Southern Denmark
+    _number: ""
+    period:
+      start: "2023"
+      end: "2025"
+    type: Villum Foundation (Villum Synergy Project)
+    amount: ~3 million DKK (~400k EUR)
+  - title: 'Rubber DUQ: Flexible Dynamic Universal Quantum programming'
+    id: RubberDUQ
+    image: epsrc.png
+    participants:
+      - name: Chris Heunen
+        role: PI
+        affiliation: University of Edinburgh
+      - name: Robin Kaarsgaard
+        role: Co-Investigator
+        affiliation: University of Southern Denmark
+    _number: ""
+    period:
+      start: "2024"
+      end: "2026"
+    type: UKRI Engineering and Physical Sciences Research Council (Standard research)
+    amount: ~9 million DKK (~1 million GBP)
+  - title: 'DeCoRe: Tools and Methods for the Design and Coordination of Reactive Hybrid Systems'
+    id: DeCoRe
+    image: direc.png
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Thomas Troels Hildebrandt
+        role: Participant
+        affiliation: University of Copenhagen
+      - name: Kim Guldstrand Larsen
+        role: Participant
+        affiliation: Aalborg University
+      - name: Marco Chiarandini
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Narongrit Unwerawattana
+        role: Participant
+        affiliation: University of Southern Denmark
+      - name: Steven Beck Klinberg
+        role: Participant
+        affiliation: Sanovo Technology Group
+      - name: Morten Marquard
+        role: Participant
+        affiliation: DCR Solutions
+      - name: Claudio Guidi
+        role: Participant
+        affiliation: italianaSoftware
+    website: https://direc.dk/decore-tools-and-methods-for-the-design-and-coordination-of-reactive-hybrid-systems/
+    _number: ""
+    period:
+      start: "2022"
+      end: "2023"
+    type: Innovation Fund Denmark, DIREC (Digital Research Centre Denmark)
+    amount: ~2.3 million DKK (~300k EUR)
+  - title: Choreographies for connected IT systems
+    id: Choco
+    image: choco.png
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+    website: https://www.fabriziomontesi.com/projects/choco/
+    _number: ""
+    period:
+      start: 01-08-2020
+      end: 31-07-2025
+    type: Villum Foundation (Villum Young Investigator Project)
+    amount: 7 million DKK (~1 million EUR)
+  - title: Generic Microservices
+    id: Gem
+    image: gem.png
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Saverio Giallorenzo
+        role: Collaborator
+        affiliation: University of Bologna
+      - name: Marco Peressotti
+        role: Collaborator
+        affiliation: University of Southern Denmark
+      - name: Olaf Zimmermann
+        role: Collaborator
+        affiliation: University of Applied Sciences in Rapperswil, Switzerland
+    website: https://www.fabriziomontesi.com/projects/gem/
+    _number: ""
+    period:
+      start: 01-08-2020
+      end: 31-07-2023
+    type: Independent Research Fund Denmark
+    amount: 2,341,440 DKK (~300k EUR)
+  - title: Open Data Framework
+    id: ODF
+    image: sdu.jpg
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Dalia Amor Conde
+        role: Co-PI
+        affiliation: University of Southern Denmark
+    _website: ""
+    _number: ""
+    period:
+      start: 01-02-2017
+      end: 31-01-2019
+    type: Max-Planck Odense Center, Species360, Odense Municipality, and University of Southern Denmark (Open Data Exploration strategic area)
+    amount: 4,164,000 DKK
+  - title: Online Algorithms and Cheminformatics Meet Concurrency
+    _id: DFF-7014-00041
+    image: dff.jpg
+    participants:
+      - name: Joan Boyar
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Rolf Fagerberg
+        role: Co-investigator
+        affiliation: University of Southern Denmark
+      - name: Lene Monrad Favrholdt
+        role: Co-investigator
+        affiliation: University of Southern Denmark
+      - name: Kim Skak Larsen
+        role: Co-investigator
+        affiliation: University of Southern Denmark
+      - name: Daniel Merkle
+        role: Co-investigator
+        affiliation: University of Southern Denmark
+      - name: Fabrizio Montesi
+        role: Co-investigator
+        affiliation: University of Southern Denmark
+    website: http://www.imada.sdu.dk/~kslarsen/Projects/FNU2017/
+    number: DFF-7014-00041
+    period:
+      start: 01-07-2017
+      end: 31-06-2020
+    type: Independent Research Fund Denmark - Nature and Universe
+    amount: 1,382,962 DKK
+  - title: Pseudoexon Risk Estimation Database and In silico Clinical Testing
+    id: PREDICT
+    image: sdu.jpg
+    participants:
+      - name: Brage Storstein Andresen
+        role: PI
+        affiliation: University of Southern Denmark
+      - name: Maja Dembic
+        role: Co-PI
+        affiliation: University of Southern Denmark
+      - name: Thomas Koed Doktor
+        role: Co-PI
+        affiliation: University of Southern Denmark
+      - name: Fabrizio Montesi
+        role: Co-PI
+        affiliation: University of Southern Denmark
+    _website: ""
+    _number: ""
+    period:
+      start: 01-02-2017
+      end: 31-01-2019
+    type: University of Southern Denmark (Open Data Exploration strategic area)
+    amount: 1,571,000 DKK
+  - title: 'Evolving software systems: analysis and innovative approaches for smart management'
+    id: EVOSOFT
+    website: http://www.hrzz.hr/default.aspx?id=1205&pid=7945&rok=2014-09
+    number: "7945"
+    period:
+      start: 01-07-2015
+      end: 30-06-2018
+    type: Croatian Science Foundation
+    amount: 594,300 HRK
+    image: hrzz.png
+    participants:
+      - name: Tihana Galinac Grbac
+        role: PI
+        affiliation: University of Rijeka
+      - name: Darko Huljenić
+        role: Investigator
+        affiliation: University of Zagreb
+      - name: Goran Mauša
+        role: Investigator
+        affiliation: University of Rijeka
+      - name: Fabrizio Montesi
+        role: Investigator
+        affiliation: University of Southern Denmark
+      - name: Jean Petric
+        role: Investigator
+      - name: Per Runeson
+        role: Investigator
+        affiliation: Lund University
+      - name: Ivan Štajduhar
+        role: Investigator
+        affiliation: University of Rijeka
+      - name: Nikola Tanković
+        role: Investigator
+  - title: Choreographies for Reliable and efficient Communication software
+    id: CRC
+    image: dff.jpg
+    participants:
+      - name: Fabrizio Montesi
+        role: PI
+        affiliation: University of Southern Denmark
+    website: http://www.chor-lang.org
+    number: DFF-4005-00304
+    period:
+      start: 01-08-2014
+      end: 31-07-2017
+    type: Independent Research Fund Denmark - Technology and Production Sciences
+    amount: 2,431,030 DKK
