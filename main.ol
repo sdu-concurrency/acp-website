@@ -52,7 +52,6 @@ type SeminarTalk {
   videomeeting?: string
   speaker: string
   abstract?: string
-  pubDate: string
   humanReadableDatetime: string
   guid: int
 }

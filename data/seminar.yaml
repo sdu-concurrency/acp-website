@@ -26,7 +26,6 @@ items:
       news? There is still time to adapt—but only if we embrace a future where
       architecture is not less human, but more profoundly human because of our
       collaboration with machines.
-    pubDate: Sun, 26 Oct 2025 00:00:00 +0000
   - title: New quality-of-life features for the Choral compiler
     from: 20260209T150000
     to: 20260209T154500
@@ -34,7 +33,6 @@ items:
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://syddanskuni.zoom.us/j/62541149009
     speaker: Malthe Petersen (Dan Plyukhin's M.Sc. student)
-    pubDate: Mon, 27 Oct 2025 00:00:00 +0000
   - title: Synthesizing Feature Models from Rust Configurations with an FCA-based analysis
     from: 20260216T131500
     to: 20260216T140000
@@ -56,7 +54,6 @@ items:
       Rust project) using an FCA based method. We analyze the resulting feature
       models to understand the size of the configuration space and the usage of
       features among Rust libraries.
-    pubDate: Tue, 28 Oct 2025 00:00:00 +0000
   - title: Free Quantum Computing
     from: 20260223T141500
     to: 20260223T150000
@@ -82,7 +79,6 @@ items:
       interpreted as a programming language for quantum computers, that has the
       same expressivity and computational universality as the standard model,
       but additionally allows automated verification and reasoning.
-    pubDate: Wed, 29 Oct 2025 00:00:00 +0000
   - from: 20260302T141500
     to: 20260302T150000
     location: IMADA meeting room 4
@@ -101,14 +97,13 @@ items:
       tools to build faster, safer, and simpler distributed systems. We'll
       explore some of the elegant mathematics behind these tools and wrap up
       with a few fun ideas on the horizon.
-    pubDate: Fri, 20 Feb 2025 00:00:00 +0000
   - from: 20260309T141500
     to: 20260309T150000
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://syddanskuni.zoom.us/j/62541149009
     speaker: Stefano Volpe
-    title: Towards a Higher-Order Bialgebraic Denotational Semantics
+    title: Locally Final Coalgebras in Denotational Semantics
     abstract: |-
       The bialgebraic abstract GSOS framework by Turi and Plotkin provides an
       elegant categorical approach to modelling the operational and denotational
@@ -131,4 +126,3 @@ items:
       applicable to a wide range of different higher-order languages, e.g.
       simply typed and untyped languages, or languages with computational
       effects such as probabilistic or non-deterministic branching.
-    pubDate: Fri, 20 Feb 2025 00:00:00 +0000
