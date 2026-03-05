@@ -21,18 +21,20 @@ faculty:
     github: casperbp
     website: https://casperbp.net/
     email: casperbach@imada.sdu.dk
-  - id: vlenarduzzi
-    name: Valentina Lenarduzzi
-    role: Vice Head of the ACP Section, Professor
-    photo: /images/people/vlenarduzzi-p.jpg
-    dblp: 118/9914
-    email: taibi@imada.sdu.dk
   - id: sbashkar
     name: Siddharth Bhaskar
     role: Assistant Professor
     photo: /images/people/sbhaskar-p.jpg
     dblp: 170/0077
     email: bhaskar@imada.sdu.dk
+  - id: mgirlando
+    name: Marianna Girlando
+    role: Assistant Professor
+    photo: /images/people/mgirlando-p.jpg
+    dblp: 188/7073
+    orcid: 0000-0002-9384-1356
+    email: girlando@imada.sdu.dk
+    website: https://www.mariannagirlando.com
   - id: sgreiner
     name: Sandra Greiner
     role: Associate Professor
@@ -65,6 +67,12 @@ faculty:
       - Applied Category Theory
       - Semantics
       - Logic
+  - id: vlenarduzzi
+    name: Valentina Lenarduzzi
+    role: Vice Head of the ACP Section, Professor
+    photo: /images/people/vlenarduzzi-p.jpg
+    dblp: 118/9914
+    email: lenarduzzi@imada.sdu.dk
   - name: Jacopo Mauro
     role: Professor
     id: jm
@@ -150,7 +158,7 @@ faculty:
       - Cryptographic Engineering
       - Embedded Security
   - name: Marco Peressotti
-    role: Associate Professor
+    role: Vice Head of the ACP Section, Associate Professor
     id: mp
     phone: +45 65509026
     office:
