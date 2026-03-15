@@ -314,7 +314,6 @@ phdstudents:
     id: sv
     photo: /images/people/svolpe-p.jpg
     email: stefano@imada.sdu.dk
-    phone: +31 06 3968 77 26
     orcid: 0009-0003-5277-1958
     website: https://foxy.codeberg.page
     fediverse: https://blahaj.zone/@foxy
@@ -323,6 +322,21 @@ phdstudents:
     office:
       label: Ø9-602a-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+  - name: Venla Tuuli Sabina Liljas
+    role: PhD Student
+    id: vtsl
+    photo: /images/people/vliljas-p.jpg
+    email: venla@imada.sdu.dk
+  - name: Antonino Fabio Coppola
+    role: PhD Student
+    id: afc
+    photo: /images/people/acoppola-p.jpg
+    email: antonino@imada.sdu.dk
+  - name: Anna Blume Jakobsen
+    role: PhD Student
+    id: abj
+    photo: /images/people/ablume-p.jpg
+    email: ablume@imada.sdu.dk
 taps:
   - name: Narongrit Unwerawattana
     role: Scientific Software Developer
