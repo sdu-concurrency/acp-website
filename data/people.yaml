@@ -35,6 +35,13 @@ faculty:
     orcid: 0000-0002-9384-1356
     email: girlando@imada.sdu.dk
     website: https://www.mariannagirlando.com
+  - id: gcaiazza
+    name: Gianluca Caiazza
+    role: Assistant Professor
+    photo: /images/people/gcaiazza-p.jpg
+    dblp: 228/8076
+    orcid: 0000-0002-2820-7121
+    email: caiazza@imada.sdu.dk
   - id: sgreiner
     name: Sandra Greiner
     role: Associate Professor
