@@ -17,24 +17,9 @@
 			{{#dblp}}
 			<a href="https://dblp.org/pid/{{.}}.html" title="DBLP"><i class="ai ai-dblp"></i></a>
 			{{/dblp}}
-			{{#gscholar}}
-			<a href="https://scholar.google.com/citations?user={{.}}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-			{{/gscholar}}
-			{{#github}}
-			<a href="https://github.com/{{.}}" title="GitHub"><i class="fa-brands fa-github"></i></a>
-			{{/github}}
-			{{#linkedin}}
-			<a href="https://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-			{{/linkedin}}
-			{{#bluesky}}
-			<a href="{{.}}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-			{{/bluesky}}
 			{{#mastodon}}
 			<a href="{{.}}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
 			{{/mastodon}}
-			{{#twitter}}
-			<a href="https://x.com/{{.}}" title="X/Twitter"><i class="fa-brands fa-twitter"></i></a>
-			{{/twitter}}
 			{{#fediverse}}
 			<a href="{{.}}" title="Fediverse">⁂</a>
 			{{/fediverse}}
@@ -44,6 +29,21 @@
 			{{#matrix}}
 			<a href="matrix:u/{{.}}?action=chat" title="Matrix"><i class="fa-solid fa-message"></i></a>
 			{{/matrix}}
+			{{#bluesky}}
+			<a href="{{.}}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			{{/bluesky}}
+			{{#gscholar}}
+			<a href="https://scholar.google.com/citations?user={{.}}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+			{{/gscholar}}
+			{{#github}}
+			<a href="https://github.com/{{.}}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+			{{/github}}
+			{{#linkedin}}
+			<a href="https://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+			{{/linkedin}}
+			{{#twitter}}
+			<a href="https://x.com/{{.}}" title="X/Twitter"><i class="fa-brands fa-twitter"></i></a>
+			{{/twitter}}
 			</p>
 		</figcaption>
 	</figure>
