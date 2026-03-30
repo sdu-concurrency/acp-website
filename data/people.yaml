@@ -344,6 +344,11 @@ phdstudents:
     id: abj
     photo: /images/people/ablume-p.jpg
     email: ablume@imada.sdu.dk
+  - id: mdwalker
+    name: Mark Damon Walker
+    role: PhD Student
+    photo: /images/people/mdwalker-p.jpg
+    email: markwalker@imada.sdu.dk
 taps:
   - name: Narongrit Unwerawattana
     role: Scientific Software Developer
