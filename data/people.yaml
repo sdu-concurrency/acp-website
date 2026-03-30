@@ -27,6 +27,7 @@ faculty:
     photo: /images/people/sbhaskar-p.jpg
     dblp: 170/0077
     email: bhaskar@imada.sdu.dk
+    orcid: 0000-0003-4157-8768
   - id: gcaiazza
     name: Gianluca Caiazza
     role: Assistant Professor
@@ -80,6 +81,7 @@ faculty:
     photo: /images/people/vlenarduzzi-p.jpg
     dblp: 118/9914
     email: lenarduzzi@imada.sdu.dk
+    orcid: 0000-0003-0511-5133
   - name: Jacopo Mauro
     role: Professor
     id: jm
@@ -184,6 +186,7 @@ faculty:
   - name: Marco Prandini
     role: Adjunct Professor
     id: mprandini
+    orcid: 0000-0002-3962-5513
     photo: /images/people/mprandini-p.jpg
     website: https://www.unibo.it/sitoweb/marco.prandini/en
     email: marco.prandini@unibo.it
@@ -198,6 +201,7 @@ faculty:
     photo: /images/people/dtaibi-p.jpg
     dblp: 68/732-1
     email: taibi@imada.sdu.dk
+    orcid: 0000-0002-3210-3990
   - id: stsampas
     name: Stelios Tsampas
     role: Assistant Professor
@@ -234,6 +238,7 @@ postdocs:
     photo: /images/people/xqin-p.jpg
     gscholar: 21KF3zQAAAAJ
     email: xyqin@imada.sdu.dk
+    orcid: 0000-0003-4825-2023
     twitter: x_null_y
     website: https://xyunknown.github.io/
   - name: Giulia Manara
@@ -244,11 +249,13 @@ postdocs:
     office:
       label: Ø9-602b-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+    orcid: 0009-0003-9583-1017
   - id: mt
     name: Matteo Trentin
     role: Research Assistant
     photo: /images/people/mtrentin-p.jpg
     email: trentin@imada.sdu.dk
+    orcid: 0000-0003-3305-2758
 phdstudents:
   - name: Judith Kankam-Boateng
     role: PhD Student
@@ -258,6 +265,7 @@ phdstudents:
     office:
       label: Ø9-602a-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    orcid: 0009-0003-8842-5862
     research_topics:
       - Cybersecurity
   - name: Viktor Strate Kløvedal
@@ -272,6 +280,7 @@ phdstudents:
     office:
       label: Ø9-602b-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+    orcid: 0000-0003-1227-2030
     research_topics:
       - choreographic programming
       - programming languages
@@ -283,6 +292,7 @@ phdstudents:
     office:
       label: Ø9-602b-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
+    orcid: 0009-0001-4492-9060
   - name: Sofia Kostopoulou
     role: PhD Student
     id: sk
@@ -297,11 +307,13 @@ phdstudents:
       - microservices
       - artificial intelligence
       - data analytics
+    orcid: 0000-0002-5557-1295
   - name: Giorgia Sampó
     role: PhD Student
     id: gs
     photo: /images/people/gsampo-p.jpg
     email: gisa@sam.sdu.dk
+    orcid: 0009-0009-1546-5955
     research_topics:
       - Organisation Theory
       - Distributed Systems
@@ -334,6 +346,7 @@ phdstudents:
     id: vtsl
     photo: /images/people/vliljas-p.jpg
     email: venla@imada.sdu.dk
+    orcid: 0009-0000-8036-0935
   - name: Antonino Fabio Coppola
     role: PhD Student
     id: afc
@@ -344,6 +357,7 @@ phdstudents:
     id: abj
     photo: /images/people/ablume-p.jpg
     email: ablume@imada.sdu.dk
+    orcid: 0009-0005-7892-7230
   - id: mdwalker
     name: Mark Damon Walker
     role: PhD Student
@@ -359,6 +373,7 @@ taps:
     office:
       label: Ø9-601b-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59
+    orcid: 0009-0001-4682-5548
     research_topics:
       - Jolie
       - microservices
@@ -385,6 +400,7 @@ discharged:
     office:
       label: Ø9-602a-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    orcid: 0000-0001-9684-9567
     research_topics:
       - programming languages
       - choreographic programming
@@ -397,6 +413,7 @@ discharged:
     office:
       label: Ø9-602a-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a
+    orcid: 0000-0001-7713-1461
     research_topics:
       - microservices
       - choreographic programming
@@ -412,6 +429,7 @@ discharged:
     id: eg
     dblp: 199/2114
     github: evagraver
+    orcid: 0000-0002-9430-4907
     photo: /images/people/egraversen-p.jpg
   - name: Saverio Giallorenzo
     role: Postdoctoral Researcher
@@ -437,6 +455,7 @@ discharged:
     id: vistrup
     photo: /images/people/vistrup-p.jpg
     email: vistrup@imada.sdu.dk
+    orcid: 0000-0001-7704-3656
     linkedin: jonas-vistrup-810677154
     research_topics:
       - artificial intelligence
