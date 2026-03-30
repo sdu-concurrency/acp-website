@@ -14,6 +14,7 @@ faculty:
     role: Assistant Professor
     photo: /images/people/cbach-p.jpg
     dblp: 143/2646
+    mastodon: https://types.pl/@casperbp
     phone: +45 65507259
     orcid: 0000-0003-0622-7639
     gscholar: cK5ddQ4AAAAJ
@@ -49,6 +50,7 @@ faculty:
     photo: /images/people/sgreiner-p.jpg
     dblp: 183/9453
     orcid: 0000-0001-8950-0092
+    mastodon: https://mas.to/@sagr
     bluesky: https://bsky.app/profile/sandragreiner.bsky.social
     github: sandragreiner
     email: greiner@imada.sdu.dk
@@ -61,6 +63,7 @@ faculty:
       label: Ø14-602b-1
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a20a
     dblp: 163/9898
+    mastodon: https://mathstodon.xyz/@rkaarsgaard
     gscholar: 1QjGyoMAAAAJ
     orcid: 0000-0002-7672-799X
     github: rkaarsgaard
@@ -208,6 +211,7 @@ faculty:
     photo: /images/people/stsampas-p.jpg
     dblp: 245/2735-1
     orcid: 0000-0001-8981-2328
+    mastodon: https://mathstodon.xyz/@stelios
     gscholar: P_acVKwAAAAJ
     linkedin: stelios-tsampas-96065b61
     github: stelios-tau
