@@ -367,6 +367,7 @@ phdstudents:
     role: PhD Student
     photo: /images/people/mdwalker-p.jpg
     email: markwalker@imada.sdu.dk
+    forge: https://codeberg.org/zlqrvx
 taps:
   - name: Narongrit Unwerawattana
     role: Scientific Software Developer
