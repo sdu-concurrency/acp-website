@@ -1,4 +1,13 @@
 items:
+  - title: Towards a Higher-Order Bialgebraic Denotational Semantics
+    speaker: Stefano Volpe
+    from: 20260615T141500
+    to: 20260615T150000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    videomeeting: https://syddanskuni.zoom.us/j/62541149009
+    abstract: |- 
+      The bialgebraic abstract GSOS framework by Turi and Plotkin provides an elegant categorical approach to modeling the operational and denotational semantics of programming and process languages. In abstract GSOS, bisimilarity is always a congruence, and it coincides with denotational equivalence. This saves the language designer from intricate, ad-hoc reasoning to establish these properties. The bialgebraic perspective on operational semantics in the style of abstract GSOS has recently been extended to higher-order languages, preserving compositionality of bisimilarity. However, a categorical understanding of bialgebraic denotational semantics according to Turi and Plotkin's original vision has so far been missing in the higher-order setting. In the present paper, we develop a theory of adequate denotational semantics in higher-order abstract GSOS. The denotational models are parametric in an appropriately chosen semantic domain in the form of a locally final coalgebra for a behavior bifunctor, whose construction is fully decoupled from the syntax of the language. Our approach captures existing accounts of denotational semantics such as semantic domains built via general step-indexing, previously introduced on a per-language basis, and is shown to be applicable to a wide range of different higher-order languages, eg simply typed and untyped languages, or languages with computational effects such as probabilistic or non-deterministic branching.
   - title: Software Architects Are Dead—Long Live the AI-Augmented Architect!
     from: 20260119T141500
     to: 20260119T150000
@@ -7,20 +16,20 @@ items:
     videomeeting: https://syddanskuni.zoom.us/j/62541149009
     speaker: Davide Taibi (SDU Veijle)
     abstract: |-
-      What if the future of software architecture doesn’t need architects as we
+      What if the future of software architecture doesn't need architects as we
       know them? As GenAI infiltrates every stage of the software development
       lifecycle, the traditional role of the architect—meticulously designing
       systems from requirements to deployment—is being unbundled, redefined,
       and partially outsourced to machines. And yet, the industry is far from
       ready. This keynote presents a bold vision of the AI-Augmented Architect:
-      a hybrid thinker who doesn’t write blueprints alone but designs with AI,
+      a hybrid thinker who doesn't write blueprints alone but designs with AI,
       using it not as a tool—but as a creative partner, a challenger, a
       simulator of trade-offs. Drawing from two cutting-edge empirical studies,
       including a multivocal review of GenAI in software architecture and a
-      forward-looking survey of industry leaders, we’ll confront hard truths: AI
+      forward-looking survey of industry leaders, we'll confront hard truths: AI
       is already doing architectural documentation, detecting antipatterns, and
-      even suggesting design alternatives. But it’s also hallucinating, biasing
-      decisions, and eroding accountability. If we don’t rethink our roles,
+      even suggesting design alternatives. But it's also hallucinating, biasing
+      decisions, and eroding accountability. If we don't rethink our roles,
       methods, and mindset, software architects risk becoming passive validators
       of AI output rather than strategic designers of complex systems. The good
       news? There is still time to adapt—but only if we embrace a future where
