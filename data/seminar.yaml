@@ -126,3 +126,55 @@ items:
       applicable to a wide range of different higher-order languages, e.g.
       simply typed and untyped languages, or languages with computational
       effects such as probabilistic or non-deterministic branching.
+  - from: 20260615T141500
+    to: 20260615T150000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    videomeeting: https://syddanskuni.zoom.us/j/62541149009
+    speaker: Sandra Greiner
+    title: Benchmarking API Data Transfer Refactorings to Service-Oriented Architectures
+    abstract: |-
+      Refactoring service-oriented software is crucial for competitiveness,
+      security, and reliability. While the migration of monoliths to
+      (micro-)services is well-studied, the evolution of a service-oriented
+      architecture – particularly, the integration of API patterns – falls
+      short, leaving practitioners with little knowledge on the impact of
+      architectural refactorings. In this talk, we will use and study an
+      existing framework for applying refactorings either internally in the
+      refactored service(s), adjacently (in the same application but another
+      service component), or externally in a remote service. I will show the
+      results of studying the impact on performance as observed on the client
+      side of these implementation variants. Lastly, I will outline research
+      directions on how to extend and build on our work.
+  - from: 20260622T141500
+    to: 20260622T144500
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    videomeeting: https://syddanskuni.zoom.us/j/62541149009
+    speaker: Stefano Volpe
+    title: Towards a Higher-Order Bialgebraic Denotational Semantics
+    abstract: |-
+      (This talk is an encore of my 2026/03/09 presentation. This time, I will
+      focus on the PL semantics side, and not assume familiarity with
+      category theory nor coalgebras.)
+      The bialgebraic abstract GSOS framework by Turi and Plotkin provides an
+      elegant categorical approach to modelling the operational and denotational
+      semantics of programming and process languages. In abstract GSOS,
+      bisimilarity is always a congruence, and it coincides with denotational
+      equivalence. This saves the language designer from intricate, ad-hoc
+      reasoning to establish these properties. The bialgebraic perspective
+      on operational semantics in the style of abstract GSOS has recently been
+      extended to higher-order languages, preserving compositionality of
+      bisimilarity. However, a categorical understanding of bialgebraic
+      denotational semantics according to Turi and Plotkin’s original vision has
+      so far been missing in the higher-order setting. In the present paper, we
+      develop a theory of adequate denotational semantics in higher-order
+      abstract GSOS. The denotational models are parametric in an appropriately
+      chosen semantic domain in the form of a locally final coalgebra for a
+      behaviour bifunctor, whose construction is fully decoupled from the syntax
+      of the language. Our approach captures existing accounts of denotational
+      semantics such as semantic domains built via general step-indexing,
+      previously introduced on a per-language basis, and is shown to be
+      applicable to a wide range of different higher-order languages, e.g.
+      simply typed and untyped languages, or languages with computational
+      effects such as probabilistic or non-deterministic branching.
