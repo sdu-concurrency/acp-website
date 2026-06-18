@@ -214,7 +214,7 @@ service Main {
 			for ( i in response.seminar.items) {
         i.guid = hashCode@values( i )
         // getDateTimeValues does not seem to work?
-        i.humanReadableDatetime = fmt@stringUtils( "{y}/{m}/{d}, {hf}:{mf}-{ht}:{mt}" {
+        i.humanReadableDatetime = fmt@stringUtils( "{d}/{m}/{y}, {hf}:{mf}-{ht}:{mt}" {
         y = substring@stringUtils( i.from { begin = 0, end = 4 } ),
         m = substring@stringUtils( i.from { begin = 4, end = 6 } ),
         d = substring@stringUtils( i.from { begin = 6, end = 8 } ),
