@@ -36,7 +36,7 @@ items:
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://syddanskuni.zoom.us/j/62541149009
-    speaker: Sandra Greiner    
+    speaker: Sandra Greiner
     abstract: |-
       Refactoring service-oriented software is crucial for competitiveness,
       security, and reliability. While the migration of monoliths to
@@ -159,4 +159,702 @@ items:
       news? There is still time to adapt—but only if we embrace a future where
       architecture is not less human, but more profoundly human because of our
       collaboration with machines.
- 
+  - from: 20251201T141500
+    to: 20251201T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Judith Kankam-Boateng
+  - title: '"Like Parsley in Greek Food:" Elementary Set Theory and the case for DM1'
+    from: 20251117T141500
+    to: 20251117T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Siddharth Bhaskar
+    abstract: |-
+      The predominant design philosophy behind most Discrete Mathematics (DM)
+      courses is that of a recycling bin: a place where mathematical
+      prerequisites with no other natural home can live out the rest of their
+      days in peace. This fundamentally misunderstands the role of mathematics
+      in computer science. Instead of being a collection of topical
+      prerequisites, mathematics provides a conceptual framework enabling the
+      sort of high-level computational thinking that a computer science
+      bachelor's degree is supposed to train.
+      I argue that the field of mathematics in question can be profitably
+      identified with elementary set theory, roughly, the theory of (naive)
+      sets and relations with structural induction. I propose an alternate model
+      of mathematics education in the computer science degree: a `DM1' (and
+      possibly DM2) course that receives as much importance as the CS1/2
+      sequence and are similarly foregrounded in the program of study.
+  - title: '"What we talk about when we talk about DAOs" + "Pathways to Performance: A Configurational Analysis of Consensus in DAOs"'
+    from: 20251110T141500
+    to: 20251110T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Giorgia Sampó
+    abstract: |-
+      "What we talk about when we talk about DAOs": Decentralized Autonomous
+      Organizations (DAOs) integrate blockchain-based automation with novel
+      forms of collective governance, yet research on them remains fragmented
+      across technical and organizational silos, hindering a comprehensive
+      understanding of DAOs as socio-technical systems. To bridge these gaps,
+      we first conduct a systematic umbrella review of 12 prior surveys to map
+      research themes and persistent gaps. Based on this analysis, we propose a
+      novel, three-layer framework that explicitly links (i) technical artefacts
+      (the infrastructure, e.g., tokens, smart contracts), (ii) governance
+      logics (the rules, e.g., incentives, consensus mechanisms), and (iii)
+      organizational manifestations (the outcomes, e.g., proposals, votes). By
+      making cross-layer dependencies explicit, the framework enables more
+      holistic theorizing, supports comparative empirical work, and provides a
+      diagnostic tool for practitioners dealing with design trade-offs between
+      decentralization, efficiency, and participation.
+      "Pathways to Performance: A Configurational Analysis of Consensus in
+      DAOs": Decentralized Autonomous Organizations (DAOs) represent a radical
+      form of socio-technical systems, where rules are enforced by code and
+      governance is conducted by a distributed network of stakeholders. A
+      critical challenge in designing these systems is achieving consensus
+      without centralized authority, yet how consensus ensures effective
+      governance remains underexplored. This study investigates the design of
+      DAO governance systems, utilizing data from 70 DAOs and applying Fuzzy Set
+      Qualitative Comparative Analysis (fsQCA) to explore which consensus
+      configurations lead to positive organizational outcomes. Our analysis
+      challenges the notion of a single consensus model. Instead, we uncover 13
+      distinct configurations that characterize successful DAOs. Our key finding
+      reveals a fundamental “ideation/legitimation trade-off”: successful DAOs
+      optimize for broad participation in either the proposal (ideation) stage
+      or the voting (legitimation) stage, but rarely both. These insights
+      provide a nuanced framework for understanding and designing effective
+      governance systems for DAOs.
+  - title: '"It’s Confusing, Insecure, and Messy" – Mapping the Gaps Between Stakeholders’ Cybersecurity Mental Model in the Danish Economy'
+    from: 20251103T141500
+    to: 20251103T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Judith Kankam-Boateng
+    abstract: |-
+      Small and medium-sized enterprises (SMEs) are facing growing cybersecurity
+      threats amidst limited resources and regulatory complexity. This
+      complexity stems from diverse stakeholders in the regulatory process,
+      ranging from policy makers to industry associations to the companies
+      having to implement the regulations. Misalignments between these
+      different stakeholders can further compound the complexity. Against this
+      backdrop, we investigate the cybersecurity mental models held by three
+      stakeholder groups in Denmark’s defence sector and how they might
+      influence regulatory processes. Using a qualitative approach that combines
+      focus groups with 6 policymakers, 11 policy promoters (industry
+      associations), and 12 policy implementers (SMEs), we reveal key
+      misalignments in perceptions of risk, threats, cyber readiness, and policy
+      interpretation. Our findings further show that SMEs often treat
+      cybersecurity as a compliance task, while policy makers assume strategic
+      readiness. From our results, we suggest recommendations for aligning
+      governance frameworks with organisational realities.
+  - title: "Cslib: a global open source effort to formalise all of computer science"
+    from: 20251024T141500
+    to: 20251024T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Fabrizio Montesi
+    abstract: |-
+      A few years ago, some researchers at SDU got interested in mechanizing a
+      couple of things using the Rocq (née Coq) proof assistant. In the most
+      outrageous example of scope creep of all time, Fabrizio is now trying to
+      formalize every single thing anyone has ever said (now using Lean instead
+      of Rocq). And for 45 minutes this Monday, he'll tell us about it!
+  - title: "All you need is l̶o̶v̶e̶ controlled-V: universality of a standard two-qubit gate by catalytic embedding"
+    from: 20251020T141500
+    to: 20251020T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Robin Kaarsgaard Sales
+    abstract: |-
+      A central pursuit in quantum computing is to identify the minimal
+      resources required to achieve universality. Within the quantum circuit
+      model, this is studied by considering the gate sets that provide the
+      fundamental instructions from which quantum algorithms are built. However,
+      standard gate sets such as Clifford+T  contain some instructions that are
+      disproportionately powerful, obscuring the precise source of quantum
+      computational power. While single-gate universal sets are known, these
+      rely on rotation angles that are irrational multiples of 2pi , requiring
+      fine-tuned control that is difficult to achieve on quantum hardware today.
+      Here, we show the surprising result that the controlled-V  (or
+      controlled-sqrt(X)) gate, a simple two-qubit interaction previously
+      described as "semi-classical" and already widely used in reversible logic
+      synthesis and directly realisable on leading hardware platforms, suffices
+      on its own to perform universal quantum computation. Our construction,
+      based on catalytic embedding and a procedure to generate the necessary
+      resource states, simulates standard universal gate sets with constant
+      overhead, highlighting how the full power of quantum computation can
+      emerge from unexpectedly simple ingredients.
+  - title: '"It’s Confusing, Insecure, and Messy" – Mapping the Gaps Between Stakeholders’ Cybersecurity Mental Model in the Danish Economy'
+    from: 20251006T141500
+    to: 20251006T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Judith Kankam-Boateng
+    abstract: |-
+      Small and medium-sized enterprises (SMEs) are facing growing cybersecurity
+      threats amidst limited resources and regulatory complexity. This
+      complexity stems from diverse stakeholders in the regulatory process,
+      ranging from policy makers to industry associations to the companies
+      having to implement the regulations. Misalignments between these different
+      stakeholders can further compound the complexity. Against this backdrop,
+      we investigate the cybersecurity mental models held by three stakeholder
+      groups in Denmark’s defence sector and how they might influence regulatory
+      processes. Using a qualitative approach that combines focus groups with 6
+      policymakers, 11 policy promoters (industry associations), and 12 policy
+      implementers (SMEs), we reveal key misalignments in perceptions of risk,
+      threats, cyber readiness, and policy interpretation. Our findings further
+      show that SMEs often treat cybersecurity as a compliance task, while
+      policy makers assume strategic readiness. From our results, we suggest
+      recommendations for aligning governance frameworks with organisational
+      realities.
+  - title: Generic Reduction-Based Interpreters
+    from: 20250929T141500
+    to: 20250929T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Casper Bach
+    abstract: |-
+      Reduction-based interpreters are traditionally defined in terms of a
+      one-step reduction function which systematically decomposes a term into a
+      potential redex and context, contracts the redex, and recomposes it to
+      construct the new term to be further reduced. While implementing such
+      interpreters follows a systematic recipe, they often require interpreter
+      engineers to write a substantial amount of code—much of it boilerplate. In
+      this paper, we apply well-known techniques from generic programming to
+      reduce boilerplate code in reduction-based interpreters.
+  - title: The Stage Comparison theorem--a functional pearl?
+    from: 20250922T141500
+    to: 20250922T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Siddharth Bhaskar
+    abstract: |-
+      In any monotone inductive definition, we repeatedly add elements to a set
+      until we achieve a fixed point. The stage of an element in the fixed point
+      is the first ordinal where it appears in this process. A theory of
+      monotone inductive definitions enjoys the stage comparison property in
+      case the query comparing elements by their stages in a definable
+      induction, is itself definable.
+      The proof that positive elementary induction satisfies this property is
+      basically a functional transforming the original induction into a
+      definition of the corresponding stage comparison query. It is tricky and
+      short application of higher-order reasoning. Sufficiently abstracted, I
+      think it could qualify as a "functional pearl." I would like to present
+      the theorem and see if you agree! My secret hope is to prove a plausible
+      strengthening of this property that is natural and plausible but has
+      baffled me for years.
+  - title: Tempo Tutorial
+    from: 20250915T141500
+    to: 20250915T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Viktor Strate Kløvedal
+  - title: Transformer-Based Feature Learning for Algorithm Selection in Combinatorial Optimisation
+    from: 20250908T141500
+    to: 20250908T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Alessio Pellegrino
+    abstract: |-
+      Given a combinatorial optimisation problem, there are typically multiple
+      ways of modelling it for presentation to an automated solver. Choosing the
+      right combination of model and target solver can have a significant impact
+      on the effectiveness of the solving process. The best combination of model
+      and solver can also be instance-dependent: there may not exist a single
+      combination that works best for all instances of the same problem. We
+      consider the task of building machine learning models to automatically
+      select the best combination for a problem instance. Critical to the
+      learning process is to define instance features, which serve as input to
+      the selection model. Our contribution is the automatic learning of
+      instance features directly from the high-level representation of a problem
+      instance using a transformer encoder. We evaluate the performance of our
+      approach using the Essence modelling language via a case study of three
+      problem classes.
+  - title: Formally Verified Choreographies in Lean
+    from: 20250901T141500
+    to: 20250901T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Xueying Qin
+  - title: "Mapping Supply Chain Cybersecurity: Mental Models and Practices in Danish Defense SMEs"
+    from: 20250603T154500
+    to: 20250603T1630
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Judith Kankam-Boateng
+    abstract: |-
+      This study investigates how scenario-based simulations transform
+      cybersecurity practices among Danish SMEs. Focus group discussions were
+      conducted before and after exposure to threat scenarios. Results
+      demonstrate significant shifts in awareness, particularly regarding supply
+      chain vulnerabilities, cloud service risks, and geopolitical factors.
+      Participants evolved from fragmented, reactive approaches toward
+      structured responsibility mapping and proactive risk assessment.
+      Communication strategies transitioned from informal exchanges to
+      formalized practices with leadership involvement. The findings reveal
+      that experiential learning effectively expands threat perception beyond
+      technical issues to encompass organizational culture and human factors.
+  - title: Efficient, Portable, Census-Polymorphic Choreographic Programming
+    from: 20250602T141500
+    to: 20250602T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Mako Bates (University of Vermont)
+    abstract: |-
+      Choreographic programming (CP) is a paradigm for implementing distributed
+      systems that uses a single global program to define the actions and
+      interactions of all participants. Library-level CP implementations, like
+      HasChor, integrate well with mainstream programming languages but have
+      several limitations: Their conditionals require extra communication; they
+      require specific host-language features (e.g., monads); and they lack
+      support for programming patterns that are essential for implementing
+      realistic distributed applications.
+      We make three contributions to library-level CP to specifically address
+      these challenges. First, we propose and formalize conclaves and
+      multiply-located values, which enable efficient conditionals in
+      library-level CP without redundant communication. Second, we propose
+      end-point projection as dependency injection, a design pattern that
+      enables library-level CP in host languages without support for monads.
+      Third, we propose census polymorphism, a technique for abstracting over
+      the number of participants in a choreography. We demonstrate these
+      contributions via implementations in Haskell, Rust, and TypeScript.
+  - title: Completeness of Choreography Extraction
+    from: 20250526T141500
+    to: 20250526T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Luc Edixhoven (SDU)
+    abstract: |-
+      Extraction of choreographies is a way to mechanically obtain a
+      choreography from a given network of processes. A recent paper by Luís,
+      Kim, Fabrizio and Larisa presented a state of the art extraction
+      methodology. They proved its soundness (i.e., 'any extracted choreography
+      is good'), but not completeness (i.e., 'it always works'). Fabrizio and I
+      are now trying to prove this, but it turns out to be tricky.
+      In this talk, I will sketch our progress so far, up to the latest wall we
+      hit (at least at the moment of writing this abstract). As this is work in
+      progress, it will be structured only up to a point, and be mostly on a
+      board. Input is much welcome!
+  - title: Programming Languages and Phonology
+    from: 20250512T141500
+    to: 20250512T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Siddharth Bhaskar
+    abstract: |-
+      Why does the s in dogs sound like a z? Phonology is that branch of
+      linguistics that explains the relationship between words (the things
+      stored in our head) and their pronunciations (the acoustics that we
+      produce when we say them). In this talk, I will explain how programming
+      language theory sheds light on two problems in phonology. One concerns
+      classes of subregular functions, which are string-to-string
+      transformations computed by finite state machines. The other concerns
+      building a type theory for phonology as a whole.
+      This is an extended version of my “IMADA speaks” talk, but one where I
+      actually get to the problems and say something about their solutions. It
+      should be quite accessible, and I hope that it brings a new angle to some
+      familiar concepts!
+  - title: Sound static analysis of modern software architectures
+    from: 20250403T090000
+    to: 20250403T100000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Pietro Ferrara (University of Venice)
+    abstract: |-
+      Modern software architectures comprise several programming languages,
+      frameworks, technologies, and structures. While most existing software
+      comprises several distinct distributed components, how the software is
+      organized and how the different components communicate depends on the
+      specific architectural style adopted. In addition, software architectures
+      evolved quickly: multi-tier (typically front-end, back-end, and database),
+      service-oriented, microservices, and serverless architectures are a few
+      examples of widely adopted architectures. However, some common patterns
+      can be identified. In particular, distinct nodes of the distributed system
+      usually communicate either synchronously through REST APIs or
+      asynchronously through pub/sub messaging. This allows us to abstract
+      together implementations using different technological solutions.
+      Nevertheless, applying sound static analysis to such a diversified
+      technological ecosystem remains challenging. Defining the semantics,
+      proving the soundness of abstractions, and implementing the analyses
+      require ad hoc approaches for each pattern. In this talk, we will present
+      the current trends we experienced in modern software architectures and how
+      we approached the sound static analysis of such software.
+  - title: Affinity-aware Serverless Function Scheduling
+    from: 20250324T141500
+    to: 20250324T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Matteo Trentin
+    abstract: |-
+      Functions-as-a-Service (FaaS) is a Serverless Cloud
+      paradigm where a platform manages the scheduling (e.g., re-
+      source allocation, runtime environments) of stateless functions.
+      Recent work proposed using domain-specific languages to express
+      per-function policies, e.g., policies that enforce the allocation
+      on nodes that enjoy lower latencies to databases and services
+      used by the function. Here, we focus on affinity-aware scenarios,
+      i.e., where, for performance and functional requirements, the
+      allocation of a function depends on the presence/absence of other
+      functions on nodes.
+      We present aAPP, an extension of a declarative, platform-
+      agnostic language that captures affinity-aware scheduling at the
+      FaaS level. We implement an aAPP-based prototype on Apache
+      OpenWhisk. Besides proving that a FaaS platform can capture
+      affinity awareness using aAPP and improve performance in
+      affinity-aware scenarios, we use our prototype to show that aAPP
+      imposes no noticeable overhead in scenarios without affinity
+      constraints.
+  - title: Bialgebraic Reasoning on Stateful Languages
+    from: 20250317T141500
+    to: 20250317T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Stelios Tsampas
+    abstract: |-
+      Reasoning about program equivalence in imperative languages is notoriously
+      challenging, as the presence of a variable store fundamentally increases
+      the observational power of program terms. The key desideratum for any
+      notion of equivalence is compositionality, which guarantees that
+      subprograms can be safely replaced by equivalent subprograms regardless of
+      the context. To facilitate compositionality proofs and avoid boilerplate
+      work, one would hope to employ the abstract bialgebraic methods provided
+      by Turi and Plotkin's powerful theory of Mathematical Operational
+      Semantics (abstract GSOS) or its recent extension by Goncharov et al. to
+      higher-order languages. However, multiple attempts to reconcile abstract
+      GSOS with imperative semantics have thus failed. We propose a novel
+      approach to the operational semantics of imperative languages based on the
+      formal distinction between readers (terms that act on an initial input
+      store), and writers (running terms that have already been provided an
+      initial store). In contrast to earlier work, this style of semantics is
+      fully compatible with abstract GSOS, and we can thus leverage the existing
+      theory to obtain coinductive reasoning techniques for free. We demonstrate
+      that our approach generates non-trivial compositionality results for
+      imperative languages with first-order and higher-order store and that it
+      flexibly applies to program equivalences at different levels of
+      granularity, such as trace, cost, and natural equivalence.
+  - title: Formulas as Processes, Deadlock-freedom as Choreographies
+    from: 20250303T141500
+    to: 20250303T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Giulia Manara
+    abstract: |-
+      We introduce a novel approach to studying properties of processes in the
+      pi-calculus based on a processes-as-formulas interpretation, by
+      establishing a correspondence between specific sequent calculus
+      derivations and computation trees in the reduction semantics of the
+      recursion-free pi-calculus.
+      Our method provides a simple logical characterisation of deadlock freedom
+      for the recursion- and race-free fragment of the pi-calculus, supporting
+      key features such as cyclic dependencies and an independence of the name
+      restriction and parallel operators.
+      Based on this technique, we establish a strong completeness result for a
+      nontrivial choreographic language: all deadlock-free and race-free finite
+      pi-calculus processes composed in parallel at the top level can be
+      faithfully represented by a choreography.
+      With these results, we show how the computation-as-derivation paradigm
+      extends the reach of logical methods for the study of concurrency, by
+      bridging gaps between logic, the expressiveness of the pi-calculus, and
+      the expressiveness of choreographic languages.
+  - title: "Hadamard-Π: Equational Quantum Programming"
+    from: 20250210T141500
+    to: 20250210T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Robin Kaarsgaard Sales
+    abstract: |-
+      We introduce a programming language that is computationally universal for
+      reversible quantum computing. It extends the universal classical
+      reversible programming language Π with a single primitive corresponding to
+      the Hadamard gate. The language comes equipped with a sound and complete
+      categorical semantics that is specified by a purely equational theory,
+      enabling reasoning about the equivalence of quantum programs in a way that
+      can be automated. The completeness is proven by means of a novel finite
+      presentation of the groups of orthogonal matrices with entries in the ring
+      Z[1/√2].
+  - title: Communication inference for the Choral choreographic programming language
+    from: 20250127T141500
+    to: 20250127T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Christian Grube Hviid Nesting (Dan's M.Sc. student)
+    abstract: |-
+      Choreographic programming is a paradigm for writing distributed
+      applications with strong static guarantees. Choreographic programs must
+      explicitly define "where" computation happens and "how" data is moved.
+      Being explicit this way is useful for writing high-performance code, but
+      it also means prototyping choreographic programs can be tedious. To enable
+      rapid prototyping, we developed a tool for the Choral choreographic
+      programming language that automatically inserts missing communications.
+      This talk will introduce Choral, explain the tool's user interface and
+      implementation, and present interesting technical challenges for future
+      work.
+  - title: "Studies Concerning the Meaning of Computer Programs: Past and Present Work"
+    from: 20250120T141500
+    to: 20250120T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Xueying Qin
+    abstract: |-
+      In this talk, I will provide an overview of several projects I completed
+      during my PhD, as well as the project I have been working on since joining
+      SDU. Specifically, I will discuss three past projects that explore topics
+      in programming languages, including formal specifications and
+      implementations, monolithic and distributed programs, and the semantics of
+      syntactic transformations: (1) Primrose: Selecting Container Data Types by
+      Their Properties, (2) Panopticon: A Universal Method Invocation Library
+      for Rust, (3) Shoggoth: A Formal Foundation for Strategic Rewriting.
+      Finally, I will present my current project: Mechanising a Choreographic
+      Language in Lean 4.
+  - title: |-
+      "Associated Effects: Flexible Abstractions for Effectful Programming"
+      (PLDI 2024) + "Restrictable Variants: A Simple and Practical Alternative
+      to Extensible Variants" (ECOOP 2023) + "Relational nullable types with
+      Boolean unification" (OOPSLA 2021)
+    from: 20250109T100000
+    to: 20250109T110000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Magnus Madsen and students (Aarhus University)
+    abstract: |-
+      "Associated Effects: Flexible Abstractions for Effectful Programming".
+
+      We present associated effects, a programming language feature that enables type
+      classes to abstract over the effects of their function signatures, allowing each
+      type class instance to specify its concrete effects. Associated effects
+      significantly increase the flexibility and expressive power of a programming
+      language that combines a type and effect system with type classes. In
+      particular, associated effects allow us to (i) abstract over total and partial
+      functions, where partial functions may throw exceptions, (ii) abstract over
+      immutable data structures and mutable data structures that have heap effects,
+      and (iii) implement adaptors that combine type classes with algebraic effects.
+      We implement associated effects as an extension of the Flix programming language
+      and refactor the Flix Standard Library to use associated effects, significantly
+      increasing its flexibility and expressive power. Specifically, we add associated
+      effects to 11 type classes, which enables us to add 28 new type class instances.
+
+      "Restrictable Variants: A Simple and Practical Alternative to Extensible Variants".
+
+      We propose restrictable variants as a simple and practical alternative to
+      extensible variants. Restrictable variants combine nominal and structural
+      typing: a restrictable variant is an algebraic data type indexed by a type-level
+      set formula that captures its set of active labels. We introduce new
+      pattern-matching constructs that allows programmers to write functions that only
+      match on a subset of variants, i.e., pattern-matches may be non-exhaustive. We
+      then present a type system for restrictable variants which ensures that such
+      non-exhaustive matches cannot get stuck at runtime. An essential feature of
+      restrictable variants is that the type system can capture structure-preserving
+      transformations: specifically the introduction and elimination of variants. This
+      property is important for writing reusable functions, yet many row-based
+      extensible variant systems lack it. In this paper, we present a calculus with
+      restrictable variants, two partial pattern-matching constructs, and a type
+      system that ensures progress and preservation. The type system extends
+      Hindley-Milner with restrictable variants and supports type inference with an
+      extension of Algorithm W with Boolean unification. We implement restrictable
+      variants as an extension of the Flix programming language and conduct a few case
+      studies to illustrate their practical usefulness.
+
+      Relational nullable types with Boolean unification
+
+      We present a simple, practical, and expressive relational nullable type system.
+      A relational nullable type system captures whether an expression may evaluate to
+      null based on its type, but also based on the type of other related expressions.
+      The type system extends the Hindley-Milner type system with Boolean constraints,
+      supports parametric polymorphism, and preserves principal types modulo Boolean
+      equivalence. We show how to support full Hindley-Milner style type inference
+      with an extension of Algorithm W. We conduct a preliminary study of open source
+      projects showing that there is a need for relational nullable type systems
+      across a wide range of programming languages. The most important findings from
+      the study are: (i) programmers use programming patterns where the nullability of
+      one expression depends on the nullability of other related expressions, (ii)
+      such invariants are commonly enforced with run-time exceptions, and (iii)
+      reasoning about these programming patterns requires not only knowledge of when
+      an expression may evaluate to null, but also when it may evaluate to a non-null
+      value. We incorporate these observations in the design of the proposed
+      relational nullable type system.
+  - title: Towards a Theory of Type-Safe Renaming and Refactoring
+    from: 20250106T141500
+    to: 20250106T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Casper Bach
+    abstract: |-
+      Automated program transformation tools should ideally come with
+      correctness guarantees that they preserve well-boundness and
+      well-typedness.  However, tools that provide such guarantees are rare in
+      practice. A challenge for giving such guarantees is the lack of a clear
+      binding model for languages with non-lexical binding such as modules,
+      classes, etc.  In this talk I'll present an approach to building and
+      verifying type-safe refactorings for languages with non-lexical binding.
+      The approach consists of a type and scope discipline, inspired by previous
+      work on scope graphs.  We demonstrate the discipline on a module calculus,
+      and discuss how the discipline lets us implement and verify renamings and
+      refactorings that preserve well-boundness and well-typedness.
+  - title: Randomized optimization algorithms -- Towards a Modeling Specification and Beyond
+    from: 20241209T141500
+    to: 20241209T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Sandra Greiner and Marco Chiarandini (IMADA)
+    abstract: |-
+      Finding the perfect solution to complex problems, like the traveling
+      salesman or the knapsack problem, is mostly computationally infeasible.
+      Optimization algorithms have been developed to compute optimal solutions
+      efficiently.  Randomized  optimization heuristics (ROHs) are a special
+      class of such algorithms to compute close to optimal solutions. They
+      contain components that use random and heuristic choices, often inspired
+      by natural phenomena.
+      Compared to their deterministic counterparts, ROHs tend to be simpler to
+      design and implement while offering improved performance, particularly on
+      large problems whose internal structure is not sufficiently well known or
+      even available. However, randomized optimization algorithms are still far
+      from reaching the level of widespread and systematic adoption enjoyed by
+      more traditional optimization solvers in the real world. One reason being
+      that in practice they must be redesigned and implemented anew for every
+      problem. However, while the kind of problems and, thus, the solving
+      algorithms are different and come with different properties, they also
+      share some foundational commonalities, like trying to construct solutions
+      for problems, exploring the neighborhood of solutions, and following the
+      guidance of one or multiple optimization objectives.  In an EU Cost
+      Action, we work towards specifying a common specification that allows for
+      modeling different types of problems uniformly and to deploy different
+      solutions algorithms easily. A particular aim of this specification is to
+      support different programming languages and paradigms to be generated from
+      the instantiated model.
+      In our talk, we introduce the concept of randomized optimization
+      heuristics and an initial draft of a specification. The specification
+      should support users in specifying the problem and corresponding
+      solutions. Contrary to a mathematical formalization, this modeling
+      approach aims at easily deriving an implementation in a specific target
+      language.  Particular challenges arise from trying to not restrict the
+      specification to a particular programming paradigm (functional vs
+      procedural vs object-oriented) or a specific target language.
+      Furthermore, ROHs rely on probing different solutions for a problem by
+      exploring a neighborhood. While one solution can be computed and
+      effectively used, others may be just assessed but not used.  Thus,
+      elements of concurrency may play a role when developing such a
+      specification, a point we would like to discuss in our talk.
+  - title: "Mapping Interdisciplinary Knowledge Flows: The Case of Decentralized Autonomous Organizations (DAOs)"
+    from: 20241202T141500
+    to: 20241202T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Giorgia Sampó
+    abstract: |-
+      Decentralized Autonomous Organizations (DAOs) denote an emerging
+      organizational phenomenon that builds heavily on technologies and concepts
+      in computer science. Despite growing interest in DAOs, however, research
+      has yet to thoroughly explore the exchange of knowledge across these two
+      disciplines, particularly in terms of the nature, scale, and direction of
+      these interactions. Using bibliometric methods and citation networks to
+      map interdisciplinary knowledge flows, this study focuses on how the
+      fields borrow ideas and methodologies from each other, employ them, and
+      contribute to a common pool of knowledge.
+      By drawing a parallelism with Digital Humanities we show how the academic
+      conversation about DAOs would deeply benefit from such an analysis.
+      Gathering a deeper understanding of where and how emerging knowledge was
+      created has in fact provided scholars with means to foster active
+      collaboration among disciplines, identify contact areas, and gather and
+      share the expertise needed for the field to progress. Moreover, analysing
+      the content and shape of these knowledge exchanges is vital to identifying
+      feasible strategies to support theoretical and critical forms of
+      interdisciplinarity, able to go beyond the simple borrowing of methods and
+      concepts to instrumentally apply from one field to the other.
+      Our findings highlighted mutual exchanges among the fields, characterized
+      by a majority of interactions taking place through boundary (or common)
+      papers, confirming the existence of an interdisciplinary conversation.
+      Furthermore, the analysis of the dominant pattern of interdisciplinary
+      interaction confirmed the importance of boundary papers, where most of the
+      connections took place, and pointed towards the emergence of a new
+      community revolving around DAOs. By combining these results with a topic
+      modeling analysis on interaction networks we also proved that most of the
+      conversations take the form of case studies and applications, thus
+      suggesting a lack of theoretically oriented exchanges in favor of
+      functional and instrumental ones.
+      Shedding light on these processes, this paper aims at gathering a better
+      understanding of the existing conversation, to be used by future
+      researchers to foster a flourishing exchange and to build novel
+      theoretical frameworks and approaches, as well as new interdisciplinary
+      theories and perspectives.
+  - title: Choreography-Defined Network - A Case Study in DoS Mitigation
+    from: 20241126T141500
+    to: 20241126T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Marco Prandini (University of Bologna / SDU)
+    abstract: |-
+      Software-defined networking and network function virtualization have
+      brought unparalleled flexibility in defining and managing network
+      architectures. With the widespread diffusion of cloud platforms, more
+      resources are available to execute virtual network functions concurrently,
+      but the current approach to defining networks in the cloud development is
+      held back by the lack of tools to manage the composition of more complex
+      flows than simple sequential invocations.
+      In this paper, we advocate for the usage of choreographic programming for
+      defining the multiparty workflows of a network. When applied to the
+      composition of virtual network functions, this approach yields multiple
+      advantages:
+      (1) a single program expresses the behavior of all components, in a way
+      that is easier to understand and check;
+      (2) a compiler can produce the executable code for each component,
+      guaranteeing correctness properties of their interactions
+      such as deadlock freedom;
+      (3) the bottleneck of a central orchestrator is removed.
+      We describe the proposed approach and show its feasibility via a case
+      study where different functions cooperatively solve a security monitoring
+      task.
+  - title: Social Factors in Security & Privacy
+    from: 20241118T141500
+    to: 20241118T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Nina Berger (TU Darmstadt)
+    abstract: |-
+      This talk will explore the social dimensions of security and privacy to
+      enhance user engagement and behaviors in these areas.
+      A core focus of my research is the role of informal, social interactions
+      in enhancing cybersecurity awareness and resilience. By studying
+      peer-to-peer support and barriers to effective S&P assistance, I seek to
+      identify strategies to facilitate meaningful, informal conversations that
+      promote security and privacy knowledge among users. I also focus on the
+      complexities of privacy negotiation in Internet of Things (IoT)-equipped
+      environments, particularly in shared spaces. Through interviews, surveys,
+      and workshops, I have uncovered significant misalignments in privacy
+      expectations between IoT owners and their guests, underscoring the need
+      for transparent and socially sensitive design interventions.
+      The talk will also address the impact of gender stereotypes in the S&P
+      field, revealing how stereotypical media portrayals affect women’s
+      engagement with security topics. Finally, my work addresses challenges in
+      digital consent, proposing enhanced consent interfaces and Personal
+      Information Management Systems (PIMS) that better communicate data
+      tracking implications to users. By providing clarity and meaningful
+      engagement opportunities, these tools aim to improve users’ informed
+      decision-making abilities.
+  - title: Library-Based Choreographies in Lean
+    from: 20241111T141500
+    to: 20241111T151000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Simon Daniel (TU Darmstadt)
+    abstract: |-
+      The field of parallel and distributed systems has been established for
+      decades and the relevance of communication in the context of programming
+      is still growing. With growing complexity, distributed software systems
+      become increasingly challenging to maintain and reason about. In
+      traditional programming languages, application developers must ensure that
+      communication between nodes is correct and free of deadlocks. Multiparty
+      and choreographic languages, address these issues by combining the code
+      for all actors in a single specification. This approach facilitates
+      reasoning about distributed behaviour and promises inherent guarantees of
+      deadlock freedom.
+      Functional programming is a paradigm that clearly separates pure
+      mathematical functions from side-effectful code. Recently, a practical
+      implementation of a functional choreographic programming library has been
+      published in Haskell. This paper builds upon the choreographic concept in
+      the functional programming language Lean by adding features and increasing
+      the safety of distributed value access.
+  - from: 20241104T1415
+    to: 20241104T1500
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    speaker: Sandra Greiner
