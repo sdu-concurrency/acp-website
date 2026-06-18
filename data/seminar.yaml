@@ -159,11 +159,44 @@ items:
       news? There is still time to adapt—but only if we embrace a future where
       architecture is not less human, but more profoundly human because of our
       collaboration with machines.
-  - from: 20251201T141500
+  - title: Three Papers from EuroUSEC
+    from: 20251201T141500
     to: 20251201T151000
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     speaker: Judith Kankam-Boateng
+    abstract: |-
+      (1) Cybersecurity Insights Gleaned from World Religions by Karen Renaud
+      and Marc Dupuis. Abstract: Despite security policies and training,
+      employees continue to make mistakes that trigger cybersecurity incidents.
+      This paper explores an unconventional source of insight: world religions,
+      which have millennia of experience accommodating human frailties. We
+      interviewed religious leaders and reviewed religious literature to develop
+      a 'vision for cybersecurity' that was then evaluated by cybersecurity
+      professionals. Our goal is to launch debate around more equitable best
+      practices that better account for human nature.
+      (2) "Even after two years, we still have a bad feeling": Two
+      Comparative Case Studies of the Effects of a Cyberattack on Fear, Trust in
+      the IT Department and Security-Related Stress by Markus Schöps, Sangavi
+      Shanthakumar, and M. Angela Sasse. Abstract: Cyberattacks can have lasting
+      psychological effects on employees and their relationship with IT
+      departments. We studied two research organizations—one breached, one
+      not—using questionnaires (n=149) and interviews with IT staff (n=8).
+      Employees at the breached organization reported less trust in IT, worse
+      communication, and more security-related stress. We found that stricter
+      post-attack security measures, though well-intentioned, may paradoxically
+      decrease employee trust and increase stress for everyone.
+      (3) 'There was a bit of PTSD every time I walked through the office door':
+      Ransomware harms and the factors that influence the victim
+      organization's experience by Gareth Mott, Sarah Turner, Jason R.C.
+      Nurse, et al. Abstract: Ransomware inflicts wide-ranging harms beyond
+      financial losses. Through interviews and workshops with 83 professionals
+      (including victims, responders, and law enforcement), we identify severe
+      organizational impacts—business interruption, reputation damage—and
+      under-reported employee harms including acute psychological and physical
+      effects. We also identify factors that moderate these harms, such as
+      preparedness and leadership culture. Our findings position ransomware as
+      a whole-of-organization crisis, not merely an "IT problem."
   - title: '"Like Parsley in Greek Food:" Elementary Set Theory and the case for DM1'
     from: 20251117T141500
     to: 20251117T151000
