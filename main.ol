@@ -213,6 +213,18 @@ service Main {
 			readFile@file( { filename = "data/seminar.yaml", format = "yaml" } )( response.seminar )
 			for ( i in response.seminar.items) {
         i.guid = hashCode@values( i )
+        if ( i.title != null ) {
+          i.title = replaceAll@stringUtils( i.title {
+              regex = "\r\n|\r|\n",
+              replacement = " "
+            } )
+        }
+        if ( i.abstract != null ) {
+          i.abstract = replaceAll@stringUtils( i.abstract {
+              regex = "\r\n|\r|\n",
+              replacement = " "
+            } )
+        }
         // getDateTimeValues does not seem to work?
         i.humanReadableDatetime = fmt@stringUtils( "{d}/{m}/{y}, {hf}:{mf}-{ht}:{mt}" {
         y = substring@stringUtils( i.from { begin = 0, end = 4 } ),
