@@ -1,4 +1,31 @@
 items:
+  - title: Cyber Vulnerabilities and Resilience Capabilities
+    from: 20260629T141500
+    to: 20260629T150000
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
+    speaker: Judith Kankam-Boateng
+    abstract: |-
+      Small and medium-sized enterprises (SMEs) in defence supply chains
+      face growing cybersecurity threats but lack the resources to
+      respond effectively. This paper examines the cybersecurity perceptions of
+      three stakeholder groups in Denmark’s defence supply chain: policymakers
+      (PM), policy promoters (PP), and policy implementers (PI). Through
+      focus group discussions with 45 participants — 6 PMs, 11 PPs, and 28
+      PIs (representatives from 12 SMEs) — we investigate how each group
+      perceives cybersecurity and what organisational vulnerabilities and capabilities
+      these perceptions reveal. Our analysis identifies 45 vulnerabilities
+      across five categories, but only 17 capabilities, resulting in a pronounced
+      imbalance at the SME level. Policymakers frame cybersecurity as a strate-
+      gic national concern, SMEs experience it as a compliance burden, and
+      policy promoters lack sufficient reach to bridge this gap. Applying a
+      vulnerability–capability lens, we identify a capability translation problem.
+      National-level assets, including centralised incident management and
+      international partnerships, do not cascade to the SMEs they are designed
+      to support. We offer differentiated recommendations for each stakeholder
+      group and for designing targeted awareness programmes that account for
+      divergent mental models across the supply chain.
   - title: Towards a Higher-Order Bialgebraic Denotational Semantics
     from: 20260622T141500
     to: 20260622T144500
