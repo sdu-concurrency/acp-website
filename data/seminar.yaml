@@ -1,4 +1,41 @@
 items:
+  - title: Initial Algebras for Endofunctors Preserving Filtered Colimits
+    from: 20260709T141500
+    to: 20260709T144500
+    location: IMADA meeting room 3
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad58
+    videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
+    speaker: Giacomo de Antonellis (University of Amsterdam, M.Sc. student)
+    abstract: |-
+      In this talk, Giacomo will present his ongoing Master's thesis project.
+      The main research objective of the thesis is to provide a proof of the
+      existence of initial algebras for endofunctors preserving small filtered
+      colimits within a constructive setting. This work is motivated by an
+      interest in the semantics of dependent type theory with inductive types.
+      It is common practice to develop its semantic categorically, usually in
+      structures whose internal logic is intuitionistic, and initial algebras
+      offer a natural interpretation for inductive types. This task presents
+      itself with a twofold challenge: we try to make the initial algebras
+      arise as a colimit construction of the iterated application of the
+      endofunctor indexed by an ordinal while making sure that such colimit
+      constructions are filtered. On the other hand, as the proof has to be
+      conducted constructively, one may not rely on the usual notion of ordinal.
+      This opens the problem of finding an alternative notion of ordinal:
+      in the course of this work we shall concentrate on the Algebraic Set
+      Theory approach, as it is well suited for categorically analysing
+      set-theoretic structures and try to formulate such a “constructive
+      ordinal” in terms of an initial ZF-algebra. The bulk of this preliminary
+      work should then consist in isolating the properties this ZF-algebra
+      should be endowed with, so as to serve for the proof of the main result.
+      In particular it will be necessary to strike a balance between the
+      order-properties of the algebra and the size issues that might arise with
+      them, so as to ensure the possibility of relying on the right recursive
+      constructions by indexing on the algebra’s objects, while maintaining the
+      diagrams required for the indexing (and hence the colimits) small.
+      Hence the thesis will be divided in two main sections, the first devoted
+      to finding the right constructive notion of ordinal and the second to the
+      proof of the existence of initial algebras for endofunctors
+      preserving finite colimits.
   - title: Cyber Vulnerabilities and Resilience Capabilities
     from: 20260629T141500
     to: 20260629T150000
