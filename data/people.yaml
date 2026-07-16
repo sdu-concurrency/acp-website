@@ -80,7 +80,7 @@ faculty:
       - Logic
   - id: vlenarduzzi
     name: Valentina Lenarduzzi
-    role: Vice Head of the ACP Section, Professor
+    role: Vice Head of Section, Professor
     photo: /images/people/vlenarduzzi-p.jpg
     dblp: 118/9914
     email: lenarduzzi@imada.sdu.dk
@@ -129,7 +129,7 @@ faculty:
       - Email Security
       - Notifications
   - name: Fabrizio Montesi
-    role: Head of the ACP Section, Professor
+    role: Head of Section, Professor
     id: fm
     email: fmontesi@imada.sdu.dk
     phone: +45 65 50 71 71
@@ -170,7 +170,7 @@ faculty:
       - Cryptographic Engineering
       - Embedded Security
   - name: Marco Peressotti
-    role: Vice Head of the ACP Section, Associate Professor
+    role: Vice Head of Section, Associate Professor
     id: mp
     phone: +45 65509026
     office:
@@ -217,25 +217,6 @@ faculty:
     github: stelios-tau
     website: https://www.steliostsampas.com/
 postdocs:
-  - name: Dan Plyukhin
-    role: Postdoctoral Researcher
-    id: dp
-    photo: /images/people/dplyukhin-p.jpg
-    phone: +45 65 50 72 56
-    dblp: 232/0111
-    gscholar: MPmNRGIAAAAJ
-    github: dplyukhin
-    bluesky: https://bsky.app/profile/dplyukhin.bsky.social
-    orcid: 0009-0004-8712-7895
-    linkedin: dplyukhin
-    twitter: dplyukhin
-    email: dplyukhin@imada.sdu.dk
-    website: https://dplyukhin.github.io
-    research_topics:
-      - Choreographic Programming
-      - Actor Model
-      - Cloud Computing
-      - Programming Languages
   - name: Xueying Qin
     role: Postdoctoral Researcher
     id: xq
@@ -253,13 +234,6 @@ postdocs:
     office:
       label: Ø9-602b-2
       link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5b
-    orcid: 0009-0003-9583-1017
-  - id: mt
-    name: Matteo Trentin
-    role: Research Assistant
-    photo: /images/people/mtrentin-p.jpg
-    email: trentin@imada.sdu.dk
-    orcid: 0000-0003-3305-2758
 phdstudents:
   - name: Judith Kankam-Boateng
     role: PhD Student
@@ -383,6 +357,30 @@ taps:
       - Jolie
       - microservices
 discharged:
+  - name: Dan Plyukhin
+    role: Postdoctoral Researcher
+    id: dp
+    photo: /images/people/dplyukhin-p.jpg
+    phone: +45 65 50 72 56
+    dblp: 232/0111
+    gscholar: MPmNRGIAAAAJ
+    github: dplyukhin
+    bluesky: https://bsky.app/profile/dplyukhin.bsky.social
+    orcid: 0009-0004-8712-7895
+    linkedin: dplyukhin
+    twitter: dplyukhin
+    email: dplyukhin@imada.sdu.dk
+    website: https://dplyukhin.github.io
+    research_topics:
+      - Choreographic Programming
+      - Actor Model
+      - Cloud Computing
+      - Programming Languages
+  - id: mt
+    name: Matteo Trentin
+    role: Research Assistant
+    photo: /images/people/mtrentin-p.jpg
+    email: trentin@imada.sdu.dk
   - name: Larisa Safina
     role: PhD Student
     id: ls
