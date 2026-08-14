@@ -10,7 +10,7 @@ METHOD:PUBLISH
 {{#items}}
 BEGIN:VEVENT
 CLASS:PUBLIC
-DESCRIPTION:Speaker: {{speaker}}\nTime: {{humanReadableDatetime}}\n{{#map}}Directions: {{.}}\n{{/map}}{{#videomeeting}}Video meeting: {{.}}\n{{/videomeeting}}\n{{abstract}}
+DESCRIPTION:Speaker: {{{speaker}}}\nTime: {{humanReadableDatetime}}\n{{#map}}Directions: {{.}}\n{{/map}}{{#videomeeting}}Video meeting: {{.}}\n{{/videomeeting}}\n{{{abstract}}}
 DTSTART:{{from}}
 DTEND:{{to}}
 LOCATION:{{location}}
