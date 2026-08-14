@@ -1,4 +1,12 @@
 items:
+  - title: Modelling Data Science Algorithms
+    from: 20260819T090000
+    to: 20260819T100000
+    location: IMADA conference room
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9aa
+    speaker: Bernhard Berger
+    abstract: |-
+      Dr. Bernhard J. Berger is a researcher at  the Hamburg University of Technology and as a member of the COST Action ROAR-NET (Randomised Optimisation Algorithms Research Network) visiting the University of Southern Denmark on a short-term scientific mission. Stemming from the field of software engineering, his main interest is on modelling software systems and software quality aspects. To that end, he will discuss his research on modelling optimisation and machine-learning algorithms and how such models can be used to semantically test algorithmic choices for correctness and how this can also be used for algorithm execution.
   - title: Towards a Higher-Order Bialgebraic Denotational Semantics
     from: 20260622T141500
     to: 20260622T144500
