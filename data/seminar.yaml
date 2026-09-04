@@ -2,12 +2,12 @@ items:
   - title: A Theory of Renaming for Non-Lexical Binding
     from: 20260907T141500
     to: 20260907T150000
-    location: IMADA meeting room 1
+    location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
     speaker: Casper Bach
     abstract: |- 
-      Rename refactorings should preserve the binding semantics of programs.  But it is not clear what preservation means for languages with non-lexical binding structure; i.e., where references may resolve through imports, modules, classes, or namespaces, rather than lexical parent chains alone.  In such settings, renaming a declaration may require references to be requalified, dequalified, or the renaming to be rejected altogether; simple textual substitution is insufficient. We address this problem by giving a mathematical characterization of safe renaming for such languages.  Our key ingredient is a renaming-oriented variant of scope graphs in which declaration renaming is modeled as edge relabeling and qualified identifiers are represented as resolution paths.  We instantiate the approach on STLCM, a module calculus with imports and qualified names, define $\alpha$-equivalence for its non-lexical binding structure, and prove that it coincides with the existence of semantic renaming morphisms. This provides a foundation for rename refactorings whose correctness can be checked at the level of name resolution.
+      Rename refactorings should preserve the binding semantics of programs.  But it is not clear what preservation means for languages with non-lexical binding structure; i.e., where references may resolve through imports, modules, classes, or namespaces, rather than lexical parent chains alone.  In such settings, renaming a declaration may require references to be requalified, dequalified, or the renaming to be rejected altogether; simple textual substitution is insufficient. We address this problem by giving a mathematical characterization of safe renaming for such languages.  Our key ingredient is a renaming-oriented variant of scope graphs in which declaration renaming is modeled as edge relabeling and qualified identifiers are represented as resolution paths.  We instantiate the approach on STLCM, a module calculus with imports and qualified names, define α-equivalence for its non-lexical binding structure, and prove that it coincides with the existence of semantic renaming morphisms. This provides a foundation for rename refactorings whose correctness can be checked at the level of name resolution.
 
       This is joint work with Daniël Pelsmaeker.
   - title: Modelling Data Science Algorithms
