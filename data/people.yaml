@@ -217,6 +217,16 @@ faculty:
     github: stelios-tau
     website: https://www.steliostsampas.com/
 postdocs:
+  - name: Luc Edixhoven
+    role: Postdoctoral Researcher
+    id: ledixhoven
+    photo: /images/people/ledixhoven-p.jpg
+    email: ledi@imada.sdu.dk
+    website: https://luc.edixhoven.eu/
+    orcid: 0000-0002-6011-9535
+    dblp: 222/2084
+    github: luc-edixhoven
+    boardgamegeek: Luuuc
   - name: Giulia Manara
     role: Postdoctoral Researcher
     id: gm
