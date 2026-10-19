@@ -135,7 +135,7 @@
 	}
 
 	.people-list img {
-		@apply h-24 w-20 grayscale-[90%] rounded-l-md;
+		@apply h-[6rem] w-[6rem] grayscale-[90%] rounded-l-md;
 		object-fit: cover;
 	}
 
