@@ -1,4 +1,13 @@
 items:
+  - title: CompleteComplete extraction of choreographies
+    from: 20261027T111500
+    to: 20261027T114500
+    location: IMADA meeting room 4
+    map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
+    videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
+    speaker: Luc Edixhoven
+    abstract: |-  
+      You've presumably heard of choreographies and endpoint projection (EPP). Are you also familiar with extraction? With extraction, you can turn a network of processes (back) into a choreography! Sounds cool, right? Research into this is still quite young, and much remains unknown. In this talk, I will describe our (= Fabrizio and I) efforts to advance the state of the art in extraction: we present a semantics-based extraction procedure using labelled transition systems (LTSs), which is complete for a wide class of networks. It's hip, largely independent of syntax, and probably correct this time!
   - title: The Theory of Meaningfulness in Untyped lambda-Calculi
     from: 20261019T140000
     to: 20260919T150000
