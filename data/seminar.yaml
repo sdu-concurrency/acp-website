@@ -1,16 +1,16 @@
 items:
-  -title: CompleteComplete extraction of choreographies
+  - title: Modular abstract syntax trees (MAST)
     from: 20261028T101500
-    to: 20261027T110000
+    to: 20261028T110000
     location: IMADA conference room
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9aa
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
     speaker: Ohad Kammar
-    abstract: |-  
-      We adapt Fiore, Plotkin, and Turi's treatment of abstract syntax with binding, substitution, and holes to account for languages with second-class sorts. These situations include programming calculi such as the Call-by-Value λ-calculus (CBV) and Levy's Call-by-Push-Value (CBPV). This line of work develops the semantics of abstract syntax as certain functor categories---presheaves over structural categories for the judgement structure well-sorted terms. Prohibiting second-class sorts from appearing in variable contexts means generalising the substitution tensors of Fiore et al from monoidal categories to monoidal-action categories, also known as actegories or modular categories.  Corresponding, the abstract syntax is no longer a monoid, but a monoid action, or module. 
-      
+    abstract: |-
+      We adapt Fiore, Plotkin, and Turi's treatment of abstract syntax with binding, substitution, and holes to account for languages with second-class sorts. These situations include programming calculi such as the Call-by-Value λ-calculus (CBV) and Levy's Call-by-Push-Value (CBPV). This line of work develops the semantics of abstract syntax as certain functor categories---presheaves over structural categories for the judgement structure well-sorted terms. Prohibiting second-class sorts from appearing in variable contexts means generalising the substitution tensors of Fiore et al from monoidal categories to monoidal-action categories, also known as actegories or modular categories.  Corresponding, the abstract syntax is no longer a monoid, but a monoid action, or module.
+
       In this talk, I will review recent and ongoing work, and its application to solving the so called Expression Problem in two scenarios.  We employ the mathematical theory when proving substitution lemmata for varieties of CBV denotational semantics modularly. We employ a computational implementation of the theory to when implementing intrinsically-typed foreign-function interfaces for the 29 theories of SMTLIB.
-      
+
       Joint work with Greg Brown, Marcelo Fiore, Kajetan Granops, Mihail-Codrin Iftode, Georg Moser, and Sam Staton.
   - title: CompleteComplete extraction of choreographies
     from: 20261027T111500
@@ -19,7 +19,7 @@ items:
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
     speaker: Luc Edixhoven
-    abstract: |-  
+    abstract: |-
       You've presumably heard of choreographies and endpoint projection (EPP). Are you also familiar with extraction? With extraction, you can turn a network of processes (back) into a choreography! Sounds cool, right? Research into this is still quite young, and much remains unknown. In this talk, I will describe our (= Fabrizio and I) efforts to advance the state of the art in extraction: we present a semantics-based extraction procedure using labelled transition systems (LTSs), which is complete for a wide class of networks. It's hip, largely independent of syntax, and probably correct this time!
   - title: The Theory of Meaningfulness in Untyped lambda-Calculi
     from: 20261019T140000
@@ -28,18 +28,7 @@ items:
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
     speaker: Giulio Guerrieri
-    abstract: |-
-      The study of the semantics of the untyped call-by-name λ-calculus (CbN) is a well-developed field built around the concept of solvable terms, which are elegantly characterized in many different ways. In particular, unsolvable terms provide a consistent notion of meaningless terms (in that they can all be equated without collapsing the induced equational theory), and meaningful terms can be identified with the solvable ones. The study of the semantics of the untyped call-by-value λ-calculus (CbV, which is closer to the real implementations of programming languages) is instead still in its early stages, because of some inherent difficulties but also because CbV solvable terms are less studied and understood than in CbN. We stress that, in CbV, solvability plays a different role: identifying unsolvable terms as meaningless induces an inconsistent equational theory actually identifying all terms. We argue that in CbV, the correct notion of meaningful terms is captured by the concept of potential valuability. In particular, terms that are not potentially valuable enjoy the same good properties as unsolvable terms in CbN: 
-
-      1. they can be characterized logically and semantically via multi types;
-      
-      2. they can be characterized operationally as non-termination of a special reduction;
-      
-      3. they fulfill the genericity lemma according to which a term that is not potentially valuable, plugged into a term whose evaluation terminates, plays no role in that evaluation;
-      
-      4. they provide a consistent notion of meaningless terms in CbV (in that they can all be equated without collapsing the induced equational theory).
-      
-      Moreover, we can subsume the notions of meaningfulness for both CbN and CbV in a general notion of meaningfulness for the bang calculus. Finally, we show that the study of meaningfulness in the bang calculus sounds more intricate than in CbN and CbV λ-calculi, because the bang calculus is a more expressive language.
+    abstract: "The study of the semantics of the untyped call-by-name λ-calculus (CbN) is a well-developed field built around the concept of solvable terms, which are elegantly characterized in many different ways. In particular, unsolvable terms provide a consistent notion of meaningless terms (in that they can all be equated without collapsing the induced equational theory), and meaningful terms can be identified with the solvable ones. The study of the semantics of the untyped call-by-value λ-calculus (CbV, which is closer to the real implementations of programming languages) is instead still in its early stages, because of some inherent difficulties but also because CbV solvable terms are less studied and understood than in CbN. We stress that, in CbV, solvability plays a different role: identifying unsolvable terms as meaningless induces an inconsistent equational theory actually identifying all terms. We argue that in CbV, the correct notion of meaningful terms is captured by the concept of potential valuability. In particular, terms that are not potentially valuable enjoy the same good properties as unsolvable terms in CbN: \n\n1. they can be characterized logically and semantically via multi types;\n\n2. they can be characterized operationally as non-termination of a special reduction;\n\n3. they fulfill the genericity lemma according to which a term that is not potentially valuable, plugged into a term whose evaluation terminates, plays no role in that evaluation;\n\n4. they provide a consistent notion of meaningless terms in CbV (in that they can all be equated without collapsing the induced equational theory).\n\nMoreover, we can subsume the notions of meaningfulness for both CbN and CbV in a general notion of meaningfulness for the bang calculus. Finally, we show that the study of meaningfulness in the bang calculus sounds more intricate than in CbN and CbV λ-calculi, because the bang calculus is a more expressive language."
   - title: Modal Effect Types
     from: 20260918T113000
     to: 20260918T123000
@@ -56,7 +45,7 @@ items:
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
     speaker: Casper Bach
-    abstract: |- 
+    abstract: |-
       Rename refactorings should preserve the binding semantics of programs.  But it is not clear what preservation means for languages with non-lexical binding structure; i.e., where references may resolve through imports, modules, classes, or namespaces, rather than lexical parent chains alone.  In such settings, renaming a declaration may require references to be requalified, dequalified, or the renaming to be rejected altogether; simple textual substitution is insufficient. We address this problem by giving a mathematical characterization of safe renaming for such languages.  Our key ingredient is a renaming-oriented variant of scope graphs in which declaration renaming is modeled as edge relabeling and qualified identifiers are represented as resolution paths.  We instantiate the approach on STLCM, a module calculus with imports and qualified names, define α-equivalence for its non-lexical binding structure, and prove that it coincides with the existence of semantic renaming morphisms. This provides a foundation for rename refactorings whose correctness can be checked at the level of name resolution.
 
       This is joint work with Daniël Pelsmaeker.
