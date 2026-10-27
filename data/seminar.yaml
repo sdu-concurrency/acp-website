@@ -12,7 +12,7 @@ items:
       In this talk, I will review recent and ongoing work, and its application to solving the so called Expression Problem in two scenarios.  We employ the mathematical theory when proving substitution lemmata for varieties of CBV denotational semantics modularly. We employ a computational implementation of the theory to when implementing intrinsically-typed foreign-function interfaces for the 29 theories of SMTLIB.
 
       Joint work with Greg Brown, Marcelo Fiore, Kajetan Granops, Mihail-Codrin Iftode, Georg Moser, and Sam Staton.
-  - title: CompleteComplete extraction of choreographies
+  - title: Complete extraction of choreographies
     from: 20261027T111500
     to: 20261027T114500
     location: IMADA meeting room 4
