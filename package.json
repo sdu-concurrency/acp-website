@@ -2,7 +2,7 @@
   "name": "acp-website",
   "version": "1.0.0",
   "description": "ACP Section Website",
-  "repo": "https://github.com/fmontesi/acp-website",
+  "repo": "https://github.com/sdu-concurrency/acp-website",
   "keywords": [
     "website",
     "jolie",
