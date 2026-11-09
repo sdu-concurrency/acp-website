@@ -23,7 +23,7 @@ items:
       You've presumably heard of choreographies and endpoint projection (EPP). Are you also familiar with extraction? With extraction, you can turn a network of processes (back) into a choreography! Sounds cool, right? Research into this is still quite young, and much remains unknown. In this talk, I will describe our (= Fabrizio and I) efforts to advance the state of the art in extraction: we present a semantics-based extraction procedure using labelled transition systems (LTSs), which is complete for a wide class of networks. It's hip, largely independent of syntax, and probably correct this time!
   - title: The Theory of Meaningfulness in Untyped lambda-Calculi
     from: 20261019T140000
-    to: 20260919T150000
+    to: 20261019T150000
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     videomeeting: https://meet.jit.si/moderated/e7ffd3f8264b87652b6af09cb47f5961227a025932867832828b34a172fd8f14
@@ -534,7 +534,7 @@ items:
     speaker: Xueying Qin
   - title: "Mapping Supply Chain Cybersecurity: Mental Models and Practices in Danish Defense SMEs"
     from: 20250603T154500
-    to: 20250603T1630
+    to: 20250603T163000
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     speaker: Judith Kankam-Boateng
@@ -1009,8 +1009,8 @@ items:
       published in Haskell. This paper builds upon the choreographic concept in
       the functional programming language Lean by adding features and increasing
       the safety of distributed value access.
-  - from: 20241104T1415
-    to: 20241104T1500
+  - from: 20241104T141500
+    to: 20241104T150000
     location: IMADA meeting room 4
     map: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/aabc3bc3582f465fbd7614f3
     speaker: Sandra Greiner
